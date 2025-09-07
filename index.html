@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>One Piece Juego de Cartas</title>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<!--Encabezado-->
+<body>
+    <header>
+        <div class="contenedor">
+            <div class = "logo">
+                <img src="Imagenes/Pagina/One-Piece-Card-Game-Logo-Dark.png" alt="logo One Piece">
+            </div>
+            <nav>
+                <ul>
+                    <button onclick="mostrarSeccion('inicio')">Inicio</button>
+                    <button onclick="mostrarSeccion('cartas')">Cartas</button>
+                    <button onclick="mostrarSeccion('creacion_mazos')">Mazos</button>
+                    <button onclick="mostrarSeccion('articulos')">Artículos</button>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--Cuerpo de la pagina-->
+    <main>
+        <!--pagina de inicio-->
+        <section id="inicio" class="seccion">
+            <div id="inicio-bienvenida">
+                <h1>Bienvenidos a One Piece TCG en Español</h1>
+                <p>Pagina del juego de Carta de One Piece, donde se muestran 
+                    todas las cartas traducidas al español y próximamente 
+                    con su version en español e ingles.
+                </p>
+                <p>También podrás guardar tus cartas favoritas en la sección
+                    de Favoritos.
+                </p>
+            </div>
+            <div id="explicacion-cartas">
+                <h1>Como entender la cartas </h1>
+            </div>
+            <div id="explcacion-juego">
+                <h1>COmo se juega el TCG de One Piece</h1>
+            </div>
+        </section>
+        <!--Pagina de las cartas-->
+        <section id="cartas" class="seccion" style="display:none">
+            <h1 id="titulo">Cartas</h1>
+            <!--buscador-->
+            <div class="buscador-contenedor">
+                <input type="text" id="buscador" placeholder="Buscar carta...">
+                <!-- Botón de filtro con tu imagen -->
+                <button id="btn-filtros" class="btn-filtros">
+                    <img src="Imagenes/Pagina/FIltros.png" alt="Filtros">
+                </button>
+            </div>
+            <!--filtros-->
+            <div id="filtros-container" class="filtros"></div>
+            <!--caja de filtros-->
+            <div id="filtros-activos">
+                <h3>Filtros activos</h3>
+                <div id="lista-filtros"></div>
+                <button id="limpiar-filtros">Limpiar filtros</button>
+            </div>
+            <main id="contenedor-cartas"></main>
+            <!--modal para mostrar cartas-->
+            <div id="modal-carta" class="modal">
+                <div class="modal-contenido">
+                     <!-- Encabezado del modal -->
+                    <div class="modal-header">
+                        <div id="Info">
+                            <span id="sigla-carta"> </span>
+                            | <span id="rareza-carta"></span>
+                            | <span id="tipo-carta"></span>
+                        </div>
+                        
+                        <span id="cerrar-modal" class="cerrar">&times;</span>
+                    </div>
+
+                    <!-- Contenido -->
+                    <div class="modal-body">
+                        <!-- Imagen -->
+                        <div class="modal-imagen">
+                            <img id="imagen-carta" src="" alt="">
+                        </div>
+                        <!-- Info de la carta -->
+                        <div class="modal-info">
+                            <div id="atributos-carta" class="atributos"></div>
+                            <p id="descripcion-carta" class="descripcion"></p>
+                        </div>
+                    </div>
+                    <span id="prev-carta" class="botones-modal" onclick="cambiarCartaDesdeModal(-1)", title="Anterior">◄</span>
+                    <span id="next-carta" class="botones-modal" onclick="cambiarCartaDesdeModal(1)", title="Siguiente">►</span>
+                </div>
+            </div>
+            <!--paginacion-->
+            <p id="msg-sin-resultados" class="sin-resultados" style="display:none;">
+                Sin resultados...
+            </p>
+            <div id="paginacion" class="paginacion"></div>
+            
+        </section>
+        <!--Pagina de cartas mazos-->
+        <section id="creacion_mazos" class="seccion" style="display: none;">
+            <h1>Mazos</h1>
+            <p>Aquí ira una seccion para crear mazos.</p>
+        </section>
+        <!--Pagina de Artículos-->
+        <section id="articulos" class="seccion" style="display: none;">
+            <h1>Artículos de One Piece TCG</h1>
+        </section>
+    </main>
+    <!--Pie de pagina-->
+    <footer>
+        <p>© 2025 - Creado por Sebax</p>
+        <p>Proyecto fan de One Piece TCG - No Oficial</p>
+        <div class = "redes">
+            <a href="">Instagram</a>
+            <a href="#">X</a>
+            <a href="">Correo</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>  
+</html>
