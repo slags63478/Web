@@ -16,7 +16,7 @@
         "disparador": "0",
         "precio": 1,
         "imagen": "Imagenes/Cartas/OP01/OP01-001.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Slash"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Slash.png"
 
     },
     {
@@ -35,7 +35,7 @@
         "descripcion": "[DON!! x1] [Tu turno] Todos tus personajes ganan +1000 de poder.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-001_p1.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Slash"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Slash.png"
 
     },
     {
@@ -53,14 +53,14 @@
         "descripcion": "[Activar: Principal] [Una vez por turno] ➁ (Puedes descansar el número especificado de cartas DON!! en tu área de coste.): Si tienes 5 Personajes, devuelve 1 de tus personajes a tu propia mano. A continuació, juega hasta 1 personaje con un coste de 5 o menos de tu mano que sea de un color diferente al del personaje devuelto.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-002.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Slash"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Slash.png"
 
     },
     {
         "id": "OP01-002_p1",
         "rareza": "Líder",
         "nombre": "Trafalgar Law",
-        "color": "Verde",
+        "color": "Rojo/Verde",
         "tipo": "Líder",
         "poder": 5000,
         "vidas": 4,
@@ -72,14 +72,14 @@
         "descripcion": "[Activar: Principal] [Una vez por turno] ➁ (Puedes descansar el número especificado de cartas DON!! en tu área de coste.): Si tienes 5 Personajes, devuelve 1 de tus personajes a tu propia mano. A continuació, juega hasta 1 personaje con un coste de 5 o menos de tu mano que sea de un color diferente al del personaje devuelto.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-002_p1.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Slash"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Slash.png"
 
     },
     {
         "id": "OP01-003",
         "rareza": "Líder",
         "nombre": "Monkey.D.Luffy",
-        "color": "Amarillo",
+        "color": "Rojo/Verde",
         "tipo": "Líder",
         "poder": 5000,
         "vidas": 4,
@@ -91,14 +91,14 @@
         "descripcion": "[Activar: Principal] [Una vez por turno] ➃ (Puedes descansar el número especificado de cartas DON!! en tu área de coste.): Prepara hasta 1 de tus cartas de personaje de tipo {Supernovas} o {Tripulación del Sombrero de Paja} con un coste de 5 o menos como activa. Gana +1000 de poder durante este turno.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-003.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Strike"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Strike.png"
 
     },
     {
         "id": "OP01-003_p1",
         "rareza": "Líder",
         "nombre": "Monkey.D.Luffy",
-        "color": "Morado",
+        "color": "Rojo/Verde",
         "tipo": "Líder",
         "poder": 5000,
         "vidas": 4,
@@ -110,14 +110,14 @@
         "descripcion": "[Activar: Principal] [Una vez por turno] ➃ (Puedes descansar el número especificado de cartas DON!! en tu área de coste.): Prepara hasta 1 de tus cartas de personaje de tipo {Supernovas} o {Tripulación del Sombrero de Paja} con un coste de 5 o menos como activa. Gana +1000 de poder durante este turno.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-003_p1.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Strike"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Strike.png"
 
     },
     {
         "id": "OP01-004",
         "rareza": "Raro",
         "nombre": "Usopp",
-        "color": "Azul",
+        "color": "Rojo",
         "tipo": "Personaje",
         "poder": 3000,
         "costo": 2,
@@ -129,14 +129,14 @@
         "descripcion": "[DON!! x1] [Tu turno] [Una vez por turno] Roba 1 carta cuando tu oponente active un evento.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-004.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Ranged"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Ranged.png"
 
     },
     {
         "id": "OP01-005",
         "rareza": "Raro",
         "nombre": "Uta",
-        "color": "Negro",
+        "color": "Rojo",
         "tipo": "Personaje",
         "poder": 4000,
         "costo": 4,
@@ -148,7 +148,7 @@
         "descripcion": "[En juego] Añade a tu mano hasta 1 carta de personaje roja que no sea [Uta] con un coste de 3 o menos de tu pila de descartes.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-005.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Special"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Special.png"
 
     },
     {
@@ -167,7 +167,7 @@
         "descripcion": "[En juego] Reduce hasta 2000 puntos de poder a 1 de los personajes de tu oponente durante este turno.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-006.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Special"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Special.png"
 
     },
     {
@@ -186,7 +186,7 @@
         "descripcion": "[Al noquear] Noquea hasta 1 de los personajes de tu oponente con 4000 de poder o menos.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-007.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Special"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Special.png"
 
     },
     {
@@ -205,7 +205,7 @@
         "descripcion": "[En juego] Puedes añadir 1 carta de tu área de vida a tu mano: este personaje gana [Ataque rápido] durante este turno. (Esta carta puede atacar en el turno en el que se juega).",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-008.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Slash"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Slash.png"
 
     },
     {
@@ -224,7 +224,7 @@
         "descripcion": "[En juego] Puedes añadir 1 carta de tu área de vida a tu mano: este personaje gana [Ataque rápido] durante este turno. (Esta carta puede atacar en el turno en el que se juega).",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-008_p1.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Slash"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Slash.png"
 
     },
     {
@@ -243,7 +243,7 @@
         "descripcion": "[Disparador] Juega esta carta.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-009.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Strike"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Strike.png"
 
     },
     {
@@ -262,7 +262,7 @@
         "descripcion": "Sin descripcion.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-010.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Strike"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Strike.png"
 
     },
     {
@@ -281,7 +281,7 @@
         "descripcion": "[En juego] Puedes colocar 1 carta de tu mano en la parte inferior de tu mazo: Roba 1 carta.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-011.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Wisdom"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Wisdom.png"
 
     },
     {
@@ -300,7 +300,7 @@
         "descripcion": "Sin descripcion.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-012.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Slash"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Slash.png"
 
     },
     {
@@ -319,7 +319,7 @@
         "descripcion": "[Activar: Principal] [Una vez por turno] Puedes añadir 1 carta de tu área de Vida a tu mano: Este personaje gana +2000 de poder durante este turno. A continuación, dale a este personaje hasta 2 cartas DON!! descansadas.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-013.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Strike"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Strike.png"
 
     },
     {
@@ -338,7 +338,7 @@
         "descripcion": "[Activar: Principal] [Una vez por turno] Puedes añadir 1 carta de tu área de Vida a tu mano: Este personaje gana +2000 de poder durante este turno. A continuación, dale a este personaje hasta 2 cartas DON!! descansadas.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-013_p1.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Strike"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Strike.png"
 
     },
     {
@@ -357,7 +357,7 @@
         "descripcion": "[Bloqueador] (Después de que tu oponente declare un ataque, puedes descansar esta carta para convertirla en el nuevo objetivo del ataque).[DON!! x1] [Al bloquear] Juega hasta 1 carta de Personaje roja con un coste de 2 o menos de tu mano.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-014.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Strike"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Strike.png"
 
     },
     {
@@ -376,7 +376,7 @@
         "descripcion": "[DON!! x1] [Al atacar] Puedes descartar 1 carta de tu mano: Añade hasta 1 carta de personaje del tipo {Tripulación del Sombrero de Paja} que no sea [Tony Tony.Chopper] con un coste de 4 o menos de tu descarte a tu mano.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-015.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Wisdom"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Wisdom.png"
 
     },
     {
@@ -395,7 +395,7 @@
         "descripcion": "[En juego] Mira las 5 primeras cartas de tu mazo; revela hasta 1 carta de tipo {Tripulación del Sombrero de Paja} que no sea [Nami] y añádela a tu mano. A continuación, coloca el resto en la parte inferior de tu mazo en cualquier orden.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-016.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Special"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Special.png"
 
     },
     {
@@ -414,7 +414,7 @@
         "descripcion": "[En juego] Mira las 5 primeras cartas de tu mazo; revela hasta 1 carta de tipo {Tripulación del Sombrero de Paja} que no sea [Nami] y añádela a tu mano. A continuación, coloca el resto en la parte inferior de tu mazo en cualquier orden.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-016_p1.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Special"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Special.png"
 
     },
     {
@@ -433,7 +433,7 @@
         "descripcion": "[DON!! x1] [Al atacar] Noquea hasta 1 de los personajes de tu oponente con 3000 de poder o menos.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-017.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Strike"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Strike.png"
 
     },
     {
@@ -452,7 +452,7 @@
         "descripcion": "Sin descripcion.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-018.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Strike"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Strike.png"
 
     },
     {
@@ -471,7 +471,7 @@
         "descripcion": "[Bloqueador] (Después de que tu oponente declare un ataque, puedes descansar esta carta para convertirla en el nuevo objetivo del ataque).[DON!! x2] [Turno del oponente] Este personaje gana +3000 de poder.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-019.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Special"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Special.png"
 
     },
     {
@@ -490,7 +490,7 @@
         "descripcion": "[Activar: Principal] Puedes descansar este personaje: hasta 1 de tus cartas de líder o personaje gana +2000 de poder durante este turno.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-020.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Strike"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Strike.png"
 
     },
     {
@@ -509,7 +509,7 @@
         "descripcion": "[DON!! x1] Este personaje también puede atacar a los personajes activos de tu oponente.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-021.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Ranged"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Ranged.png"
 
     },
     {
@@ -528,7 +528,7 @@
         "descripcion": "[DON!! x1] [Al atacar] Reduce hasta 2 de los personajes de tu oponente en 2000 puntos de poder durante este turno.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-022.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Slash"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Slash.png"
 
     },
     {
@@ -547,7 +547,7 @@
         "descripcion": "Sin descripcion.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-023.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Special"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Special.png"
 
     },
     {
@@ -566,7 +566,7 @@
         "descripcion": "[DON!! x2] Este personaje no puede ser derrotado en combate por personajes con el atributo ＜Strike＞. [Activar: Principal] [Una vez por turno] Dale a este personaje hasta 2 cartas DON!! descansadas.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-024.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Strike"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Strike.png"
 
     },
     {
@@ -585,7 +585,7 @@
         "descripcion": "[DON!! x2] Este personaje no puede ser derrotado en combate por personajes con el atributo ＜Strike＞. [Activar: Principal] [Una vez por turno] Dale a este personaje hasta 2 cartas DON!! descansadas.",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-024_p1.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Strike"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Strike.png"
 
     },
     {
@@ -604,7 +604,7 @@
         "descripcion": "[Ataque rápido] (Esta carta puede atacar en el turno en el que se juega).",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-025.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Slash"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Slash.png"
 
     },
     {
@@ -623,7 +623,7 @@
         "descripcion": "[Ataque rápido] (Esta carta puede atacar en el turno en el que se juega).",
         "disparador": "0", 
         "imagen": "Imagenes/Cartas/OP01/OP01-025_p1.png",
-        "imagen_atributo": "Imagenes/Logos_de_Pagina/Logo_Atributo/Slash"
+        "imagen_atributo": "Imagenes/Logos_Atributo/Slash.png"
 
     },
     {

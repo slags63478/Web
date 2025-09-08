@@ -89,7 +89,7 @@ function mostrarCarta(indice) {
     if (carta.contraataque) atributosDiv.innerHTML += `<div><b>Contrataque:</b> ${carta.contraataque}</div>`;
     if (carta.poder) atributosDiv.innerHTML += `<div><b>Poder:</b> ${carta.poder}</div>`;
     if (carta.color) atributosDiv.innerHTML += `<div><b>Color:</b> ${carta.color}</div>`;
-    if (carta.atributo) atributosDiv.innerHTML += `<div><b>Atributo:</b> ${carta.atributo}</div>`;
+    if (carta.atributo) atributosDiv.innerHTML += `<div><b>Atributo:</b> <img src="${carta.imagen_atributo}" alt="${carta.atributo}" class="atributo-icono"> ${carta.atributo}</div>`;
     if (carta.alianza) atributosDiv.innerHTML += `<div><b>Alianza:</b> ${carta.alianza}</div>`;
     if (carta.icono_bloque) atributosDiv.innerHTML += `<div><b>Icono de bloque:</b> ${carta.icono_bloque}</div>`;
     if (carta.efecto) atributosDiv.innerHTML += `<div><b>Efecto:</b> ${carta.efecto}</div>`;
@@ -490,7 +490,7 @@ const coloresCarta = {
 
 
 // COMIENZO DEL CODIGO
-fetch("/api/OP01")
+fetch("data/Cartas_OP01_ES.json")
     .then(respuesta => respuesta.json()) // Convertimos a objeto JS
     .then(cartas => {
         cartasData = cartas;
