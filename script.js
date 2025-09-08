@@ -490,7 +490,7 @@ const coloresCarta = {
 
 
 // COMIENZO DEL CODIGO
-fetch("/api/OP01")
+fetch("data/Cartas_OP01_ES.json")
     .then(respuesta => respuesta.json()) // Convertimos a objeto JS
     .then(cartas => {
         cartasData = cartas;
