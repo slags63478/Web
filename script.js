@@ -81,16 +81,36 @@ function actualizarTextoModal() {
     const atributosDiv = document.getElementById("atributos-carta");
     atributosDiv.innerHTML = "";
 
-    if (cartaModal.rarity) atributosDiv.innerHTML += `<div><b>Rareza:</b> ${cartaModal.rarity[idiomaActual]}</div>`;
-    if (cartaModal.life !== null) atributosDiv.innerHTML += `<div><b>Vidas:</b> ${cartaModal.life}</div>`;
-    if (cartaModal.cost !== null) atributosDiv.innerHTML += `<div><b>Costo:</b> ${cartaModal.cost}</div>`;
-    if (cartaModal.counter !== null) atributosDiv.innerHTML += `<div><b>Contrataque:</b> ${cartaModal.counter}</div>`;
-    if (cartaModal.power !== null) atributosDiv.innerHTML += `<div><b>Poder:</b> ${cartaModal.power}</div>`;
-    if (cartaModal.color) atributosDiv.innerHTML += `<div><b>Color:</b> ${cartaModal.color[idiomaActual]}</div>`;
-    if (cartaModal.attribute) atributosDiv.innerHTML += `<div><b>Atributo:</b> <img src="${cartaModal.image_attribute}" class="atributo-icono"> ${cartaModal.attribute[idiomaActual]}</div>`;
-    if (cartaModal.block_icon !== null) atributosDiv.innerHTML += `<div><b>Icono de bloque:</b> ${cartaModal.block_icon}</div>`;
-    if (cartaModal.effect) atributosDiv.innerHTML += `<div><b>Efecto:</b> ${cartaModal.effect[idiomaActual]}</div>`;
-    if (cartaModal.alliance) atributosDiv.innerHTML += `<div><b>Alianza:</b> ${cartaModal.alliance[idiomaActual]}</div>`;
+    const atributos = [
+        { key: "name", label: "" },
+        { key: "rarity", label: "Rareza" },
+        { key: "life", label: "Vidas" },
+        { key: "cost", label: "Costo" },
+        { key: "counter", label: "Contraataque" },
+        { key: "power", label: "Poder" },
+        { key: "color", label: "Color" },
+        { key: "attribute", label: "Atributo" },
+        { key: "alliance", label: "Alianza" },
+        { key: "block_icon", label: "Icono de bloque" },
+        { key: "effect", label: "Efecto" },
+    ];
+
+    atributos.forEach(attr => {
+        let valor = carta[attr.key];
+
+        if (valor !== null && valor !== undefined && valor !== "" && valor !== "-") {
+            if (typeof valor === "object" && valor[idiomaActual]) {
+                valor = valor[idiomaActual];
+            }
+
+            // caso especial atributo con icono
+            if (attr.key === "attribute") {
+                atributosDiv.innerHTML += `<div><b>${attr.label}:</b> <img src="${carta.image_attribute}" class="atributo-icono"> ${valor}</div>`;
+            } else {
+                atributosDiv.innerHTML += `<div><b>${attr.label}${attr.label ? ":" : ""}</b> ${valor}</div>`;
+            }
+        }
+    });
 
     // Descripción y disparador
     document.getElementById("descripcion-carta").textContent = cartaModal.description[idiomaActual] || "Sin descripción.";
@@ -387,7 +407,7 @@ function actualizarFiltrosActivos() {
 //funcion para cambiar rareza a solo letra
 function cambiarRarezaLetra(rareza) {
     const letras = rareza.split("");
-    if (letras[0] == "P") {
+    if (letras[0] == "P" || letras[0] == "U") {
         return "UC"
     }
     if (letras[1] == "ú") {
