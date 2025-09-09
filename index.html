@@ -81,10 +81,8 @@
                             | <span id="rareza-carta"></span>
                             | <span id="tipo-carta"></span>
                         </div>
-                        
                         <span id="cerrar-modal" class="cerrar">&times;</span>
                     </div>
-
                     <!-- Contenido -->
                     <div class="modal-body">
                         <!-- Imagen -->
@@ -95,7 +93,9 @@
                         <div class="modal-info">
                             <div id="atributos-carta" class="atributos"></div>
                             <p id="descripcion-carta" class="descripcion"></p>
+                            <p id="trigger-carta" class="trigger"></p>
                         </div>
+                        <button id="btn-idioma">Español</button>
                     </div>
                     <span id="prev-carta" class="botones-modal" onclick="cambiarCartaDesdeModal(-1)", title="Anterior">◄</span>
                     <span id="next-carta" class="botones-modal" onclick="cambiarCartaDesdeModal(1)", title="Siguiente">►</span>
@@ -128,6 +128,6 @@
             <a href="">Correo</a>
         </div>
     </footer>
-    <script src="script.obf.js"></script>
+    <script src="script.js"></script>
 </body>  
 </html>
