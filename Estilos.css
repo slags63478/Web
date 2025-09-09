@@ -424,6 +424,22 @@ main {
     border-radius: 6px;
     border: 1px solid rgba(255,255,255,0.1);
 }
+#btn-idioma {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3399FF; /* azul llamativo */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+#btn-idioma:hover {
+    background-color: #1E90FF; /* un poco más intenso al pasar el mouse */
+}
 .cerrar {
     position: absolute;
     top: 10px; 

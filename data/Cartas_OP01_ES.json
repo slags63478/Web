@@ -7,13 +7,13 @@
         "tipo": "Líder",
         "poder": 5000,
         "vidas": 5,
-        "contraataque": "0",
+        "contraataque": "-",
         "atributo": "Corte",
         "icono_bloque": 1,
-        "efecto": "0",
+        "efecto": null,
         "alianza": "Supernovas/Tripulación del Sombrero de Paja", 
         "descripcion": "[DON!! x1] [Tu turno] Todos tus personajes ganan +1000 de poder.",
-        "disparador": "0",
+        "disparador": null,
         "precio": 1,
         "imagen": "Imagenes/Cartas/OP01/OP01-001.png",
         "imagen_atributo": "Imagenes/Logos_Atributo/Slash.png"
@@ -27,13 +27,13 @@
         "tipo": "Líder",
         "poder": 5000,
         "vidas": 5,
-        "contraataque": "0",
+        "contraataque": "-",
         "atributo": "Corte",
         "icono_bloque": 1,
-        "efecto": "0",
+        "efecto": null,
         "alianza": "Supernovas/Tripulación del Sombrero de Paja",
         "descripcion": "[DON!! x1] [Tu turno] Todos tus personajes ganan +1000 de poder.",
-        "disparador": "0", 
+        "disparador": null, 
         "imagen": "Imagenes/Cartas/OP01/OP01-001_p1.png",
         "imagen_atributo": "Imagenes/Logos_Atributo/Slash.png"
 
@@ -46,12 +46,13 @@
         "tipo": "Líder",
         "poder": 5000,
         "vidas": 4,
+        "contraataque": "-",
         "atributo": "Corte",
         "icono_bloque": 1,
-        "efecto": "0",
+        "efecto": null,
         "alianza": "Supernovas/Piratas del Corazón",
         "descripcion": "[Activar: Principal] [Una vez por turno] ➁ (Puedes descansar el número especificado de cartas DON!! en tu área de coste.): Si tienes 5 Personajes, devuelve 1 de tus personajes a tu propia mano. A continuació, juega hasta 1 personaje con un coste de 5 o menos de tu mano que sea de un color diferente al del personaje devuelto.",
-        "disparador": "0", 
+        "disparador": null,
         "imagen": "Imagenes/Cartas/OP01/OP01-002.png",
         "imagen_atributo": "Imagenes/Logos_Atributo/Slash.png"
 
@@ -64,13 +65,13 @@
         "tipo": "Líder",
         "poder": 5000,
         "vidas": 4,
-        "contraataque": "0",
+        "contraataque": "-",
         "atributo": "Corte",
         "icono_bloque": 1,
-        "efecto": "0",
+        "efecto": null,
         "alianza": "Supernovas/Piratas del Corazón",
         "descripcion": "[Activar: Principal] [Una vez por turno] ➁ (Puedes descansar el número especificado de cartas DON!! en tu área de coste.): Si tienes 5 Personajes, devuelve 1 de tus personajes a tu propia mano. A continuació, juega hasta 1 personaje con un coste de 5 o menos de tu mano que sea de un color diferente al del personaje devuelto.",
-        "disparador": "0", 
+        "disparador": null,
         "imagen": "Imagenes/Cartas/OP01/OP01-002_p1.png",
         "imagen_atributo": "Imagenes/Logos_Atributo/Slash.png"
 
@@ -83,13 +84,13 @@
         "tipo": "Líder",
         "poder": 5000,
         "vidas": 4,
-        "contraataque": "0",
+        "contraataque": "-",
         "atributo": "Golpe",
         "icono_bloque": 1,
-        "efecto": "0",
+        "efecto": null,
         "alianza": "Supernovas/Tripulación del Sombrero de Paja",
         "descripcion": "[Activar: Principal] [Una vez por turno] ➃ (Puedes descansar el número especificado de cartas DON!! en tu área de coste.): Prepara hasta 1 de tus cartas de personaje de tipo {Supernovas} o {Tripulación del Sombrero de Paja} con un coste de 5 o menos como activa. Gana +1000 de poder durante este turno.",
-        "disparador": "0", 
+        "disparador": null, 
         "imagen": "Imagenes/Cartas/OP01/OP01-003.png",
         "imagen_atributo": "Imagenes/Logos_Atributo/Strike.png"
 
@@ -102,13 +103,13 @@
         "tipo": "Líder",
         "poder": 5000,
         "vidas": 4,
-        "contraataque": "0",
+        "contraataque": "-",
         "atributo": "Golpe",
         "icono_bloque": 1,
-        "efecto": "0",
+        "efecto": null,
         "alianza": "Supernovas/Tripulación del Sombrero de Paja",
         "descripcion": "[Activar: Principal] [Una vez por turno] ➃ (Puedes descansar el número especificado de cartas DON!! en tu área de coste.): Prepara hasta 1 de tus cartas de personaje de tipo {Supernovas} o {Tripulación del Sombrero de Paja} con un coste de 5 o menos como activa. Gana +1000 de poder durante este turno.",
-        "disparador": "0", 
+        "disparador": null, 
         "imagen": "Imagenes/Cartas/OP01/OP01-003_p1.png",
         "imagen_atributo": "Imagenes/Logos_Atributo/Strike.png"
 
@@ -124,10 +125,10 @@
         "contraataque": 2000,
         "atributo": "Distancia",
         "icono_bloque": 1,
-        "efecto": "0",
+        "efecto": null,
         "alianza": "Tripulación del Sombrero de Paja",
         "descripcion": "[DON!! x1] [Tu turno] [Una vez por turno] Roba 1 carta cuando tu oponente active un evento.",
-        "disparador": "0", 
+        "disparador": null,
         "imagen": "Imagenes/Cartas/OP01/OP01-004.png",
         "imagen_atributo": "Imagenes/Logos_Atributo/Ranged.png"
 
@@ -143,10 +144,10 @@
         "contraataque": "-",
         "atributo": "Especial",
         "icono_bloque": 1,
-        "efecto": "0",
+        "efecto": null,
         "alianza": "Película",
         "descripcion": "[En juego] Añade a tu mano hasta 1 carta de personaje roja que no sea [Uta] con un coste de 3 o menos de tu pila de descartes.",
-        "disparador": "0", 
+        "disparador": null,
         "imagen": "Imagenes/Cartas/OP01/OP01-005.png",
         "imagen_atributo": "Imagenes/Logos_Atributo/Special.png"
 
@@ -162,10 +163,10 @@
         "contraataque": 2000,
         "atributo": "Especial",
         "icono_bloque": 1,
-        "efecto": "0",
+        "efecto": null,
         "alianza": "Tierra de Wano",
         "descripcion": "[En juego] Reduce hasta 2000 puntos de poder a 1 de los personajes de tu oponente durante este turno.",
-        "disparador": "0", 
+        "disparador": null,
         "imagen": "Imagenes/Cartas/OP01/OP01-006.png",
         "imagen_atributo": "Imagenes/Logos_Atributo/Special.png"
 
@@ -181,10 +182,10 @@
         "contraataque": 1000,
         "atributo": "Especial",
         "icono_bloque": 1,
-        "efecto": "0",
+        "efecto": null,
         "alianza": "Supernovas/Piratas de Caribou",
         "descripcion": "[Al noquear] Noquea hasta 1 de los personajes de tu oponente con 4000 de poder o menos.",
-        "disparador": "0", 
+        "disparador": null,
         "imagen": "Imagenes/Cartas/OP01/OP01-007.png",
         "imagen_atributo": "Imagenes/Logos_Atributo/Special.png"
 
@@ -203,7 +204,7 @@
         "efecto": "Ataque rápido",
         "alianza": "Supernovas/Piratas Hermosos",
         "descripcion": "[En juego] Puedes añadir 1 carta de tu área de vida a tu mano: este personaje gana [Ataque rápido] durante este turno. (Esta carta puede atacar en el turno en el que se juega).",
-        "disparador": "0", 
+        "disparador": null, 
         "imagen": "Imagenes/Cartas/OP01/OP01-008.png",
         "imagen_atributo": "Imagenes/Logos_Atributo/Slash.png"
 
@@ -222,7 +223,7 @@
         "efecto": "Ataque rápido",
         "alianza": "Supernovas/Piratas Hermosos",
         "descripcion": "[En juego] Puedes añadir 1 carta de tu área de vida a tu mano: este personaje gana [Ataque rápido] durante este turno. (Esta carta puede atacar en el turno en el que se juega).",
-        "disparador": "0", 
+        "disparador": null,
         "imagen": "Imagenes/Cartas/OP01/OP01-008_p1.png",
         "imagen_atributo": "Imagenes/Logos_Atributo/Slash.png"
 
@@ -239,9 +240,9 @@
         "atributo": "Golpe",
         "alianza": "Minks",
         "icono_bloque": 1,
-        "efecto": "Disparador",
+        "efecto": null,
         "descripcion": "[Disparador] Juega esta carta.",
-        "disparador": "0", 
+        "disparador": null,
         "imagen": "Imagenes/Cartas/OP01/OP01-009.png",
         "imagen_atributo": "Imagenes/Logos_Atributo/Strike.png"
 
@@ -257,10 +258,10 @@
         "contraataque": 1000,
         "atributo": "Golpe",
         "icono_bloque": 1,
-        "efecto": "0",
+        "efecto": null,
         "alianza": "Animal/Tierra de Wano",
         "descripcion": "Sin descripcion.",
-        "disparador": "0", 
+        "disparador": null,
         "imagen": "Imagenes/Cartas/OP01/OP01-010.png",
         "imagen_atributo": "Imagenes/Logos_Atributo/Strike.png"
 
@@ -699,7 +700,7 @@
         "descripcion": "[Contrataque] Hasta 1 de tus cartas de Líder o Personaje gana +2000 de poder durante esta batalla. A continuación, si tienes 2 o menos cartas de Vida, esa carta gana +2000 de poder adicional.",
         "disparador": "[Disparador] Hasta 1 de tus cartas de líder o personaje gana +1000 de poder durante este turno.",
         "imagen": "Imagenes/Cartas/OP01/OP01-029.png",
-        "imagen_atributo": "0"
+        "imagen_atributo": null
 
     }
 ]

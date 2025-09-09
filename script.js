@@ -21,7 +21,7 @@ function renderizarCartas(lista) {
         // Nombre (arriba)
         const nombreDiv = document.createElement("div");
         nombreDiv.classList.add("carta-nombre");
-        nombreDiv.textContent = carta.nombre;
+        nombreDiv.textContent = carta.name;
 
         // Subheader (id + precio)
         const cartaInfo = document.createElement("div");
@@ -33,22 +33,22 @@ function renderizarCartas(lista) {
 
         const cartaPrecio = document.createElement("span");
         cartaPrecio.classList.add("carta-precio");
-        cartaPrecio.textContent = carta.precio ? `$${carta.precio}` : "N/A";
+        cartaPrecio.textContent = carta.price ? `$${carta.price}` : "N/A";
 
         cartaInfo.appendChild(cartaID);
         cartaInfo.appendChild(cartaPrecio);
 
         headerCarta.appendChild(nombreDiv);
         headerCarta.appendChild(cartaInfo);
-        colorHeader(carta.color,headerCarta);
+        colorHeader(carta.color.es,headerCarta);
 
         // === BODY ===
         const cartaBody = document.createElement("div");
         cartaBody.classList.add("carta-body");
 
         const img = document.createElement("img");
-        img.src = carta.imagen;
-        img.alt = carta.nombre;
+        img.src = carta.image;
+        img.alt = carta.name;
 
         const indiceReal = (paginaActual - 1) * cartasPorPagina + index;
         img.addEventListener("click", () => {
@@ -65,37 +65,47 @@ function renderizarCartas(lista) {
         contenedor.appendChild(cartaHTML);
     });
 }
-// función para mostrar una carta en el modal
+// Función que actualiza todo el contenido del modal según el idiomaActual
+function actualizarTextoModal() {
+    if (!cartaModal) return;
+
+    // Header principal: ID | Rareza | Personaje
+    const infoHeader = document.getElementById("Info");
+    infoHeader.innerHTML = `${limpiarID(cartaModal.id)} | ${cambiarRarezaLetra(cartaModal.rarity[idiomaActual])} | ${cartaModal.type[idiomaActual]}`;
+
+    // Color header
+    const modalHeader = document.querySelector(".modal-header");
+    colorHeader(cartaModal.color.es, modalHeader);
+
+    // Atributos
+    const atributosDiv = document.getElementById("atributos-carta");
+    atributosDiv.innerHTML = "";
+
+    if (cartaModal.rarity) atributosDiv.innerHTML += `<div><b>Rareza:</b> ${cartaModal.rarity[idiomaActual]}</div>`;
+    if (cartaModal.life !== null) atributosDiv.innerHTML += `<div><b>Vidas:</b> ${cartaModal.life}</div>`;
+    if (cartaModal.cost !== null) atributosDiv.innerHTML += `<div><b>Costo:</b> ${cartaModal.cost}</div>`;
+    if (cartaModal.counter !== null) atributosDiv.innerHTML += `<div><b>Contrataque:</b> ${cartaModal.counter}</div>`;
+    if (cartaModal.power !== null) atributosDiv.innerHTML += `<div><b>Poder:</b> ${cartaModal.power}</div>`;
+    if (cartaModal.color) atributosDiv.innerHTML += `<div><b>Color:</b> ${cartaModal.color[idiomaActual]}</div>`;
+    if (cartaModal.attribute) atributosDiv.innerHTML += `<div><b>Atributo:</b> <img src="${cartaModal.image_attribute}" class="atributo-icono"> ${cartaModal.attribute[idiomaActual]}</div>`;
+    if (cartaModal.block_icon !== null) atributosDiv.innerHTML += `<div><b>Icono de bloque:</b> ${cartaModal.block_icon}</div>`;
+    if (cartaModal.effect) atributosDiv.innerHTML += `<div><b>Efecto:</b> ${cartaModal.effect[idiomaActual]}</div>`;
+    if (cartaModal.alliance) atributosDiv.innerHTML += `<div><b>Alianza:</b> ${cartaModal.alliance[idiomaActual]}</div>`;
+
+    // Descripción y disparador
+    document.getElementById("descripcion-carta").textContent = cartaModal.description[idiomaActual] || "Sin descripción.";
+    document.getElementById("trigger-carta").textContent = cartaModal.trigger ? cartaModal.trigger[idiomaActual] : "";
+}
+
+// Función para mostrar la carta en el modal
 function mostrarCarta(indice) {
     const carta = cartasVisibles[indice];
     if (!carta) return;
 
-    document.getElementById("imagen-carta").src = carta.imagen;
-    document.getElementById("sigla-carta").textContent = limpiarID(carta.id);
-    document.getElementById("rareza-carta").textContent = cambiarRarezaLetra(carta.rareza) || "Sin rareza";
-    document.getElementById("tipo-carta").textContent = carta.tipo || "Desconocido";
+    cartaModal = carta; // guardamos la carta actual
+    document.getElementById("imagen-carta").src = carta.image;
 
-    //color header
-    const modalHeader = document.querySelector(".modal-header");
-    colorHeader(carta.color, modalHeader);
-
-    //atributos
-    const atributosDiv = document.getElementById("atributos-carta");
-    atributosDiv.innerHTML = "";
-    if (carta.nombre) atributosDiv.innerHTML += `<div><b></b> ${carta.nombre}</div>`;
-    if (carta.rareza) atributosDiv.innerHTML += `<div><b>Rareza</b> ${carta.rareza}</div>`;
-    if (carta.vidas) atributosDiv.innerHTML += `<div><b>Vidas:</b> ${carta.vidas}</div>`;
-    if (carta.costo) atributosDiv.innerHTML += `<div><b>Costo:</b> ${carta.costo}</div>`;
-    if (carta.contraataque) atributosDiv.innerHTML += `<div><b>Contrataque:</b> ${carta.contraataque}</div>`;
-    if (carta.poder) atributosDiv.innerHTML += `<div><b>Poder:</b> ${carta.poder}</div>`;
-    if (carta.color) atributosDiv.innerHTML += `<div><b>Color:</b> ${carta.color}</div>`;
-    if (carta.atributo) atributosDiv.innerHTML += `<div><b>Atributo:</b> <img src="${carta.imagen_atributo}" alt="${carta.atributo}" class="atributo-icono"> ${carta.atributo}</div>`;
-    if (carta.alianza) atributosDiv.innerHTML += `<div><b>Alianza:</b> ${carta.alianza}</div>`;
-    if (carta.icono_bloque) atributosDiv.innerHTML += `<div><b>Icono de bloque:</b> ${carta.icono_bloque}</div>`;
-    if (carta.efecto) atributosDiv.innerHTML += `<div><b>Efecto:</b> ${carta.efecto}</div>`;
-
-    document.getElementById("descripcion-carta").textContent = carta.descripcion || "Sin descripción.";
-
+    actualizarTextoModal(); // inicializa el contenido del modal
     modal.style.display = "flex";
 }
 //Funcion limpiar id
@@ -184,12 +194,12 @@ function generarPaginacion() {
 function generarOpcionesFiltros(cartas) {
     const propiedades = {
         color: "Color",
-        costo: "Costo",
-        atributo: "Atributo",
-        rareza: "Rareza",
-        tipo: "Tipo",
-        efecto: "Efecto",
-        alianza: "Alianza"
+        cost: "Costo",
+        attribute: "Atributo",
+        rarity: "Rareza",
+        type: "Tipo",
+        effect: "Efecto",
+        alliance: "Alianza"
     };
     const filtrosContainer = document.getElementById("filtros-container");
     filtrosContainer.innerHTML = "";
@@ -199,15 +209,16 @@ function generarOpcionesFiltros(cartas) {
 
         cartas.forEach(carta => {
             if (carta[prop]) {
-                if (typeof carta[prop] === "string" && carta[prop].includes("/")) {
-                    carta[prop].split("/").forEach(v => valores.add(v.trim()));
-                }
-                else if (Array.isArray(carta[prop])) {
-                    carta[prop].forEach(v => valores.add(v.trim()));
-                }
+                if (typeof carta[prop] === "object" && carta[prop] !== null && carta[prop].es) {
+                    if (carta[prop].es.includes("/")) {
+                        carta[prop].es.split("/").forEach(v => valores.add(v.trim()));
+                    } else {
+                        valores.add(carta[prop].es);
+                    }
+                } 
                 else {
                     valores.add(carta[prop]);
-                };
+                }
             }
         });
 
@@ -302,6 +313,9 @@ function aplicarFiltros() {
                 return valorCarta.map(v => v.trim()).includes(filtros[filtro]);
             } 
             else {
+                if (typeof valorCarta === "object" && valorCarta !== null && valorCarta.es) {
+                    return valorCarta.es === filtros[filtro];
+                }
                 return String(valorCarta) === filtros[filtro];
             }
         });
@@ -382,7 +396,6 @@ function cambiarRarezaLetra(rareza) {
     else {
         return letras[0]
     }
-    
 }
 
 // función para el color del header
@@ -450,6 +463,7 @@ function mixWith(color1, color2, t) { // t 0..1
   return "#" + (1<<24 | r<<16 | g<<8 | b).toString(16).slice(1).toUpperCase();
 }
 
+
 //VARIABLES//
 // 1. Seleccionamos el contenedor donde van las cartas
 const contenedor = document.getElementById("contenedor-cartas");
@@ -478,6 +492,10 @@ const filtrosActivos = document.getElementById("filtros-activos");
 const listaFiltros = document.getElementById("lista-filtros");
 const limpiarBtn = document.getElementById("limpiar-filtros");
 
+// valores para cambio idioma
+let idiomaActual = "es";
+let cartaModal = null;
+
 //colores del header
 const coloresCarta = {
   "rojo": "#d32f2f",
@@ -490,7 +508,7 @@ const coloresCarta = {
 
 
 // COMIENZO DEL CODIGO
-fetch("data/Cartas_OP01_ES.json")
+fetch("data/cartas_OP01.json")
     .then(respuesta => respuesta.json()) // Convertimos a objeto JS
     .then(cartas => {
         cartasData = cartas;
@@ -512,6 +530,13 @@ modal.addEventListener("click", (e) => {
 // Cerrar modal con la cruz
 cerrarModal.addEventListener("click", () => {
     modal.style.display = "none";
+});
+
+// Cambiar idioma al presionar el botón
+document.getElementById("btn-idioma").addEventListener("click", () => {
+    idiomaActual = idiomaActual === "es" ? "en" : "es";
+    document.getElementById("btn-idioma").textContent = idiomaActual === "es" ? "Español" : "English";
+    actualizarTextoModal();
 });
 
 //buscador

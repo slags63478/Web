@@ -1,0 +1,190 @@
+[ 
+    {
+        "id": "OP01-001",
+        "name":"Roronoa Zoro",
+        "rarity": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "power": 5000,
+        "life": 5,
+        "counter": "-",
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "block_icon": 1,
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Supernovas/Tripulación del Sombrero de Paja",
+            "en": "Supernovas/Straw Hat Crew"
+        },
+        "description": {
+            "es": "[DON!! x1] [Tu turno] Todos tus personajes ganan +1000 de poder.",
+            "en": "[DON!! x1] [Your turn] All of your Characters gain +1000 power."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "price": "-",
+        "image": "Imagenes/Cartas/OP01/OP01-001.png",
+        "image_attribute": "Imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-001_p1",
+        "name":"Roronoa Zoro",
+        "rarity": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "power": 5000,
+        "life": 5,
+        "counter": "-",
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "block_icon": 1,
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Supernovas/Tripulación del Sombrero de Paja",
+            "en": "Supernovas/Straw Hat Crew"
+        },
+        "description": {
+            "es": "[DON!! x1] [Tu turno] Todos tus personajes ganan +1000 de poder.",
+            "en": "[DON!! x1] [Your turn] All of your Characters gain +1000 power."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "price": "-",
+        "image": "Imagenes/Cartas/OP01/OP01-001_p1.png",
+        "image_attribute": "Imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-002",
+        "name":"Trafalgar Law",
+        "rarity": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "color": {
+            "es": "Rojo/Verde",
+            "en": "Red/Green"
+        },
+        "type": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "power": 5000,
+        "life": 4,
+        "counter": "-",
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "block_icon": 1,
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Supernovas/Piratas del Corazón",
+            "en": "Supernovas/Heart Pirates"
+        },
+        "description": {
+            "es": "[Activar: Principal] [Una vez por turno] ➁ (Puedes descansar el número especificado de cartas DON!! en tu área de coste.): Si tienes 5 Personajes, devuelve 1 de tus personajes a tu propia mano. A continuación, juega hasta 1 personaje con un coste de 5 o menos de tu mano que sea de un color diferente al del personaje devuelto.",
+            "en": "[Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): If you have 5 Characters, return 1 of your Characters to the owner's hand. Then, play up to 1 Character with a cost of 5 or less from your hand that is a different color than the returned Character."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "price": "-",
+        "image": "Imagenes/Cartas/OP01/OP01-002.png",
+        "image_attribute": "Imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-002_p1",
+        "name":"Trafalgar Law",
+        "rarity": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "color": {
+            "es": "Rojo/Verde",
+            "en": "Red/Green"
+        },
+        "type": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "power": 5000,
+        "life": 4,
+        "counter": "-",
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "block_icon": 1,
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Supernovas/Piratas del Corazón",
+            "en": "Supernovas/Heart Pirates"
+        },
+        "description": {
+            "es": "[Activar: Principal] [Una vez por turno] ➁ (Puedes descansar el número especificado de cartas DON!! en tu área de coste.): Si tienes 5 Personajes, devuelve 1 de tus personajes a tu propia mano. A continuación, juega hasta 1 personaje con un coste de 5 o menos de tu mano que sea de un color diferente al del personaje devuelto.",
+            "en": "[Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): If you have 5 Characters, return 1 of your Characters to the owner's hand. Then, play up to 1 Character with a cost of 5 or less from your hand that is a different color than the returned Character."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "price": "-",
+        "image": "Imagenes/Cartas/OP01/OP01-002_p1.png",
+        "image_attribute": "Imagenes/Logos_Atributo/Slash.png"
+    }
+]
