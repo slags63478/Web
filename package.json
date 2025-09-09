@@ -1,0 +1,23 @@
+{
+  "name": "nakard-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "javascript-obfuscator script.js --output script.obf.js --compact true --control-flow-flattening true --string-array true --string-array-encoding base64"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slags63478/nakard-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slags63478/nakard-web/issues"
+  },
+  "homepage": "https://github.com/slags63478/nakard-web#readme",
+  "dependencies": {
+    "javascript-obfuscator": "^4.1.1"
+  }
+}
