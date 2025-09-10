@@ -10,6 +10,6 @@ La idea es ir actualizando poco a poco con nuevas cartas hasta cubrir la mayor p
 
 ## Archivos
 
-- [Cartas en Español](./data)  
+- [Cartas en Español e Ingles](./data)  
 
 -------
