@@ -81,17 +81,39 @@ function actualizarTextoModal() {
     const atributosDiv = document.getElementById("atributos-carta");
     atributosDiv.innerHTML = "";
 
-    if (cartaModal.rarity) atributosDiv.innerHTML += `<div><b>Rareza:</b> ${cartaModal.rarity[idiomaActual]}</div>`;
-    if (cartaModal.life !== null) atributosDiv.innerHTML += `<div><b>Vidas:</b> ${cartaModal.life}</div>`;
-    if (cartaModal.cost !== null) atributosDiv.innerHTML += `<div><b>Costo:</b> ${cartaModal.cost}</div>`;
-    if (cartaModal.counter !== null) atributosDiv.innerHTML += `<div><b>Contrataque:</b> ${cartaModal.counter}</div>`;
-    if (cartaModal.power !== null) atributosDiv.innerHTML += `<div><b>Poder:</b> ${cartaModal.power}</div>`;
-    if (cartaModal.color) atributosDiv.innerHTML += `<div><b>Color:</b> ${cartaModal.color[idiomaActual]}</div>`;
-    if (cartaModal.attribute) atributosDiv.innerHTML += `<div><b>Atributo:</b> <img src="${cartaModal.image_attribute}" class="atributo-icono"> ${cartaModal.attribute[idiomaActual]}</div>`;
-    if (cartaModal.block_icon !== null) atributosDiv.innerHTML += `<div><b>Icono de bloque:</b> ${cartaModal.block_icon}</div>`;
-    if (cartaModal.effect) atributosDiv.innerHTML += `<div><b>Efecto:</b> ${cartaModal.effect[idiomaActual]}</div>`;
-    if (cartaModal.alliance) atributosDiv.innerHTML += `<div><b>Alianza:</b> ${cartaModal.alliance[idiomaActual]}</div>`;
+    const atributos = [
+        { key: "name", label: { es: "", en: "" } },
+        { key: "rarity", label: { es: "Rareza", en: "Rarity" } },
+        { key: "life", label: { es: "Vidas", en: "Life" } },
+        { key: "cost", label: { es: "Costo", en: "Cost" } },
+        { key: "counter", label: { es: "Contraataque", en: "Counter" } },
+        { key: "power", label: { es: "Poder", en: "Power" } },
+        { key: "color", label: { es: "Color", en: "Color" } },
+        { key: "attribute", label: { es: "Atributo", en: "Attribute" } },
+        { key: "block_icon", label: { es: "Icono de bloque", en: "Block Icon" } },
+        { key: "alliance", label: { es: "Alianza", en: "Alliance" } },
+        { key: "effect", label: { es: "Efecto", en: "Effect" } },
+    ];
 
+    atributos.forEach(attr => {
+        let valor = cartaModal[attr.key];
+        let label = attr.label[idiomaActual];
+
+        // Si es objeto con traducciones, tomar el del idioma
+        if (typeof valor === "object" && valor !== null) {
+            valor = valor[idiomaActual] || "";
+        }
+        // Filtrar valores no válidos
+        if (valor === null || valor === undefined || valor === "") {
+            return;
+        }
+        // Caso especial atributo con icono
+        if (attr.key === "attribute") {
+            atributosDiv.innerHTML += `<div><b>${label}:</b> <img src="${cartaModal.image_attribute}" class="atributo-icono"> ${valor}</div>`;
+        } else {
+            atributosDiv.innerHTML += `<div><b>${label}${label ? ":" : ""}</b> ${valor}</div>`;
+        }
+    });
     // Descripción y disparador
     document.getElementById("descripcion-carta").textContent = cartaModal.description[idiomaActual] || "Sin descripción.";
     document.getElementById("trigger-carta").textContent = cartaModal.trigger ? cartaModal.trigger[idiomaActual] : "";
@@ -387,7 +409,7 @@ function actualizarFiltrosActivos() {
 //funcion para cambiar rareza a solo letra
 function cambiarRarezaLetra(rareza) {
     const letras = rareza.split("");
-    if (letras[0] == "P") {
+    if (letras[0] == "P" || letras[0] == "U") {
         return "UC"
     }
     if (letras[1] == "ú") {
