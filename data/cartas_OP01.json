@@ -6,7 +6,6 @@
         "life": 5,
         "counter": "-",
         "block_icon": 1,
-        "price": "-",
         "rarity": {
             "es": "Líder",
             "en": "Leader"
@@ -53,7 +52,6 @@
         "life": 5,
         "counter": "-",
         "block_icon": 1,
-        "price": "-",
         "rarity": {
             "es": "Líder",
             "en": "Leader"
@@ -100,7 +98,6 @@
         "life": 4,
         "counter": "-",
         "block_icon": 1,
-        "price": "-",
         "rarity": {
             "es": "Líder",
             "en": "Leader"
@@ -147,7 +144,6 @@
         "life": 4,
         "counter": "-",
         "block_icon": 1,
-        "price": "-",
         "rarity": {
             "es": "Líder",
             "en": "Leader"
@@ -194,7 +190,6 @@
         "life": 4,
         "counter": "-",
         "block_icon": 1,
-        "price": "-",
         "rarity": {
             "es": "Líder",
             "en": "Leader"
@@ -241,7 +236,6 @@
         "life": 4,
         "counter": "-",
         "block_icon": 1,
-        "price": "-",
         "rarity": {
             "es": "Líder",
             "en": "Leader"
@@ -288,7 +282,6 @@
         "cost": 2,
         "counter": 2000,
         "block_icon": 1,
-        "price": "-",
         "rarity": {
             "es": "Raro",
             "en": "Rare"
@@ -335,7 +328,6 @@
         "cost": 4,
         "counter": "-",
         "block_icon": 1,
-        "price": "-",
         "rarity": {
             "es": "Raro",
             "en": "Rare"
@@ -382,7 +374,6 @@
         "cost": 1,
         "counter": 2000,
         "block_icon": 1,
-        "price": "-",
         "rarity": {
             "es": "Poco Común",
             "en": "Uncommon"
@@ -421,5 +412,189 @@
         },
         "image": "Imagenes/Cartas/OP01/OP01-006.png",
         "image_attribute": "Imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-007",
+        "name":"Caribou",
+        "power": 4000,
+        "cost": 3,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Supernovas/Piratas de Caribou",
+            "en": "Supernovas/Caribou Pirates"
+        },
+        "description": {
+            "es": "[Al noquear] Noquea hasta 1 de los personajes de tu oponente con 4000 de poder o menos.",
+            "en": "[On K.O.] K.O. up to 1 of your opponent's Characters with 4000 power or less."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "Imagenes/Cartas/OP01/OP01-007.png",
+        "image_attribute": "Imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-008",
+        "name":"Cavendish",
+        "power": 5000,
+        "cost": 4,
+        "counter": "-",
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Supernovas/Piratas Hermosos",
+            "en": "Supernovas/beautiful Pirates"
+        },
+        "description": {
+            "es": "[En juego] Puedes añadir 1 carta de tu área de vida a tu mano: este personaje gana [Ataque rápido] durante este turno. (Esta carta puede atacar en el turno en el que se juega).",
+            "en": "[On Play] You may add 1 card from your Life area to your hand: This Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)"
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "Imagenes/Cartas/OP01/OP01-008.png",
+        "image_attribute": "Imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-008_p1",
+        "name":"Cavendish",
+        "power": 5000,
+        "cost": 4,
+        "counter": "-",
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Supernovas/Piratas Hermosos",
+            "en": "Supernovas/beautiful Pirates"
+        },
+        "description": {
+            "es": "[En juego] Puedes añadir 1 carta de tu área de vida a tu mano: este personaje gana [Ataque rápido] durante este turno. (Esta carta puede atacar en el turno en el que se juega).",
+            "en": "[On Play] You may add 1 card from your Life area to your hand: This Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)"
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "Imagenes/Cartas/OP01/OP01-008_p1.png",
+        "image_attribute": "Imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-009",
+        "name":"Carrot",
+        "power": 3000,
+        "cost": 2,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Minks",
+            "en": "Minks"
+        },
+        "description": {
+            "es": null,
+            "en": null
+        },
+        "trigger": {
+            "es": "[Disparador] Juega esta carta.",
+            "en": "[Trigger] Play this card."
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "Imagenes/Cartas/OP01/OP01-009.png",
+        "image_attribute": "Imagenes/Logos_Atributo/Strike.png"
     }
 ]

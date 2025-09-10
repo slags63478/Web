@@ -23,23 +23,12 @@ function renderizarCartas(lista) {
         nombreDiv.classList.add("carta-nombre");
         nombreDiv.textContent = carta.name;
 
-        // Subheader (id + precio)
-        const cartaInfo = document.createElement("div");
-        cartaInfo.classList.add("carta-subheader");
-
-        const cartaID = document.createElement("span");
+        const cartaID = document.createElement("div");
         cartaID.classList.add("carta-id");
         cartaID.textContent = limpiarID(carta.id);
 
-        const cartaPrecio = document.createElement("span");
-        cartaPrecio.classList.add("carta-precio");
-        cartaPrecio.textContent = carta.price ? `$${carta.price}` : "N/A";
-
-        cartaInfo.appendChild(cartaID);
-        cartaInfo.appendChild(cartaPrecio);
-
         headerCarta.appendChild(nombreDiv);
-        headerCarta.appendChild(cartaInfo);
+        headerCarta.appendChild(cartaID);
         colorHeader(carta.color.es,headerCarta);
 
         // === BODY ===
@@ -93,6 +82,8 @@ function actualizarTextoModal() {
         { key: "block_icon", label: { es: "Icono de bloque", en: "Block Icon" } },
         { key: "alliance", label: { es: "Alianza", en: "Alliance" } },
         { key: "effect", label: { es: "Efecto", en: "Effect" } },
+        { key: "description", label: { es: "", en: "" } },
+        { key: "trigger", label: { es: "Disparador", en: "Trigger" } },
     ];
 
     atributos.forEach(attr => {
@@ -110,13 +101,11 @@ function actualizarTextoModal() {
         // Caso especial atributo con icono
         if (attr.key === "attribute") {
             atributosDiv.innerHTML += `<div><b>${label}:</b> <img src="${cartaModal.image_attribute}" class="atributo-icono"> ${valor}</div>`;
-        } else {
+        } 
+        else {
             atributosDiv.innerHTML += `<div><b>${label}${label ? ":" : ""}</b> ${valor}</div>`;
         }
     });
-    // Descripción y disparador
-    document.getElementById("descripcion-carta").textContent = cartaModal.description[idiomaActual] || "Sin descripción.";
-    document.getElementById("trigger-carta").textContent = cartaModal.trigger ? cartaModal.trigger[idiomaActual] : "";
 }
 
 // Función para mostrar la carta en el modal
@@ -154,12 +143,12 @@ function mostrarCartasPaginadas() {
     if (cartasPagina.length === 0) {
         msgSinResultado.style.display = "block";
         return;
-    } else {
+    } 
+    else {
         msgSinResultado.style.display = "none";
         renderizarCartas(cartasPagina);
         generarPaginacion();
     }
-    
 };
 
 //funcion de renderizar cartas paginadas
@@ -448,15 +437,9 @@ function colorHeader(color,elemento) {
 
     // texto y bordes siempre en blanco
     elemento.style.color = "white";
-
     const nombreHeader = elemento.querySelector(".carta-nombre");
-    const subheader = elemento.querySelector(".carta-id");
-
     if (nombreHeader) {
         nombreHeader.style.borderBottom = `1px solid white`;
-    }
-    if (subheader) {
-        subheader.style.borderRight = `1px solid white`;
     }
 }
 //degradado de color
