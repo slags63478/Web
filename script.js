@@ -220,19 +220,24 @@ function generarOpcionesFiltros(cartas) {
 
         cartas.forEach(carta => {
             if (carta[prop]) {
-                if (typeof carta[prop] === "object" && carta[prop] !== null && carta[prop].es) {
-                    if (carta[prop].es.includes("/")) {
-                        carta[prop].es.split("/").forEach(v => valores.add(v.trim()));
-                    } else {
-                        valores.add(carta[prop].es);
+                const valor = carta[prop];
+
+                if (typeof valor === "object" && valor !== null) {
+                    // Solo tomamos el valor en español y que no sea null ni vacío
+                    if (valor.es && valor.es !== "") {
+                        if (valor.es.includes("/")) {
+                            valor.es.split("/").forEach(v => valores.add(v.trim()));
+                        } 
+                        else {
+                            valores.add(valor.es.trim());
+                        }
                     }
                 } 
-                else {
-                    valores.add(carta[prop]);
+                else if (valor !== null && valor !== "" && valor !== 0) {
+                    valores.add(valor);
                 }
             }
         });
-
         if (valores.size > 0) {
             // Crear contenedor del filtro
             const filtroDiv = document.createElement("div");
@@ -243,7 +248,7 @@ function generarOpcionesFiltros(cartas) {
             header.classList.add("filtro-header");
             header.textContent = propiedades[prop] + ": Todos ▼";
             header.dataset.value = "";
-            
+            header.dataset.prop = prop;
 
             // Lista de opciones
             const lista = document.createElement("ul");
@@ -303,7 +308,7 @@ function generarOpcionesFiltros(cartas) {
 function aplicarFiltros() {
     const filtros = {};
     document.querySelectorAll(".filtro-header").forEach(header => {
-        const prop = header.textContent.split(":")[0].trim().toLowerCase();
+        const prop = header.dataset.prop; 
         const val = header.dataset.value || "";
         filtros[prop] = val;
     });
@@ -311,7 +316,6 @@ function aplicarFiltros() {
     const buscador = inputBuscar.value.toLowerCase();
 
     cartasVisibles = cartasData.filter(carta => {
-        // primero pasamos por filtros
         const pasaFiltros = Object.keys(filtros).every(filtro => {
             if (filtros[filtro] === "") return true;
 
@@ -323,23 +327,27 @@ function aplicarFiltros() {
             else if (Array.isArray(valorCarta)) {
                 return valorCarta.map(v => v.trim()).includes(filtros[filtro]);
             } 
-            else {
-                if (typeof valorCarta === "object" && valorCarta !== null && valorCarta.es) {
-                    return valorCarta.es === filtros[filtro];
+            else if (typeof valorCarta === "object" && valorCarta !== null && valorCarta.es) {
+                const valorEs = valorCarta.es.trim().toLowerCase();
+                const filtroEs = filtros[filtro].trim().toLowerCase();
+
+                if (valorEs.includes("/")) {
+                    return valorEs.split("/").map(v => v.trim().toLowerCase()).includes(filtroEs);
                 }
+
+                return valorEs === filtroEs;
+            } 
+            else {
                 return String(valorCarta) === filtros[filtro];
             }
         });
-
         if (!pasaFiltros) return false;
 
-        // luego pasamos por el buscador
         if (buscador === "") return true;
         return Object.values(carta).some(val =>
             String(val).toLowerCase().includes(buscador)
         );
     });
-
     paginaActual = 1;
     mostrarCartasPaginadas();
 }

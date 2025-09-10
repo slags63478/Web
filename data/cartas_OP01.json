@@ -483,8 +483,8 @@
             "en": "Slash"
         },
         "effect": {
-            "es": null,
-            "en": null
+            "es": "Ataque rápido",
+            "en": "Rush"
         },
         "alliance": {
             "es": "Supernovas/Piratas Hermosos",
@@ -529,8 +529,8 @@
             "en": "Slash"
         },
         "effect": {
-            "es": null,
-            "en": null
+            "es": "Ataque rápido",
+            "en": "Rush"
         },
         "alliance": {
             "es": "Supernovas/Piratas Hermosos",
@@ -595,6 +595,512 @@
             "en": "ROMANCE DAWN- [OP01]"
         },
         "image": "Imagenes/Cartas/OP01/OP01-009.png",
+        "image_attribute": "Imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-010",
+        "name":"Komachiyo",
+        "power": 3000,
+        "cost": 1,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Animal/Tierra de Wano",
+            "en": "Animal/Land of Wano"
+        },
+        "description": {
+            "es": null,
+            "en": null
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "Imagenes/Cartas/OP01/OP01-010.png",
+        "image_attribute": "Imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-011",
+        "name":"Gordon",
+        "power": 3000,
+        "cost": 2,
+        "counter": 2000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Sabiduría",
+            "en": "Wisdom"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Película",
+            "en": "Film"
+        },
+        "description": {
+            "es": "[En juego] Puedes colocar 1 carta de tu mano en la parte inferior de tu mazo: Roba 1 carta.",
+            "en": "[On Play] You may place 1 card from your hand at the bottom of your deck: Draw 1 card."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "Imagenes/Cartas/OP01/OP01-011.png",
+        "image_attribute": "Imagenes/Logos_Atributo/Wisdom.png"
+    },
+    {
+        "id": "OP01-012",
+        "name":"Sai",
+        "power": 4000,
+        "cost": 2,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Ejército Happosui",
+            "en": "Happosui Army"
+        },
+        "description": {
+            "es": null,
+            "en": null
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "Imagenes/Cartas/OP01/OP01-012.png",
+        "image_attribute": "Imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-013",
+        "name":"Sanji",
+        "power": 3000,
+        "cost": 2,
+        "counter": 2000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tripulación del Sombrero de Paja",
+            "en": "Straw Hat Crew"
+        },
+        "description": {
+            "es": "[Activar: Principal] [Una vez por turno] Puedes añadir 1 carta de tu área de Vida a tu mano: Este personaje gana +2000 de poder durante este turno. A continuación, dale a este personaje hasta 2 cartas DON!! descansadas.",
+            "en": "[Activate: Main] [Once Per Turn] You may add 1 card from your Life area to your hand: This Character gains +2000 power during this turn. Then, give this Character up to 2 rested DON!! cards."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "Imagenes/Cartas/OP01/OP01-013.png",
+        "image_attribute": "Imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-013_p1",
+        "name":"Sanji",
+        "power": 3000,
+        "cost": 2,
+        "counter": 2000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tripulación del Sombrero de Paja",
+            "en": "Straw Hat Crew"
+        },
+        "description": {
+            "es": "[Activar: Principal] [Una vez por turno] Puedes añadir 1 carta de tu área de Vida a tu mano: Este personaje gana +2000 de poder durante este turno. A continuación, dale a este personaje hasta 2 cartas DON!! descansadas.",
+            "en": "[Activate: Main] [Once Per Turn] You may add 1 card from your Life area to your hand: This Character gains +2000 power during this turn. Then, give this Character up to 2 rested DON!! cards."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "Imagenes/Cartas/OP01/OP01-013_p1.png",
+        "image_attribute": "Imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-014",
+        "name":"Jinbe",
+        "power": 5000,
+        "cost": 4,
+        "counter": "-",
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": "Bloqueador",
+            "en": "Blocker"
+        },
+        "alliance": {
+            "es": "Hombre pez/Tripulación del Sombrero de Paja",
+            "en": "Fish-Man/Straw Hat Crew"
+        },
+        "description": {
+            "es": "[Bloqueador] (Después de que tu oponente declare un ataque, puedes descansar esta carta para convertirla en el nuevo objetivo del ataque) [DON!! x1] [Al bloquear] Juega hasta 1 carta de Personaje roja con un coste de 2 o menos de tu mano.",
+            "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [On Block] Play up to 1 red Character card with a cost of 2 or less from your hand."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "Imagenes/Cartas/OP01/OP01-014.png",
+        "image_attribute": "Imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-015",
+        "name":"Tony Tony.Chopper",
+        "power": 4000,
+        "cost": 3,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Sabiduría",
+            "en": "Wisdom"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Animal/Tripulación del Sombrero de Paja",
+            "en": "Animal/Straw Hat Crew"
+        },
+        "description": {
+            "es": "[DON!! x1] [Al atacar] Puedes descartar 1 carta de tu mano: Añade hasta 1 carta de personaje del tipo {Tripulación del Sombrero de Paja} que no sea [Tony Tony.Chopper] con un coste de 4 o menos de tu descarte a tu mano.",
+            "en": "[DON!! x1] [When Attacking] You may trash 1 card from your hand: Add up to 1 {Straw Hat Crew} type Character card other than [Tony Tony.Chopper] with a cost of 4 or less from your trash to your hand."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "Imagenes/Cartas/OP01/OP01-015.png",
+        "image_attribute": "Imagenes/Logos_Atributo/Wisdom.png"
+    },
+    {
+        "id": "OP01-016",
+        "name":"Nami",
+        "power": 2000,
+        "cost": 1,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tripulación del Sombrero de Paja",
+            "en": "Straw Hat Crew"
+        },
+        "description": {
+            "es": "[En juego] Mira las 5 primeras cartas de tu mazo; revela hasta 1 carta de tipo {Tripulación del Sombrero de Paja} que no sea [Nami] y añádela a tu mano. A continuación, coloca el resto en la parte inferior de tu mazo en cualquier orden.",
+            "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "Imagenes/Cartas/OP01/OP01-016.png",
+        "image_attribute": "Imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-016_p1",
+        "name":"Nami",
+        "power": 2000,
+        "cost": 1,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tripulación del Sombrero de Paja",
+            "en": "Straw Hat Crew"
+        },
+        "description": {
+            "es": "[En juego] Mira las 5 primeras cartas de tu mazo; revela hasta 1 carta de tipo {Tripulación del Sombrero de Paja} que no sea [Nami] y añádela a tu mano. A continuación, coloca el resto en la parte inferior de tu mazo en cualquier orden.",
+            "en": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "Imagenes/Cartas/OP01/OP01-016_p1.png",
+        "image_attribute": "Imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-017",
+        "name":"Nico Robin",
+        "power": 4000,
+        "cost": 3,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tripulación del Sombrero de Paja",
+            "en": "Straw Hat Crew"
+        },
+        "description": {
+            "es": "[DON!! x1] [Al atacar] Noquea hasta 1 de los personajes de tu oponente con 3000 de poder o menos.",
+            "en": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "Imagenes/Cartas/OP01/OP01-017.png",
+        "image_attribute": "Imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-018",
+        "name":"Hajrudin",
+        "power": 6000,
+        "cost": 4,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Gigantes/Nuevos Piratas Gigantes",
+            "en": "Giant/New Giant Pirates"
+        },
+        "description": {
+            "es": null,
+            "en": null
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "Imagenes/Cartas/OP01/OP01-018.png",
         "image_attribute": "Imagenes/Logos_Atributo/Strike.png"
     }
 ]
