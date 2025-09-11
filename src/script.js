@@ -521,8 +521,8 @@ const coloresCarta = {
 
 
 // COMIENZO DEL CODIGO
-fetch("../public/data/cartas_OP01.json") // 1. Ruta al archivo JSON
-    .then(respuesta => respuesta.json()) // Convertimos a objeto JS
+fetch("https://slags63478.github.io/Web/public/data/cartas_OP01.json")
+    .then(respuesta => respuesta.json())
     .then(cartas => {
         cartasData = cartas;
         cartasVisibles = cartas;
