@@ -31,7 +31,7 @@
             "en": "Supernovas/Straw Hat Crew"
         },
         "description": {
-            "es": "[DON!! x1] [Tu turno] Todos tus personajes ganan +1000 de poder.",
+            "es": "[DON!! x1] [Tu turno] Todos tus Personajes ganan +1000 de poder.",
             "en": "[DON!! x1] [Your turn] All of your Characters gain +1000 power."
         },
         "trigger": {
@@ -77,7 +77,7 @@
             "en": "Supernovas/Straw Hat Crew"
         },
         "description": {
-            "es": "[DON!! x1] [Tu turno] Todos tus personajes ganan +1000 de poder.",
+            "es": "[DON!! x1] [Tu turno] Todos tus Personajes ganan +1000 de poder.",
             "en": "[DON!! x1] [Your turn] All of your Characters gain +1000 power."
         },
         "trigger": {
@@ -123,7 +123,7 @@
             "en": "Supernovas/Heart Pirates"
         },
         "description": {
-            "es": "[Activar: Principal] [Una vez por turno] ➁ (Puedes descansar el número especificado de cartas DON!! en tu área de coste.): Si tienes 5 Personajes, devuelve 1 de tus personajes a tu propia mano. A continuación, juega hasta 1 personaje con un coste de 5 o menos de tu mano que sea de un color diferente al del personaje devuelto.",
+            "es": "[Activar: Principal] [Una vez por turno] ➁ (Puedes descansar el número especificado de cartas DON!! en tu área de coste.): Si tienes 5 Personajes, devuelve 1 de tus Personajes a tu propia mano. A continuación, juega hasta 1 personaje con un coste de 5 o menos de tu mano que sea de un color diferente al del personaje devuelto.",
             "en": "[Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): If you have 5 Characters, return 1 of your Characters to the owner's hand. Then, play up to 1 Character with a cost of 5 or less from your hand that is a different color than the returned Character."
         },
         "trigger": {
@@ -169,7 +169,7 @@
             "en": "Supernovas/Heart Pirates"
         },
         "description": {
-            "es": "[Activar: Principal] [Una vez por turno] ➁ (Puedes descansar el número especificado de cartas DON!! en tu área de coste.): Si tienes 5 Personajes, devuelve 1 de tus personajes a tu propia mano. A continuación, juega hasta 1 personaje con un coste de 5 o menos de tu mano que sea de un color diferente al del personaje devuelto.",
+            "es": "[Activar: Principal] [Una vez por turno] ➁ (Puedes descansar el número especificado de cartas DON!! en tu área de coste.): Si tienes 5 Personajes, devuelve 1 de tus Personajes a tu propia mano. A continuación, juega hasta 1 personaje con un coste de 5 o menos de tu mano que sea de un color diferente al del personaje devuelto.",
             "en": "[Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): If you have 5 Characters, return 1 of your Characters to the owner's hand. Then, play up to 1 Character with a cost of 5 or less from your hand that is a different color than the returned Character."
         },
         "trigger": {
@@ -399,7 +399,7 @@
             "en": "Land of Wano"
         },
         "description": {
-            "es": "[En juego] Reduce hasta 2000 puntos de poder a 1 de los personajes de tu oponente durante este turno.",
+            "es": "[En juego] Reduce hasta 2000 puntos de poder a 1 de los Personajes de tu oponente durante este turno.",
             "en": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn."
         },
         "trigger": {
@@ -445,7 +445,7 @@
             "en": "Supernovas/Caribou Pirates"
         },
         "description": {
-            "es": "[Al noquear] Noquea hasta 1 de los personajes de tu oponente con 4000 de poder o menos.",
+            "es": "[Al noquear] Noquea hasta 1 de los Personajes de tu oponente con 4000 de poder o menos.",
             "en": "[On K.O.] K.O. up to 1 of your opponent's Characters with 4000 power or less."
         },
         "trigger": {
@@ -1043,7 +1043,7 @@
             "en": "Straw Hat Crew"
         },
         "description": {
-            "es": "[DON!! x1] [Al atacar] Noquea hasta 1 de los personajes de tu oponente con 3000 de poder o menos.",
+            "es": "[DON!! x1] [Al atacar] Noquea hasta 1 de los Personajes de tu oponente con 3000 de poder o menos.",
             "en": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less."
         },
         "trigger": {
@@ -1227,7 +1227,7 @@
             "en": "Straw Hat Crew"
         },
         "description": {
-            "es": "[DON!! x1] Este personaje también puede atacar a los personajes activos de tu oponente.",
+            "es": "[DON!! x1] Este personaje también puede atacar a los Personajes activos de tu oponente.",
             "en": "[DON!! x1] This Character can also attack your opponent's active Characters."
         },
         "trigger": {
@@ -1273,7 +1273,7 @@
             "en": "Straw Hat Crew"
         },
         "description": {
-            "es": "[DON!! x1] [Al atacar] Reduce hasta 2 de los personajes de tu oponente en 2000 puntos de poder durante este turno.",
+            "es": "[DON!! x1] [Al atacar] Reduce hasta 2 de los Personajes de tu oponente en 2000 puntos de poder durante este turno.",
             "en": "[DON!! x1] [When Attacking] Give up to 2 of your opponent's Characters −2000 power during this turn."
         },
         "trigger": {
@@ -1365,7 +1365,7 @@
             "en": "Supernovas/Straw Hat Crew"
         },
         "description": {
-            "es": "[DON!! x2] Este personaje no puede ser derrotado en combate por personajes con el atributo ＜Golpe＞. [Activar: Principal] [Una vez por turno] Dale a este personaje hasta 2 cartas DON!! descansadas.",
+            "es": "[DON!! x2] Este personaje no puede ser derrotado en combate por Personajes con el atributo ＜Golpe＞. [Activar: Principal] [Una vez por turno] Dale a este personaje hasta 2 cartas DON!! descansadas.",
             "en": "[DON!! x2] This Character cannot be K.O.'d in battle by ＜Strike＞ attribute Characters. [Activate: Main] [Once Per Turn] Give this Character up to 2 rested DON!! cards."
         },
         "trigger": {
@@ -1411,7 +1411,7 @@
             "en": "Supernovas/Straw Hat Crew"
         },
         "description": {
-            "es": "[DON!! x2] Este personaje no puede ser derrotado en combate por personajes con el atributo ＜Golpe＞. [Activar: Principal] [Una vez por turno] Dale a este personaje hasta 2 cartas DON!! descansadas.",
+            "es": "[DON!! x2] Este personaje no puede ser derrotado en combate por Personajes con el atributo ＜Golpe＞. [Activar: Principal] [Una vez por turno] Dale a este personaje hasta 2 cartas DON!! descansadas.",
             "en": "[DON!! x2] This Character cannot be K.O.'d in battle by ＜Strike＞ attribute Characters. [Activate: Main] [Once Per Turn] Give this Character up to 2 rested DON!! cards."
         },
         "trigger": {
@@ -1595,7 +1595,7 @@
             "en": "Supernovas/Straw Hat Crew"
         },
         "description": {
-            "es": "[Principal] Reduce en 10 000 el poder de uno de los personajes de tu oponente durante este turno.",
+            "es": "[Principal] Reduce en 10 000 el poder de uno de los Personajes de tu oponente durante este turno.",
             "en": "[Main] Give up to 1 of your opponent's Characters −10000 power during this turn."
         },
         "trigger": {
@@ -1837,6 +1837,236 @@
             "en": "ROMANCE DAWN- [OP01]"
         },
         "image": "../public/imagenes/cartas/OP01/OP01-031_p1.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-032",
+        "name":"Ashura Doji",
+        "power": 4000,
+        "cost": 3,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Verde",
+            "en": "Green"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tierra de Wano/Los Nueve Akazaya",
+            "en": "Land of Wano/The Akazaya Nine"
+        },
+        "description": {
+            "es": "[DON!! x1] Si tu oponente tiene 2 o más Personajes descansados, este personaje gana +2000 de poder.",
+            "en": "[DON!! x1] If your opponent has 2 or more rested Characters, this Character gains +2000 power."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "../public/imagenes/cartas/OP01/OP01-032.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-033",
+        "name":"Izo",
+        "power": 3000,
+        "cost": 3,
+        "counter": 2000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Verde",
+            "en": "Green"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Distancia",
+            "en": "Ranged"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tierra de Wano/Antiguos piratas de Barbablanca",
+            "en": "Land of Wano/Former Whitebeard Pirates"
+        },
+        "description": {
+            "es": "[Al jugar] Descansa hasta 1 de los Personajes de tu oponente con un coste de 4 o menos.",
+            "en": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 4 or less."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "../public/imagenes/cartas/OP01/OP01-033.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Ranged.png"
+    },
+    {
+        "id": "OP01-034",
+        "name":"Inuarashi",
+        "power": 4000,
+        "cost": 3,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Verde",
+            "en": "Green"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tierra de Wano/Los Nueve Akazaya",
+            "en": "Land of Wano/The Akazaya Nine"
+        },
+        "description": {
+            "es": "[DON!! x2] [Al atacar] Activa hasta 1 de tus cartas DON!!",
+            "en": "[DON!! x2] [When Attacking] Set up to 1 of your DON!! cards as active."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "../public/imagenes/cartas/OP01/OP01-034.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-034_p1",
+        "name":"Inuarashi",
+        "power": 4000,
+        "cost": 3,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Verde",
+            "en": "Green"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tierra de Wano/Los Nueve Akazaya",
+            "en": "Land of Wano/The Akazaya Nine"
+        },
+        "description": {
+            "es": "[DON!! x2] [Al atacar] Activa hasta 1 de tus cartas DON!!",
+            "en": "[DON!! x2] [When Attacking] Set up to 1 of your DON!! cards as active."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "../public/imagenes/cartas/OP01/OP01-034_p1.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-035",
+        "name":"Okiku",
+        "power": 5000,
+        "cost": 3,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Verde",
+            "en": "Green"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tierra de Wano/Los Nueve Akazaya",
+            "en": "Land of Wano/The Akazaya Nine"
+        },
+        "description": {
+            "es": "[DON!! x1] [Al atacar] [Una vez por turno] Descansa hasta 1 de los Personajes de tu oponente con un coste de 5 o menos.",
+            "en": "[DON!! x1] [When Attacking] [Once Per Turn] Rest up to 1 of your opponent's Characters with a cost of 5 or less."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "../public/imagenes/cartas/OP01/OP01-035.png",
         "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
     }
 ]
