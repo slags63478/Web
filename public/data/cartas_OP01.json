@@ -42,8 +42,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "imagenes/cartas/OP01/OP01-001.png",
-        "image_attribute": "imagenes/Logos_Atributo/Slash.png"
+        "image": "public/imagenes/cartas/OP01/OP01-001.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
     },
     {
         "id": "OP01-001_p1",
