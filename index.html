@@ -2,16 +2,14 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Nakard | One Piece Card Game</title>
-    <link rel="stylesheet" href="Estilos.css">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D4SLXYQXTE"></script>
+    <title>One Piece Card Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-60DRDQS1FZ"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
-        gtag('config', 'G-D4SLXYQXTE');
+        gtag('config', 'G-60DRDQS1FZ');
     </script>
 </head>
 <!--Encabezado-->
@@ -19,7 +17,7 @@
     <header>
         <div class="contenedor">
             <div class = "logo">
-                <img src="Imagenes/Pagina/One-Piece-Card-Game-Logo-Dark.png" alt="logo One Piece">
+                <img src="icons/One-Piece-Card-Game-Logo-Dark.png" alt="logo One Piece">
             </div>
             <nav>
                 <ul>
@@ -36,20 +34,7 @@
         <!--pagina de inicio-->
         <section id="inicio" class="seccion">
             <div id="inicio-bienvenida">
-                <h1>Bienvenidos a One Piece TCG en Español</h1>
-                <p>Pagina del juego de Carta de One Piece, donde se muestran 
-                    todas las cartas traducidas al español y próximamente 
-                    con su version en español e ingles.
-                </p>
-                <p>También podrás guardar tus cartas favoritas en la sección
-                    de Favoritos.
-                </p>
-            </div>
-            <div id="explicacion-cartas">
-                <h1>Como entender la cartas </h1>
-            </div>
-            <div id="explcacion-juego">
-                <h1>Como se juega el TCG de One Piece</h1>
+                <h1> One Piece TCG</h1>
             </div>
         </section>
         <!--Pagina de las cartas-->
@@ -60,7 +45,7 @@
                 <input type="text" id="buscador" placeholder="Buscar carta...">
                 <!-- Botón de filtro con tu imagen -->
                 <button id="btn-filtros" class="btn-filtros" title="Filtros">
-                    <img src="Imagenes/Pagina/FIltros.png" alt="Filtros">
+                    <img src="icons/Filtros.png" alt="Filtros">
                 </button>
             </div>
             <!--filtros-->
@@ -82,10 +67,8 @@
                             | <span id="rareza-carta"></span>
                             | <span id="tipo-carta"></span>
                         </div>
-                        
                         <span id="cerrar-modal" class="cerrar">&times;</span>
                     </div>
-
                     <!-- Contenido -->
                     <div class="modal-body">
                         <!-- Imagen -->
@@ -96,7 +79,9 @@
                         <div class="modal-info">
                             <div id="atributos-carta" class="atributos"></div>
                             <p id="descripcion-carta" class="descripcion"></p>
+                            <p id="trigger-carta" class="trigger"></p>
                         </div>
+                        <button id="btn-idioma">Español</button>
                     </div>
                     <span id="prev-carta" class="botones-modal" onclick="cambiarCartaDesdeModal(-1)", title="Anterior">◄</span>
                     <span id="next-carta" class="botones-modal" onclick="cambiarCartaDesdeModal(1)", title="Siguiente">►</span>
@@ -107,12 +92,11 @@
                 Sin resultados...
             </p>
             <div id="paginacion" class="paginacion"></div>
-            
         </section>
         <!--Pagina de cartas mazos-->
         <section id="creacion_mazos" class="seccion" style="display: none;">
             <h1>Mazos</h1>
-            <p>Aquí ira una seccion para crear mazos.</p>
+            <p>Sección para crear mazos.</p>
         </section>
         <!--Pagina de Artículos-->
         <section id="articulos" class="seccion" style="display: none;">
@@ -121,13 +105,7 @@
     </main>
     <!--Pie de pagina-->
     <footer>
-        <p>© 2025 - Creado por Sebax</p>
-        <p>Proyecto fan de One Piece TCG - No Oficial</p>
-        <div class = "redes">
-            <a href="">Instagram</a>
-            <a href="#">X</a>
-            <a href="">Correo</a>
-        </div>
+        <p>© 2025</p>
     </footer>
     <script src="script.js"></script>
 </body>  

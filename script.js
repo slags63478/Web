@@ -21,34 +21,23 @@ function renderizarCartas(lista) {
         // Nombre (arriba)
         const nombreDiv = document.createElement("div");
         nombreDiv.classList.add("carta-nombre");
-        nombreDiv.textContent = carta.nombre;
+        nombreDiv.textContent = carta.name;
 
-        // Subheader (id + precio)
-        const cartaInfo = document.createElement("div");
-        cartaInfo.classList.add("carta-subheader");
-
-        const cartaID = document.createElement("span");
+        const cartaID = document.createElement("div");
         cartaID.classList.add("carta-id");
         cartaID.textContent = limpiarID(carta.id);
 
-        const cartaPrecio = document.createElement("span");
-        cartaPrecio.classList.add("carta-precio");
-        cartaPrecio.textContent = carta.precio ? `$${carta.precio}` : "N/A";
-
-        cartaInfo.appendChild(cartaID);
-        cartaInfo.appendChild(cartaPrecio);
-
         headerCarta.appendChild(nombreDiv);
-        headerCarta.appendChild(cartaInfo);
-        colorHeader(carta.color,headerCarta);
+        headerCarta.appendChild(cartaID);
+        colorHeader(carta.color.es,headerCarta);
 
         // === BODY ===
         const cartaBody = document.createElement("div");
         cartaBody.classList.add("carta-body");
 
         const img = document.createElement("img");
-        img.src = carta.imagen;
-        img.alt = carta.nombre;
+        img.src = carta.image;
+        img.alt = carta.name;
 
         const indiceReal = (paginaActual - 1) * cartasPorPagina + index;
         img.addEventListener("click", () => {
@@ -65,37 +54,69 @@ function renderizarCartas(lista) {
         contenedor.appendChild(cartaHTML);
     });
 }
-// función para mostrar una carta en el modal
+// Función que actualiza todo el contenido del modal según el idiomaActual
+function actualizarTextoModal() {
+    if (!cartaModal) return;
+
+    // Header principal: ID | Rareza | Personaje
+    const infoHeader = document.getElementById("Info");
+    infoHeader.innerHTML = `${limpiarID(cartaModal.id)} | ${cambiarRarezaLetra(cartaModal.rarity[idiomaActual])} | ${cartaModal.type[idiomaActual]}`;
+
+    // Color header
+    const modalHeader = document.querySelector(".modal-header");
+    colorHeader(cartaModal.color.es, modalHeader);
+
+    // Atributos
+    const atributosDiv = document.getElementById("atributos-carta");
+    atributosDiv.innerHTML = "";
+
+    const atributos = [
+        { key: "name", label: { es: "", en: "" } },
+        { key: "rarity", label: { es: "Rareza", en: "Rarity" } },
+        { key: "life", label: { es: "Vidas", en: "Life" } },
+        { key: "cost", label: { es: "Costo", en: "Cost" } },
+        { key: "counter", label: { es: "Contraataque", en: "Counter" } },
+        { key: "power", label: { es: "Poder", en: "Power" } },
+        { key: "color", label: { es: "Color", en: "Color" } },
+        { key: "attribute", label: { es: "Atributo", en: "Attribute" } },
+        { key: "block_icon", label: { es: "Icono de bloque", en: "Block Icon" } },
+        { key: "alliance", label: { es: "Alianza", en: "Alliance" } },
+        { key: "effect", label: { es: "Efecto", en: "Effect" } },
+        { key: "description", label: { es: "", en: "" } },
+        { key: "trigger", label: { es: "Disparador", en: "Trigger" } },
+    ];
+
+    atributos.forEach(attr => {
+        let valor = cartaModal[attr.key];
+        let label = attr.label[idiomaActual];
+
+        // Si es objeto con traducciones, tomar el del idioma
+        if (typeof valor === "object" && valor !== null) {
+            valor = valor[idiomaActual] || "";
+        }
+        // Filtrar valores no válidos
+        if (valor === null || valor === undefined || valor === "") {
+            return;
+        }
+        // Caso especial atributo con icono
+        if (attr.key === "attribute") {
+            atributosDiv.innerHTML += `<div><b>${label}:</b> <img src="${cartaModal.image_attribute}" class="atributo-icono"> ${valor}</div>`;
+        } 
+        else {
+            atributosDiv.innerHTML += `<div><b>${label}${label ? ":" : ""}</b> ${valor}</div>`;
+        }
+    });
+}
+
+// Función para mostrar la carta en el modal
 function mostrarCarta(indice) {
     const carta = cartasVisibles[indice];
     if (!carta) return;
 
-    document.getElementById("imagen-carta").src = carta.imagen;
-    document.getElementById("sigla-carta").textContent = limpiarID(carta.id);
-    document.getElementById("rareza-carta").textContent = cambiarRarezaLetra(carta.rareza) || "Sin rareza";
-    document.getElementById("tipo-carta").textContent = carta.tipo || "Desconocido";
+    cartaModal = carta; // guardamos la carta actual
+    document.getElementById("imagen-carta").src = carta.image;
 
-    //color header
-    const modalHeader = document.querySelector(".modal-header");
-    colorHeader(carta.color, modalHeader);
-
-    //atributos
-    const atributosDiv = document.getElementById("atributos-carta");
-    atributosDiv.innerHTML = "";
-    if (carta.nombre) atributosDiv.innerHTML += `<div><b></b> ${carta.nombre}</div>`;
-    if (carta.rareza) atributosDiv.innerHTML += `<div><b>Rareza</b> ${carta.rareza}</div>`;
-    if (carta.vidas) atributosDiv.innerHTML += `<div><b>Vidas:</b> ${carta.vidas}</div>`;
-    if (carta.costo) atributosDiv.innerHTML += `<div><b>Costo:</b> ${carta.costo}</div>`;
-    if (carta.contraataque) atributosDiv.innerHTML += `<div><b>Contrataque:</b> ${carta.contraataque}</div>`;
-    if (carta.poder) atributosDiv.innerHTML += `<div><b>Poder:</b> ${carta.poder}</div>`;
-    if (carta.color) atributosDiv.innerHTML += `<div><b>Color:</b> ${carta.color}</div>`;
-    if (carta.atributo) atributosDiv.innerHTML += `<div><b>Atributo:</b> <img src="${carta.imagen_atributo}" alt="${carta.atributo}" class="atributo-icono"> ${carta.atributo}</div>`;
-    if (carta.alianza) atributosDiv.innerHTML += `<div><b>Alianza:</b> ${carta.alianza}</div>`;
-    if (carta.icono_bloque) atributosDiv.innerHTML += `<div><b>Icono de bloque:</b> ${carta.icono_bloque}</div>`;
-    if (carta.efecto) atributosDiv.innerHTML += `<div><b>Efecto:</b> ${carta.efecto}</div>`;
-
-    document.getElementById("descripcion-carta").textContent = carta.descripcion || "Sin descripción.";
-
+    actualizarTextoModal(); // inicializa el contenido del modal
     modal.style.display = "flex";
 }
 //Funcion limpiar id
@@ -122,12 +143,12 @@ function mostrarCartasPaginadas() {
     if (cartasPagina.length === 0) {
         msgSinResultado.style.display = "block";
         return;
-    } else {
+    } 
+    else {
         msgSinResultado.style.display = "none";
         renderizarCartas(cartasPagina);
         generarPaginacion();
     }
-    
 };
 
 //funcion de renderizar cartas paginadas
@@ -184,12 +205,12 @@ function generarPaginacion() {
 function generarOpcionesFiltros(cartas) {
     const propiedades = {
         color: "Color",
-        costo: "Costo",
-        atributo: "Atributo",
-        rareza: "Rareza",
-        tipo: "Tipo",
-        efecto: "Efecto",
-        alianza: "Alianza"
+        cost: "Costo",
+        attribute: "Atributo",
+        rarity: "Rareza",
+        type: "Tipo",
+        effect: "Efecto",
+        alliance: "Alianza"
     };
     const filtrosContainer = document.getElementById("filtros-container");
     filtrosContainer.innerHTML = "";
@@ -199,18 +220,24 @@ function generarOpcionesFiltros(cartas) {
 
         cartas.forEach(carta => {
             if (carta[prop]) {
-                if (typeof carta[prop] === "string" && carta[prop].includes("/")) {
-                    carta[prop].split("/").forEach(v => valores.add(v.trim()));
+                const valor = carta[prop];
+
+                if (typeof valor === "object" && valor !== null) {
+                    // Solo tomamos el valor en español y que no sea null ni vacío
+                    if (valor.es && valor.es !== "") {
+                        if (valor.es.includes("/")) {
+                            valor.es.split("/").forEach(v => valores.add(v.trim()));
+                        } 
+                        else {
+                            valores.add(valor.es.trim());
+                        }
+                    }
+                } 
+                else if (valor !== null && valor !== "" && valor !== 0) {
+                    valores.add(valor);
                 }
-                else if (Array.isArray(carta[prop])) {
-                    carta[prop].forEach(v => valores.add(v.trim()));
-                }
-                else {
-                    valores.add(carta[prop]);
-                };
             }
         });
-
         if (valores.size > 0) {
             // Crear contenedor del filtro
             const filtroDiv = document.createElement("div");
@@ -221,7 +248,7 @@ function generarOpcionesFiltros(cartas) {
             header.classList.add("filtro-header");
             header.textContent = propiedades[prop] + ": Todos ▼";
             header.dataset.value = "";
-            
+            header.dataset.prop = prop;
 
             // Lista de opciones
             const lista = document.createElement("ul");
@@ -281,7 +308,7 @@ function generarOpcionesFiltros(cartas) {
 function aplicarFiltros() {
     const filtros = {};
     document.querySelectorAll(".filtro-header").forEach(header => {
-        const prop = header.textContent.split(":")[0].trim().toLowerCase();
+        const prop = header.dataset.prop; 
         const val = header.dataset.value || "";
         filtros[prop] = val;
     });
@@ -289,7 +316,6 @@ function aplicarFiltros() {
     const buscador = inputBuscar.value.toLowerCase();
 
     cartasVisibles = cartasData.filter(carta => {
-        // primero pasamos por filtros
         const pasaFiltros = Object.keys(filtros).every(filtro => {
             if (filtros[filtro] === "") return true;
 
@@ -301,20 +327,27 @@ function aplicarFiltros() {
             else if (Array.isArray(valorCarta)) {
                 return valorCarta.map(v => v.trim()).includes(filtros[filtro]);
             } 
+            else if (typeof valorCarta === "object" && valorCarta !== null && valorCarta.es) {
+                const valorEs = valorCarta.es.trim().toLowerCase();
+                const filtroEs = filtros[filtro].trim().toLowerCase();
+
+                if (valorEs.includes("/")) {
+                    return valorEs.split("/").map(v => v.trim().toLowerCase()).includes(filtroEs);
+                }
+
+                return valorEs === filtroEs;
+            } 
             else {
                 return String(valorCarta) === filtros[filtro];
             }
         });
-
         if (!pasaFiltros) return false;
 
-        // luego pasamos por el buscador
         if (buscador === "") return true;
         return Object.values(carta).some(val =>
             String(val).toLowerCase().includes(buscador)
         );
     });
-
     paginaActual = 1;
     mostrarCartasPaginadas();
 }
@@ -373,7 +406,7 @@ function actualizarFiltrosActivos() {
 //funcion para cambiar rareza a solo letra
 function cambiarRarezaLetra(rareza) {
     const letras = rareza.split("");
-    if (letras[0] == "P") {
+    if (letras[0] == "P" || letras[0] == "U") {
         return "UC"
     }
     if (letras[1] == "ú") {
@@ -382,7 +415,6 @@ function cambiarRarezaLetra(rareza) {
     else {
         return letras[0]
     }
-    
 }
 
 // función para el color del header
@@ -413,15 +445,9 @@ function colorHeader(color,elemento) {
 
     // texto y bordes siempre en blanco
     elemento.style.color = "white";
-
     const nombreHeader = elemento.querySelector(".carta-nombre");
-    const subheader = elemento.querySelector(".carta-id");
-
     if (nombreHeader) {
         nombreHeader.style.borderBottom = `1px solid white`;
-    }
-    if (subheader) {
-        subheader.style.borderRight = `1px solid white`;
     }
 }
 //degradado de color
@@ -449,6 +475,7 @@ function mixWith(color1, color2, t) { // t 0..1
   const b = Math.round((c1 & 0xFF)*(1-t) + (c2 & 0xFF)*t);
   return "#" + (1<<24 | r<<16 | g<<8 | b).toString(16).slice(1).toUpperCase();
 }
+
 
 //VARIABLES//
 // 1. Seleccionamos el contenedor donde van las cartas
@@ -478,6 +505,10 @@ const filtrosActivos = document.getElementById("filtros-activos");
 const listaFiltros = document.getElementById("lista-filtros");
 const limpiarBtn = document.getElementById("limpiar-filtros");
 
+// valores para cambio idioma
+let idiomaActual = "es";
+let cartaModal = null;
+
 //colores del header
 const coloresCarta = {
   "rojo": "#d32f2f",
@@ -490,8 +521,8 @@ const coloresCarta = {
 
 
 // COMIENZO DEL CODIGO
-fetch("data/Cartas_OP01_ES.json")
-    .then(respuesta => respuesta.json()) // Convertimos a objeto JS
+fetch("public/data/cartas_OP01.json")
+    .then(respuesta => respuesta.json())
     .then(cartas => {
         cartasData = cartas;
         cartasVisibles = cartas;
@@ -512,6 +543,13 @@ modal.addEventListener("click", (e) => {
 // Cerrar modal con la cruz
 cerrarModal.addEventListener("click", () => {
     modal.style.display = "none";
+});
+
+// Cambiar idioma al presionar el botón
+document.getElementById("btn-idioma").addEventListener("click", () => {
+    idiomaActual = idiomaActual === "es" ? "en" : "es";
+    document.getElementById("btn-idioma").textContent = idiomaActual === "es" ? "Español" : "English";
+    actualizarTextoModal();
 });
 
 //buscador
