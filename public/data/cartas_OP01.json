@@ -88,8 +88,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-001_p1.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
+        "image": "public/imagenes/cartas/OP01/OP01-001_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
     },
     {
         "id": "OP01-002",
@@ -134,8 +134,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-002.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
+        "image": "public/imagenes/cartas/OP01/OP01-002.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
     },
     {
         "id": "OP01-002_p1",
@@ -180,8 +180,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-002_p1.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
+        "image": "public/imagenes/cartas/OP01/OP01-002_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
     },
     {
         "id": "OP01-003",
@@ -226,8 +226,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-003.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Strike.png"
+        "image": "public/imagenes/cartas/OP01/OP01-003.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
     },
     {
         "id": "OP01-003_p1",
@@ -272,8 +272,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-003_p1.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Strike.png"
+        "image": "public/imagenes/cartas/OP01/OP01-003_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
     },
     {
         "id": "OP01-004",
@@ -318,8 +318,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-004.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Ranged.png"
+        "image": "public/imagenes/cartas/OP01/OP01-004.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Ranged.png"
     },
     {
         "id": "OP01-005",
@@ -364,8 +364,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-005.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Special.png"
+        "image": "public/imagenes/cartas/OP01/OP01-005.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
     },
     {
         "id": "OP01-006",
@@ -410,8 +410,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-006.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Special.png"
+        "image": "public/imagenes/cartas/OP01/OP01-006.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
     },
     {
         "id": "OP01-007",
@@ -456,8 +456,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-007.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Special.png"
+        "image": "public/imagenes/cartas/OP01/OP01-007.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
     },
     {
         "id": "OP01-008",
@@ -502,8 +502,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-008.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
+        "image": "public/imagenes/cartas/OP01/OP01-008.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
     },
     {
         "id": "OP01-008_p1",
@@ -548,8 +548,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-008_p1.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
+        "image": "public/imagenes/cartas/OP01/OP01-008_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
     },
     {
         "id": "OP01-009",
@@ -594,8 +594,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-009.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Strike.png"
+        "image": "public/imagenes/cartas/OP01/OP01-009.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
     },
     {
         "id": "OP01-010",
@@ -640,8 +640,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-010.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Strike.png"
+        "image": "public/imagenes/cartas/OP01/OP01-010.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
     },
     {
         "id": "OP01-011",
@@ -686,8 +686,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-011.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Wisdom.png"
+        "image": "public/imagenes/cartas/OP01/OP01-011.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Wisdom.png"
     },
     {
         "id": "OP01-012",
@@ -732,8 +732,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-012.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
+        "image": "public/imagenes/cartas/OP01/OP01-012.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
     },
     {
         "id": "OP01-013",
@@ -778,8 +778,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-013.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Strike.png"
+        "image": "public/imagenes/cartas/OP01/OP01-013.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
     },
     {
         "id": "OP01-013_p1",
@@ -824,8 +824,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-013_p1.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Strike.png"
+        "image": "public/imagenes/cartas/OP01/OP01-013_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
     },
     {
         "id": "OP01-014",
@@ -870,8 +870,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-014.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Strike.png"
+        "image": "public/imagenes/cartas/OP01/OP01-014.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
     },
     {
         "id": "OP01-015",
@@ -916,8 +916,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-015.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Wisdom.png"
+        "image": "public/imagenes/cartas/OP01/OP01-015.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Wisdom.png"
     },
     {
         "id": "OP01-016",
@@ -962,8 +962,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-016.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Special.png"
+        "image": "public/imagenes/cartas/OP01/OP01-016.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
     },
     {
         "id": "OP01-016_p1",
@@ -1008,8 +1008,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-016_p1.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Special.png"
+        "image": "public/imagenes/cartas/OP01/OP01-016_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
     },
     {
         "id": "OP01-017",
@@ -1054,8 +1054,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-017.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Strike.png"
+        "image": "public/imagenes/cartas/OP01/OP01-017.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
     },
     {
         "id": "OP01-018",
@@ -1100,8 +1100,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-018.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Strike.png"
+        "image": "public/imagenes/cartas/OP01/OP01-018.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
     },
     {
         "id": "OP01-019",
@@ -1146,8 +1146,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-019.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Special.png"
+        "image": "public/imagenes/cartas/OP01/OP01-019.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
     },
     {
         "id": "OP01-020",
@@ -1192,8 +1192,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-020.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Strike.png"
+        "image": "public/imagenes/cartas/OP01/OP01-020.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
     },
     {
         "id": "OP01-021",
@@ -1238,8 +1238,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-021.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Ranged.png"
+        "image": "public/imagenes/cartas/OP01/OP01-021.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Ranged.png"
     },
     {
         "id": "OP01-022",
@@ -1284,8 +1284,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-022.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
+        "image": "public/imagenes/cartas/OP01/OP01-022.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
     },
     {
         "id": "OP01-023",
@@ -1330,8 +1330,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-023.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Special.png"
+        "image": "public/imagenes/cartas/OP01/OP01-023.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
     },
     {
         "id": "OP01-024",
@@ -1376,8 +1376,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-024.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Strike.png"
+        "image": "public/imagenes/cartas/OP01/OP01-024.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
     },
     {
         "id": "OP01-024_p1",
@@ -1422,8 +1422,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-024_p1.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Strike.png"
+        "image": "public/imagenes/cartas/OP01/OP01-024_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
     },
     {
         "id": "OP01-025",
@@ -1468,8 +1468,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-025.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
+        "image": "public/imagenes/cartas/OP01/OP01-025.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
     },
     {
         "id": "OP01-025_p1",
@@ -1514,8 +1514,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-025_p1.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
+        "image": "public/imagenes/cartas/OP01/OP01-025_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
     },
     {
         "id": "OP01-026",
@@ -1560,7 +1560,7 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-026.png",
+        "image": "public/imagenes/cartas/OP01/OP01-026.png",
         "image_attribute": null
     },
     {
@@ -1606,7 +1606,7 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-027.png",
+        "image": "public/imagenes/cartas/OP01/OP01-027.png",
         "image_attribute": null
     },
     {
@@ -1652,7 +1652,7 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-028.png",
+        "image": "public/imagenes/cartas/OP01/OP01-028.png",
         "image_attribute": null
     },
     {
@@ -1698,7 +1698,7 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-029.png",
+        "image": "public/imagenes/cartas/OP01/OP01-029.png",
         "image_attribute": null
     },
     {
@@ -1744,7 +1744,7 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-030.png",
+        "image": "public/imagenes/cartas/OP01/OP01-030.png",
         "image_attribute": null
     },
     {
@@ -1790,8 +1790,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-031.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
+        "image": "public/imagenes/cartas/OP01/OP01-031.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
     },
     {
         "id": "OP01-031_p1",
@@ -1836,8 +1836,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-031_p1.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
+        "image": "public/imagenes/cartas/OP01/OP01-031_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
     },
     {
         "id": "OP01-032",
@@ -1882,8 +1882,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-032.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
+        "image": "public/imagenes/cartas/OP01/OP01-032.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
     },
     {
         "id": "OP01-033",
@@ -1928,8 +1928,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-033.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Ranged.png"
+        "image": "public/imagenes/cartas/OP01/OP01-033.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Ranged.png"
     },
     {
         "id": "OP01-034",
@@ -1974,8 +1974,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-034.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
+        "image": "public/imagenes/cartas/OP01/OP01-034.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
     },
     {
         "id": "OP01-034_p1",
@@ -2020,8 +2020,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-034_p1.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
+        "image": "public/imagenes/cartas/OP01/OP01-034_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
     },
     {
         "id": "OP01-035",
@@ -2066,7 +2066,7 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "../public/imagenes/cartas/OP01/OP01-035.png",
-        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
+        "image": "public/imagenes/cartas/OP01/OP01-035.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
     }
 ]
