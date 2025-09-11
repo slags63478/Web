@@ -4,7 +4,7 @@
         "name":"Roronoa Zoro",
         "power": 5000,
         "life": 5,
-        "counter": "-",
+        "counter": null,
         "block_icon": 1,
         "rarity": {
             "es": "Líder",
@@ -42,15 +42,15 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "Imagenes/Cartas/OP01/OP01-001.png",
-        "image_attribute": "Imagenes/Logos_Atributo/Slash.png"
+        "image": "../public/imagenes/cartas/OP01/OP01-001.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
     },
     {
         "id": "OP01-001_p1",
         "name":"Roronoa Zoro",
         "power": 5000,
         "life": 5,
-        "counter": "-",
+        "counter": null,
         "block_icon": 1,
         "rarity": {
             "es": "Líder",
@@ -88,15 +88,15 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "Imagenes/Cartas/OP01/OP01-001_p1.png",
-        "image_attribute": "Imagenes/Logos_Atributo/Slash.png"
+        "image": "../public/imagenes/cartas/OP01/OP01-001_p1.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
     },
     {
         "id": "OP01-002",
         "name":"Trafalgar Law",
         "power": 5000,
         "life": 4,
-        "counter": "-",
+        "counter": null,
         "block_icon": 1,
         "rarity": {
             "es": "Líder",
@@ -134,15 +134,15 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "Imagenes/Cartas/OP01/OP01-002.png",
-        "image_attribute": "Imagenes/Logos_Atributo/Slash.png"
+        "image": "../public/imagenes/cartas/OP01/OP01-002.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
     },
     {
         "id": "OP01-002_p1",
         "name":"Trafalgar Law",
         "power": 5000,
         "life": 4,
-        "counter": "-",
+        "counter": null,
         "block_icon": 1,
         "rarity": {
             "es": "Líder",
@@ -180,15 +180,15 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "Imagenes/Cartas/OP01/OP01-002_p1.png",
-        "image_attribute": "Imagenes/Logos_Atributo/Slash.png"
+        "image": "../public/imagenes/cartas/OP01/OP01-002_p1.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
     },
     {
         "id": "OP01-003",
         "name":"Monkey.D.Luffy",
         "power": 5000,
         "life": 4,
-        "counter": "-",
+        "counter": null,
         "block_icon": 1,
         "rarity": {
             "es": "Líder",
@@ -226,15 +226,15 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "Imagenes/Cartas/OP01/OP01-003.png",
-        "image_attribute": "Imagenes/Logos_Atributo/Strike.png"
+        "image": "../public/imagenes/cartas/OP01/OP01-003.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Strike.png"
     },
     {
         "id": "OP01-003_p1",
         "name":"Monkey.D.Luffy",
         "power": 5000,
         "life": 4,
-        "counter": "-",
+        "counter": null,
         "block_icon": 1,
         "rarity": {
             "es": "Líder",
@@ -272,8 +272,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "Imagenes/Cartas/OP01/OP01-003_p1.png",
-        "image_attribute": "Imagenes/Logos_Atributo/Strike.png"
+        "image": "../public/imagenes/cartas/OP01/OP01-003_p1.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Strike.png"
     },
     {
         "id": "OP01-004",
@@ -318,15 +318,15 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "Imagenes/Cartas/OP01/OP01-004.png",
-        "image_attribute": "Imagenes/Logos_Atributo/Ranged.png"
+        "image": "../public/imagenes/cartas/OP01/OP01-004.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Ranged.png"
     },
     {
         "id": "OP01-005",
         "name":"Uta",
         "power": 4000,
         "cost": 4,
-        "counter": "-",
+        "counter": null,
         "block_icon": 1,
         "rarity": {
             "es": "Raro",
@@ -364,8 +364,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "Imagenes/Cartas/OP01/OP01-005.png",
-        "image_attribute": "Imagenes/Logos_Atributo/Special.png"
+        "image": "../public/imagenes/cartas/OP01/OP01-005.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Special.png"
     },
     {
         "id": "OP01-006",
@@ -410,8 +410,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "Imagenes/Cartas/OP01/OP01-006.png",
-        "image_attribute": "Imagenes/Logos_Atributo/Special.png"
+        "image": "../public/imagenes/cartas/OP01/OP01-006.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Special.png"
     },
     {
         "id": "OP01-007",
@@ -456,15 +456,15 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "Imagenes/Cartas/OP01/OP01-007.png",
-        "image_attribute": "Imagenes/Logos_Atributo/Special.png"
+        "image": "../public/imagenes/cartas/OP01/OP01-007.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Special.png"
     },
     {
         "id": "OP01-008",
         "name":"Cavendish",
         "power": 5000,
         "cost": 4,
-        "counter": "-",
+        "counter": null,
         "block_icon": 1,
         "rarity": {
             "es": "Común",
@@ -502,15 +502,15 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "Imagenes/Cartas/OP01/OP01-008.png",
-        "image_attribute": "Imagenes/Logos_Atributo/Slash.png"
+        "image": "../public/imagenes/cartas/OP01/OP01-008.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
     },
     {
         "id": "OP01-008_p1",
         "name":"Cavendish",
         "power": 5000,
         "cost": 4,
-        "counter": "-",
+        "counter": null,
         "block_icon": 1,
         "rarity": {
             "es": "Común",
@@ -548,8 +548,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "Imagenes/Cartas/OP01/OP01-008_p1.png",
-        "image_attribute": "Imagenes/Logos_Atributo/Slash.png"
+        "image": "../public/imagenes/cartas/OP01/OP01-008_p1.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
     },
     {
         "id": "OP01-009",
@@ -594,8 +594,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "Imagenes/Cartas/OP01/OP01-009.png",
-        "image_attribute": "Imagenes/Logos_Atributo/Strike.png"
+        "image": "../public/imagenes/cartas/OP01/OP01-009.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Strike.png"
     },
     {
         "id": "OP01-010",
@@ -640,8 +640,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "Imagenes/Cartas/OP01/OP01-010.png",
-        "image_attribute": "Imagenes/Logos_Atributo/Strike.png"
+        "image": "../public/imagenes/cartas/OP01/OP01-010.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Strike.png"
     },
     {
         "id": "OP01-011",
@@ -686,8 +686,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "Imagenes/Cartas/OP01/OP01-011.png",
-        "image_attribute": "Imagenes/Logos_Atributo/Wisdom.png"
+        "image": "../public/imagenes/cartas/OP01/OP01-011.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Wisdom.png"
     },
     {
         "id": "OP01-012",
@@ -732,8 +732,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "Imagenes/Cartas/OP01/OP01-012.png",
-        "image_attribute": "Imagenes/Logos_Atributo/Slash.png"
+        "image": "../public/imagenes/cartas/OP01/OP01-012.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
     },
     {
         "id": "OP01-013",
@@ -778,8 +778,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "Imagenes/Cartas/OP01/OP01-013.png",
-        "image_attribute": "Imagenes/Logos_Atributo/Strike.png"
+        "image": "../public/imagenes/cartas/OP01/OP01-013.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Strike.png"
     },
     {
         "id": "OP01-013_p1",
@@ -824,15 +824,15 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "Imagenes/Cartas/OP01/OP01-013_p1.png",
-        "image_attribute": "Imagenes/Logos_Atributo/Strike.png"
+        "image": "../public/imagenes/cartas/OP01/OP01-013_p1.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Strike.png"
     },
     {
         "id": "OP01-014",
         "name":"Jinbe",
         "power": 5000,
         "cost": 4,
-        "counter": "-",
+        "counter": null,
         "block_icon": 1,
         "rarity": {
             "es": "Poco Común",
@@ -870,8 +870,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "Imagenes/Cartas/OP01/OP01-014.png",
-        "image_attribute": "Imagenes/Logos_Atributo/Strike.png"
+        "image": "../public/imagenes/cartas/OP01/OP01-014.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Strike.png"
     },
     {
         "id": "OP01-015",
@@ -916,8 +916,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "Imagenes/Cartas/OP01/OP01-015.png",
-        "image_attribute": "Imagenes/Logos_Atributo/Wisdom.png"
+        "image": "../public/imagenes/cartas/OP01/OP01-015.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Wisdom.png"
     },
     {
         "id": "OP01-016",
@@ -962,8 +962,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "Imagenes/Cartas/OP01/OP01-016.png",
-        "image_attribute": "Imagenes/Logos_Atributo/Special.png"
+        "image": "../public/imagenes/cartas/OP01/OP01-016.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Special.png"
     },
     {
         "id": "OP01-016_p1",
@@ -1008,8 +1008,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "Imagenes/Cartas/OP01/OP01-016_p1.png",
-        "image_attribute": "Imagenes/Logos_Atributo/Special.png"
+        "image": "../public/imagenes/cartas/OP01/OP01-016_p1.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Special.png"
     },
     {
         "id": "OP01-017",
@@ -1054,8 +1054,8 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "Imagenes/Cartas/OP01/OP01-017.png",
-        "image_attribute": "Imagenes/Logos_Atributo/Strike.png"
+        "image": "../public/imagenes/cartas/OP01/OP01-017.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Strike.png"
     },
     {
         "id": "OP01-018",
@@ -1100,7 +1100,743 @@
             "es": "Amanecer Romántico- [OP01]",
             "en": "ROMANCE DAWN- [OP01]"
         },
-        "image": "Imagenes/Cartas/OP01/OP01-018.png",
-        "image_attribute": "Imagenes/Logos_Atributo/Strike.png"
+        "image": "../public/imagenes/cartas/OP01/OP01-018.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-019",
+        "name":"Bartolomeo",
+        "power": 2000,
+        "cost": 2,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": "Bloqueador",
+            "en": "Blocker"
+        },
+        "alliance": {
+            "es": "Supernovas/Club Barto",
+            "en": "Supernovas/Barto Club"
+        },
+        "description": {
+            "es": "[Bloqueador] (Después de que tu oponente declare un ataque, puedes descansar esta carta para convertirla en el nuevo objetivo del ataque).[DON!! x2] [Turno del oponente] Este personaje gana +3000 de poder.",
+            "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x2] [Opponent's Turn] This Character gains +3000 power."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "../public/imagenes/cartas/OP01/OP01-019.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-020",
+        "name":"Hyogoro",
+        "power": 3000,
+        "cost": 2,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tierra de Wano",
+            "en": "Land of Wano"
+        },
+        "description": {
+            "es": "[Activar: Principal] Puedes descansar este personaje: hasta 1 de tus cartas de líder o personaje gana +2000 de poder durante este turno.",
+            "en": "[Activate: Main] You may rest this Character: Up to 1 of your Leader or Character cards gains +2000 power during this turn."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "../public/imagenes/cartas/OP01/OP01-020.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-021",
+        "name":"Franky",
+        "power": 4000,
+        "cost": 3,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Distancia",
+            "en": "Ranged"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tripulación del Sombrero de Paja",
+            "en": "Straw Hat Crew"
+        },
+        "description": {
+            "es": "[DON!! x1] Este personaje también puede atacar a los personajes activos de tu oponente.",
+            "en": "[DON!! x1] This Character can also attack your opponent's active Characters."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "../public/imagenes/cartas/OP01/OP01-021.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Ranged.png"
+    },
+    {
+        "id": "OP01-022",
+        "name":"Brook",
+        "power": 5000,
+        "cost": 4,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tripulación del Sombrero de Paja",
+            "en": "Straw Hat Crew"
+        },
+        "description": {
+            "es": "[DON!! x1] [Al atacar] Reduce hasta 2 de los personajes de tu oponente en 2000 puntos de poder durante este turno.",
+            "en": "[DON!! x1] [When Attacking] Give up to 2 of your opponent's Characters −2000 power during this turn."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "../public/imagenes/cartas/OP01/OP01-022.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-023",
+        "name":"Marco",
+        "power": 5000,
+        "cost": 3,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Antiguos Piratas de Barbablanca",
+            "en": "Former Whitebeard Pirates"
+        },
+        "description": {
+            "es": null,
+            "en": null
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "../public/imagenes/cartas/OP01/OP01-023.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-024",
+        "name":"Monkey.D.Luffy",
+        "power": 3000,
+        "cost": 2,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Súper raro",
+            "en": "Super rare"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Supernovas/Tripulación del Sombrero de Paja",
+            "en": "Supernovas/Straw Hat Crew"
+        },
+        "description": {
+            "es": "[DON!! x2] Este personaje no puede ser derrotado en combate por personajes con el atributo ＜Golpe＞. [Activar: Principal] [Una vez por turno] Dale a este personaje hasta 2 cartas DON!! descansadas.",
+            "en": "[DON!! x2] This Character cannot be K.O.'d in battle by ＜Strike＞ attribute Characters. [Activate: Main] [Once Per Turn] Give this Character up to 2 rested DON!! cards."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "../public/imagenes/cartas/OP01/OP01-024.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-024_p1",
+        "name":"Monkey.D.Luffy",
+        "power": 3000,
+        "cost": 2,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Súper raro",
+            "en": "Super rare"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Supernovas/Tripulación del Sombrero de Paja",
+            "en": "Supernovas/Straw Hat Crew"
+        },
+        "description": {
+            "es": "[DON!! x2] Este personaje no puede ser derrotado en combate por personajes con el atributo ＜Golpe＞. [Activar: Principal] [Una vez por turno] Dale a este personaje hasta 2 cartas DON!! descansadas.",
+            "en": "[DON!! x2] This Character cannot be K.O.'d in battle by ＜Strike＞ attribute Characters. [Activate: Main] [Once Per Turn] Give this Character up to 2 rested DON!! cards."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "../public/imagenes/cartas/OP01/OP01-024_p1.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-025",
+        "name":"Roronoa Zoro",
+        "power": 5000,
+        "cost": 3,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Súper raro",
+            "en": "Super rare"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": "Ataque rápido",
+            "en": "Rush"
+        },
+        "alliance": {
+            "es": "Supernovas/Tripulación del Sombrero de Paja",
+            "en": "Supernovas/Straw Hat Crew"
+        },
+        "description": {
+            "es": "[Ataque rápido] (Esta carta puede atacar en el turno en el que se juega).",
+            "en": "[Rush] (This card can attack on the turn in which it is played.)"
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "../public/imagenes/cartas/OP01/OP01-025.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-025_p1",
+        "name":"Roronoa Zoro",
+        "power": 5000,
+        "cost": 3,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Súper raro",
+            "en": "Super rare"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": "Ataque rápido",
+            "en": "Rush"
+        },
+        "alliance": {
+            "es": "Supernovas/Tripulación del Sombrero de Paja",
+            "en": "Supernovas/Straw Hat Crew"
+        },
+        "description": {
+            "es": "[Ataque rápido] (Esta carta puede atacar en el turno en el que se juega).",
+            "en": "[Rush] (This card can attack on the turn in which it is played.)"
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "../public/imagenes/cartas/OP01/OP01-025_p1.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-026",
+        "name":"Gum-Gum Fire-Fist Pistol Red Hawk",
+        "power": null,
+        "cost": 2,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Evento",
+            "en": "Event"
+        },
+        "attribute": {
+            "es": null,
+            "en": null
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Supernovas/Tripulación del Sombrero de Paja",
+            "en": "Supernovas/Straw Hat Crew"
+        },
+        "description": {
+            "es": "[Contraataque] Hasta 1 de tus cartas de Líder o Personaje gana +4000 de poder durante esta batalla. A continuación, deja fuera de combate hasta 1 de los Personajes de tu oponente con 4000 de poder o menos.",
+            "en": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, K.O. up to 1 of your opponent's Characters with 4000 power or less."
+        },
+        "trigger": {
+            "es": "[Disparador] Reduce en 10 000 el poder de una de las cartas de líder o personaje de tu oponente durante este turno.",
+            "en": "[Trigger] Give up to 1 of your opponent's Leader or Character cards −10000 power during this turn."
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "../public/imagenes/cartas/OP01/OP01-026.png",
+        "image_attribute": null
+    },
+    {
+        "id": "OP01-027",
+        "name":"Round Table",
+        "power": null,
+        "cost": 4,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Evento",
+            "en": "Event"
+        },
+        "attribute": {
+            "es": null,
+            "en": null
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Supernovas/Tripulación del Sombrero de Paja",
+            "en": "Supernovas/Straw Hat Crew"
+        },
+        "description": {
+            "es": "[Principal] Reduce en 10 000 el poder de uno de los personajes de tu oponente durante este turno.",
+            "en": "[Main] Give up to 1 of your opponent's Characters −10000 power during this turn."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "../public/imagenes/cartas/OP01/OP01-027.png",
+        "image_attribute": null
+    },
+    {
+        "id": "OP01-028",
+        "name":"Green Star Rafflesia",
+        "power": null,
+        "cost": 1,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Evento",
+            "en": "Event"
+        },
+        "attribute": {
+            "es": null,
+            "en": null
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tripulación del Sombrero de Paja",
+            "en": "Straw Hat Crew"
+        },
+        "description": {
+            "es": "[Contrataque] Reduce en 2000 el poder de hasta 1 carta de líder o personaje de tu oponente durante este turno.",
+            "en": "[Counter] Give up to 1 of your opponent's Leader or Character cards −2000 power during this turn."
+        },
+        "trigger": {
+            "es": "[Disparador] Activa el efecto [Contrataque] de esta carta.",
+            "en": "[Trigger] Activate this card's [Counter] effect."
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "../public/imagenes/cartas/OP01/OP01-028.png",
+        "image_attribute": null
+    },
+    {
+        "id": "OP01-029",
+        "name":"Radical Beam!!",
+        "power": null,
+        "cost": 1,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Evento",
+            "en": "Event"
+        },
+        "attribute": {
+            "es": null,
+            "en": null
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tripulación del Sombrero de Paja",
+            "en": "Straw Hat Crew"
+        },
+        "description": {
+            "es": "[Contrataque] Hasta 1 de tus cartas de Líder o Personaje gana +2000 de poder durante esta batalla. A continuación, si tienes 2 o menos cartas de Vida, esa carta gana +2000 de poder adicional.",
+            "en": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 2 or less Life cards, that card gains an additional +2000 power."
+        },
+        "trigger": {
+            "es": "[Disparador] Hasta 1 de tus cartas de líder o personaje gana +1000 de poder durante este turno.",
+            "en": "[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn."
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "../public/imagenes/cartas/OP01/OP01-029.png",
+        "image_attribute": null
+    },
+    {
+        "id": "OP01-030",
+        "name":"In Two Years!! At the Sabaody Archipelago!!",
+        "power": null,
+        "cost": 1,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Evento",
+            "en": "Event"
+        },
+        "attribute": {
+            "es": null,
+            "en": null
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tripulación del Sombrero de Paja",
+            "en": "Straw Hat Crew"
+        },
+        "description": {
+            "es": "[Principal] Mira las 5 primeras cartas de tu mazo; revela hasta 1 carta de Personaje del tipo {Tripulación del Sombrero de Paja} y añádela a tu mano. A continuación, coloca el resto en la parte inferior de tu mazo en cualquier orden.",
+            "en": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+        },
+        "trigger": {
+            "es": "[Disparador] Activa el efecto [Principal] de esta carta.",
+            "en": "[Trigger] Activate this card's [Main] effect."
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "../public/imagenes/cartas/OP01/OP01-030.png",
+        "image_attribute": null
+    },
+    {
+        "id": "OP01-031",
+        "name":"Kouzuki Oden",
+        "power": 5000,
+        "life": 5,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "color": {
+            "es": "Verde",
+            "en": "Green"
+        },
+        "type": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tierra de Wano/Clan Kouzuki",
+            "en": "Land of Wano/Kouzuki Clan"
+        },
+        "description": {
+            "es": "[Activar: Principal] [Una vez por turno] Puedes descartar 1 carta de tipo {Tierra de Wano} de tu mano: Prepara hasta 2 de tus cartas DON!! como activas.",
+            "en": "[Activate: Main] [Once Per Turn] You can trash 1 {Land of Wano} type card from your hand: Set up to 2 of your DON!! cards as active."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "../public/imagenes/cartas/OP01/OP01-031.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-031_p1",
+        "name":"Kouzuki Oden",
+        "power": 5000,
+        "life": 5,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "color": {
+            "es": "Verde",
+            "en": "Green"
+        },
+        "type": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tierra de Wano/Clan Kouzuki",
+            "en": "Land of Wano/Kouzuki Clan"
+        },
+        "description": {
+            "es": "[Activar: Principal] [Una vez por turno] Puedes descartar 1 carta de tipo {Tierra de Wano} de tu mano: Prepara hasta 2 de tus cartas DON!! como activas.",
+            "en": "[Activate: Main] [Once Per Turn] You can trash 1 {Land of Wano} type card from your hand: Set up to 2 of your DON!! cards as active."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "../public/imagenes/cartas/OP01/OP01-031_p1.png",
+        "image_attribute": "../public/imagenes/Logos_Atributo/Slash.png"
     }
 ]

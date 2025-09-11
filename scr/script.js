@@ -521,7 +521,7 @@ const coloresCarta = {
 
 
 // COMIENZO DEL CODIGO
-fetch("data/cartas_OP01.json")
+fetch("../public/data/cartas_OP01.json") // 1. Ruta al archivo JSON
     .then(respuesta => respuesta.json()) // Convertimos a objeto JS
     .then(cartas => {
         cartasData = cartas;
