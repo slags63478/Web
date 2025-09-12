@@ -2068,5 +2068,51 @@
         },
         "image": "public/imagenes/cartas/OP01/OP01-035.png",
         "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-035",
+        "name":"Okiku",
+        "power": 5000,
+        "cost": 3,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Verde",
+            "en": "Green"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tierra de Wano/Los Nueve Akazaya",
+            "en": "Land of Wano/The Akazaya Nine"
+        },
+        "description": {
+            "es": "[DON!! x1] [Al atacar] [Una vez por turno] Descansa hasta 1 de los Personajes de tu oponente con un coste de 5 o menos.",
+            "en": "[DON!! x1] [When Attacking] [Once Per Turn] Rest up to 1 of your opponent's Characters with a cost of 5 or less."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-035.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
     }
 ]
