@@ -2804,5 +2804,603 @@
         },
         "image": "public/imagenes/cartas/OP01/OP01-048_p1.png",
         "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-049",
+        "name":"Bepo",
+        "power": 4000,
+        "cost":4,
+        "counter": 2000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Verde",
+            "en": "Green"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Minks/Piratas del Corazón",
+            "en": "Minks/Heart Pirates"
+        },
+        "description": {
+            "es": "[DON!! x1] [Al atacar] Juega hasta 1 carta de Personaje de tipo {Piratas del Corazón} que no sea [Bepo] con un coste de 4 o menos de tu mano.",
+            "en": "[DON!! x1] [When Attacking] Play up to 1 {Heart Pirates} type Character card other than [Bepo] with a cost of 4 or less from your hand."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-049.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-050",
+        "name":"Penguin",
+        "power": 2000,
+        "cost":3,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Verde",
+            "en": "Green"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": "Bloqueador",
+            "en": "Blocker"
+        },
+        "alliance": {
+            "es": "Piratas del Corazón",
+            "en": "Heart Pirates"
+        },
+        "description": {
+            "es": "[Bloqueador] (Después de que tu oponente declare un ataque, puedes descansar esta carta para convertirla en el nuevo objetivo del ataque). [Al jugar] Si no tienes [Shachi], juega hasta 1 [Shachi] de tu mano.",
+            "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If you don't have [Shachi], play up to 1 [Shachi] from your hand."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-050.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-051",
+        "name":"Eustass\"Captain\"Kid",
+        "power": 8000,
+        "cost":8,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Súper raro",
+            "en": "Super Rare"
+        },
+        "color": {
+            "es": "Verde",
+            "en": "Green"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Supernovas/Piratas Kid",
+            "en": "Supernovas/Kid Pirates"
+        },
+        "description": {
+            "es": "[DON!! x1] [Turno del oponente] Si este Personaje está descansado, tu oponente no puede atacar a ninguna carta que no sea el personaje [Eustass \"Captain\" Kid]. [Activar: Principal] [Una vez por turno] Puedes descansar este personaje: juega hasta 1 carta de Personaje con un coste de 3 o menos de tu mano.",
+            "en": "[DON!! x1] [Opponent's Turn] If this Character is rested, your opponent cannot attack any card other than the Character [Eustass \"Captain\" Kid]. [Activate: Main] [Once Per Turn] You may rest this Character: Play up to 1 Character card with a cost of 3 or less from your hand."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-051.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-051_p1",
+        "name":"Eustass\"Captain\"Kid",
+        "power": 8000,
+        "cost":8,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Súper raro",
+            "en": "Super Rare"
+        },
+        "color": {
+            "es": "Verde",
+            "en": "Green"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Supernovas/Piratas Kid",
+            "en": "Supernovas/Kid Pirates"
+        },
+        "description": {
+            "es": "[DON!! x1] [Turno del oponente] Si este Personaje está descansado, tu oponente no puede atacar a ninguna carta que no sea el personaje [Eustass \"Captain\" Kid]. [Activar: Principal] [Una vez por turno] Puedes descansar este personaje: juega hasta 1 carta de Personaje con un coste de 3 o menos de tu mano.",
+            "en": "[DON!! x1] [Opponent's Turn] If this Character is rested, your opponent cannot attack any card other than the Character [Eustass \"Captain\" Kid]. [Activate: Main] [Once Per Turn] You may rest this Character: Play up to 1 Character card with a cost of 3 or less from your hand."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-051_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-052",
+        "name":"Raizo",
+        "power": 4000,
+        "cost":3,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Verde",
+            "en": "Green"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tierra de Wano/Los Nueve Akazaya",
+            "en": "Land of Wano/The Akazaya Nine"
+        },
+        "description": {
+            "es": "[Al atacar] [Una vez por turno] Si tienes 2 o más Personajes descansados, roba 1 carta.",
+            "en": "[When Attacking] [Once Per Turn] If you have 2 or more rested Characters, draw 1 card."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-052.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-053",
+        "name":"Wire",
+        "power": 4000,
+        "cost":2,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Verde",
+            "en": "Green"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas Kid",
+            "en": "Kid Pirates"
+        },
+        "description": {
+            "es": null,
+            "en": null
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-053.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-054",
+        "name":"X.Drake",
+        "power": 6000,
+        "cost":5,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Verde",
+            "en": "Green"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Supernovas/Armada/Piratas de Drake",
+            "en": "Supernovas/Navy/Drake Pirates"
+        },
+        "description": {
+            "es": "[En juego] Noquea hasta 1 de los Personajes descansados de tu oponente con un coste de 4 o menos.",
+            "en": "[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-054.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-055",
+        "name":"You Can Be My Samurai!!",
+        "power": null,
+        "cost":1,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Verde",
+            "en": "Green"
+        },
+        "type": {
+            "es": "Evento",
+            "en": "Event"
+        },
+        "attribute": {
+            "es": null,
+            "en": null
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tierra de Wano/Clan Kouzuki",
+            "en": "Land of Wano/Kouzuki Clan"
+        },
+        "description": {
+            "es": "[Principal] Puedes descansar a 2 de tus Personajes: roba 2 cartas.",
+            "en": "[Main] You may rest 2 of your Characters: Draw 2 cards."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-055.png",
+        "image_attribute": null
+    },
+    {
+        "id": "OP01-056",
+        "name":"Demon Face",
+        "power": null,
+        "cost":6,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Verde",
+            "en": "Green"
+        },
+        "type": {
+            "es": "Evento",
+            "en": "Event"
+        },
+        "attribute": {
+            "es": null,
+            "en": null
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Supernovas/Piratas de Hawkins",
+            "en": "Supernovas/Hawkins Pirates"
+        },
+        "description": {
+            "es": "[Principal] Noquea hasta 2 de los Personajes descansados de tu oponente con un coste de 5 o menos.",
+            "en": "[Main] K.O. up to 2 of your opponent's rested Characters with a cost of 5 or less."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-056.png",
+        "image_attribute": null
+    },
+    {
+        "id": "OP01-057",
+        "name":"Paradise Waterfall",
+        "power": null,
+        "cost":1,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Verde",
+            "en": "Green"
+        },
+        "type": {
+            "es": "Evento",
+            "en": "Event"
+        },
+        "attribute": {
+            "es": null,
+            "en": null
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tierra de Wano/Clan Kouzuki",
+            "en": "Land of Wano/Kouzuki Clan"
+        },
+        "description": {
+            "es": "[Contrataque] Hasta 1 de tus cartas de Líder o Personaje gana +2000 de poder durante esta batalla. A continuación, establece hasta 1 de tus Personajes como activo.",
+            "en": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, set up to 1 of your Characters as active."
+        },
+        "trigger": {
+            "es": "[Disparador] Noquea hasta 1 de los Personajes descansados de tu oponente con un coste de 4 o menos.",
+            "en": "[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less."
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-057.png",
+        "image_attribute": null
+    },
+    {
+        "id": "OP01-058",
+        "name":"Punk Gibson",
+        "power": null,
+        "cost":2,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Verde",
+            "en": "Green"
+        },
+        "type": {
+            "es": "Evento",
+            "en": "Event"
+        },
+        "attribute": {
+            "es": null,
+            "en": null
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Supernovas/Piratas Kid",
+            "en": "Supernovas/Kid Pirates"
+        },
+        "description": {
+            "es": "[Contrataque] Hasta 1 de tus cartas de Líder o Personaje gana +4000 de poder durante esta batalla. A continuación, descansa hasta 1 de los Personajes de tu oponente con un coste de 4 o menos.",
+            "en": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, rest up to 1 of your opponent's Characters with a cost of 4 or less."
+        },
+        "trigger": {
+            "es": "[Disparador] Descansa hasta 1 de los Personajes de tu oponente.",
+            "en": "[Trigger] Rest up to 1 of your opponent's Characters."
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-058.png",
+        "image_attribute": null
+    },
+    {
+        "id": "OP01-059",
+        "name":"BE-BENG!!",
+        "power": null,
+        "cost":3,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Verde",
+            "en": "Green"
+        },
+        "type": {
+            "es": "Evento",
+            "en": "Event"
+        },
+        "attribute": {
+            "es": null,
+            "en": null
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tierra de Wano",
+            "en": "Land of Wano"
+        },
+        "description": {
+            "es": "[Principal] Puedes descartar 1 carta de tipo {Tierra de Wano} de tu mano: Prepara hasta 1 de tus cartas de Personaje de tipo {Tierra de Wano} con un coste de 3 o menos como activa.",
+            "en": "[Main] You may trash 1 {Land of Wano} type card from your hand: Set up to 1 of your {Land of Wano} type Character cards with a cost of 3 or less as active."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-059.png",
+        "image_attribute": null
+    },
+    {
+        "id": "OP01-060",
+        "name":"Donquixote Doflamingo",
+        "power": 5000,
+        "cost":null,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Los Siete Señores Reales de la Guerra del Mar/Piratas Donquixote",
+            "en": "The Seven Warlords of the Sea/Donquixote Pirates"
+        },
+        "description": {
+            "es": "[DON!! x2] [Al atacar] ➀ (Puedes descansar el número especificado de cartas DON!! en tu área de coste.): Revela 1 carta de la parte superior de tu mazo. Si esa carta es una carta de Personaje del tipo {Los Siete Señores Reales de la Guerra del Mar} con un coste de 4 o menos, puedes jugar esa carta descansada.",
+            "en": "[DON!! x2] [When Attacking] ➀ (You may rest the specified number of DON!! cards in your cost area.): Reveal 1 card from the top of your deck. If that card is a {The Seven Warlords of the Sea} type Character card with a cost of 4 or less, you may play that card rested."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-060.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
     }
 ]
