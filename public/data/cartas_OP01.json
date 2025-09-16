@@ -483,7 +483,7 @@
             "en": "Slash"
         },
         "effect": {
-            "es": "Ataque rápido",
+            "es": "Asalto",
             "en": "Rush"
         },
         "alliance": {
@@ -491,7 +491,7 @@
             "en": "Supernovas/beautiful Pirates"
         },
         "description": {
-            "es": "[En juego] Puedes añadir 1 carta de tu área de vida a tu mano: este personaje gana [Ataque rápido] durante este turno. (Esta carta puede atacar en el turno en el que se juega).",
+            "es": "[En juego] Puedes añadir 1 carta de tu área de vida a tu mano: este personaje gana [Asalto] durante este turno. (Esta carta puede atacar en el turno en el que se juega).",
             "en": "[On Play] You may add 1 card from your Life area to your hand: This Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)"
         },
         "trigger": {
@@ -529,7 +529,7 @@
             "en": "Slash"
         },
         "effect": {
-            "es": "Ataque rápido",
+            "es": "Asalto",
             "en": "Rush"
         },
         "alliance": {
@@ -537,7 +537,7 @@
             "en": "Supernovas/beautiful Pirates"
         },
         "description": {
-            "es": "[En juego] Puedes añadir 1 carta de tu área de vida a tu mano: este personaje gana [Ataque rápido] durante este turno. (Esta carta puede atacar en el turno en el que se juega).",
+            "es": "[En juego] Puedes añadir 1 carta de tu área de vida a tu mano: este personaje gana [Asalto] durante este turno. (Esta carta puede atacar en el turno en el que se juega).",
             "en": "[On Play] You may add 1 card from your Life area to your hand: This Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)"
         },
         "trigger": {
@@ -855,7 +855,7 @@
             "en": "Blocker"
         },
         "alliance": {
-            "es": "Hombre pez/Tripulación del Sombrero de Paja",
+            "es": "Hombre-Pez/Tripulación del Sombrero de Paja",
             "en": "Fish-Man/Straw Hat Crew"
         },
         "description": {
@@ -1085,7 +1085,7 @@
             "en": null
         },
         "alliance": {
-            "es": "Gigantes/Nuevos Piratas Gigantes",
+            "es": "Gigantes/Nuevos Piratas de Elbaf",
             "en": "Giant/New Giant Pirates"
         },
         "description": {
@@ -1449,7 +1449,7 @@
             "en": "Slash"
         },
         "effect": {
-            "es": "Ataque rápido",
+            "es": "Asalto",
             "en": "Rush"
         },
         "alliance": {
@@ -1457,7 +1457,7 @@
             "en": "Supernovas/Straw Hat Crew"
         },
         "description": {
-            "es": "[Ataque rápido] (Esta carta puede atacar en el turno en el que se juega).",
+            "es": "[Asalto] (Esta carta puede atacar en el turno en el que se juega).",
             "en": "[Rush] (This card can attack on the turn in which it is played.)"
         },
         "trigger": {
@@ -1495,7 +1495,7 @@
             "en": "Slash"
         },
         "effect": {
-            "es": "Ataque rápido",
+            "es": "Asalto",
             "en": "Rush"
         },
         "alliance": {
@@ -1503,7 +1503,7 @@
             "en": "Supernovas/Straw Hat Crew"
         },
         "description": {
-            "es": "[Ataque rápido] (Esta carta puede atacar en el turno en el que se juega).",
+            "es": "[Asalto] (Esta carta puede atacar en el turno en el que se juega).",
             "en": "[Rush] (This card can attack on the turn in which it is played.)"
         },
         "trigger": {
@@ -1867,7 +1867,7 @@
             "en": null
         },
         "alliance": {
-            "es": "Tierra de Wano/Los Nueve Akazaya",
+            "es": "Tierra de Wano/Nueve Vainas Rojas",
             "en": "Land of Wano/The Akazaya Nine"
         },
         "description": {
@@ -1913,7 +1913,7 @@
             "en": null
         },
         "alliance": {
-            "es": "Tierra de Wano/Antiguos piratas de Barbablanca",
+            "es": "Tierra de Wano/Antiguos Piratas de Barbablanca",
             "en": "Land of Wano/Former Whitebeard Pirates"
         },
         "description": {
@@ -1959,7 +1959,7 @@
             "en": null
         },
         "alliance": {
-            "es": "Tierra de Wano/Los Nueve Akazaya",
+            "es": "Tierra de Wano/Nueve Vainas Rojas",
             "en": "Land of Wano/The Akazaya Nine"
         },
         "description": {
@@ -2005,7 +2005,7 @@
             "en": null
         },
         "alliance": {
-            "es": "Tierra de Wano/Los Nueve Akazaya",
+            "es": "Tierra de Wano/Nueve Vainas Rojas",
             "en": "Land of Wano/The Akazaya Nine"
         },
         "description": {
@@ -2051,7 +2051,7 @@
             "en": null
         },
         "alliance": {
-            "es": "Tierra de Wano/Los Nueve Akazaya",
+            "es": "Tierra de Wano/Nueve Vainas Rojas",
             "en": "Land of Wano/The Akazaya Nine"
         },
         "description": {
@@ -2143,7 +2143,7 @@
             "en": null
         },
         "alliance": {
-            "es": "Hombre pez/Tierra de Wano/Los Nueve Akazaya",
+            "es": "Hombre-Pez/Tierra de Wano/Nueve Vainas Rojas",
             "en": "Fish-Man/Land of Wano/The Akazaya Nine"
         },
         "description": {
@@ -2189,7 +2189,7 @@
             "en": null
         },
         "alliance": {
-            "es": "Tierra de Wano/Los Nueve Akazaya",
+            "es": "Tierra de Wano/Nueve Vainas Rojas",
             "en": "Land of Wano/The Akazaya Nine"
         },
         "description": {
@@ -2281,11 +2281,11 @@
             "en": null
         },
         "alliance": {
-            "es": "Tierra de Wano/Los Nueve Akazaya",
+            "es": "Tierra de Wano/Nueve Vainas Rojas",
             "en": "Land of Wano/The Akazaya Nine"
         },
         "description": {
-            "es": "[Al jugar] Si tu líder es [Kouzuki Oden], juega hasta 1 carta de Personaje del tipo {Los Nueve Akazaya} con un coste de 3 o menos de tu mano. [DON!! x1] [Al atacar] [Una vez por turno] Activa hasta 1 de tus cartas de personaje del tipo {Los Nueve Akazaya} con un coste de 3 o menos.",
+            "es": "[Al jugar] Si tu líder es [Kouzuki Oden], juega hasta 1 carta de Personaje del tipo {Nueve Vainas Rojas} con un coste de 3 o menos de tu mano. [DON!! x1] [Al atacar] [Una vez por turno] Activa hasta 1 de tus cartas de personaje del tipo {Nueve Vainas Rojas} con un coste de 3 o menos.",
             "en": "[On Play] If your Leader is [Kouzuki Oden], play up to 1 {The Akazaya Nine} type Character card with a cost of 3 or less from your hand. [DON!! x1] [When Attacking] [Once Per Turn] Set up to 1 of your {The Akazaya Nine} type Character cards with a cost of 3 or less as active."
         },
         "trigger": {
@@ -2327,11 +2327,11 @@
             "en": null
         },
         "alliance": {
-            "es": "Tierra de Wano/Los Nueve Akazaya",
+            "es": "Tierra de Wano/Nueve Vainas Rojas",
             "en": "Land of Wano/The Akazaya Nine"
         },
         "description": {
-            "es": "[Al jugar] Si tu líder es [Kouzuki Oden], juega hasta 1 carta de Personaje del tipo {Los Nueve Akazaya} con un coste de 3 o menos de tu mano. [DON!! x1] [Al atacar] [Una vez por turno] Activa hasta 1 de tus cartas de personaje del tipo {Los Nueve Akazaya} con un coste de 3 o menos.",
+            "es": "[Al jugar] Si tu líder es [Kouzuki Oden], juega hasta 1 carta de Personaje del tipo {Nueve Vainas Rojas} con un coste de 3 o menos de tu mano. [DON!! x1] [Al atacar] [Una vez por turno] Activa hasta 1 de tus cartas de personaje del tipo {Nueve Vainas Rojas} con un coste de 3 o menos.",
             "en": "[On Play] If your Leader is [Kouzuki Oden], play up to 1 {The Akazaya Nine} type Character card with a cost of 3 or less from your hand. [DON!! x1] [When Attacking] [Once Per Turn] Set up to 1 of your {The Akazaya Nine} type Character cards with a cost of 3 or less as active."
         },
         "trigger": {
@@ -2603,7 +2603,7 @@
             "en": null
         },
         "alliance": {
-            "es": "Tierra de Wano/Los Nueve Akazaya",
+            "es": "Tierra de Wano/Nueve Vainas Rojas",
             "en": "Land of Wano/The Akazaya Nine"
         },
         "description": {
@@ -2741,7 +2741,7 @@
             "en": null
         },
         "alliance": {
-            "es": "Minks/Tierra de Wano/Los Nueve Akazaya",
+            "es": "Minks/Tierra de Wano/Nueve Vainas Rojas",
             "en": "Minks/Land of Wano/The Akazaya Nine"
         },
         "description": {
@@ -2787,7 +2787,7 @@
             "en": null
         },
         "alliance": {
-            "es": "Minks/Tierra de Wano/Los Nueve Akazaya",
+            "es": "Minks/Tierra de Wano/Nueve Vainas Rojas",
             "en": "Minks/Land of Wano/The Akazaya Nine"
         },
         "description": {
@@ -3017,7 +3017,7 @@
             "en": null
         },
         "alliance": {
-            "es": "Tierra de Wano/Los Nueve Akazaya",
+            "es": "Tierra de Wano/Nueve Vainas Rojas",
             "en": "Land of Wano/The Akazaya Nine"
         },
         "description": {
@@ -3109,7 +3109,7 @@
             "en": null
         },
         "alliance": {
-            "es": "Supernovas/Armada/Piratas de Drake",
+            "es": "Supernovas/La Marina/Piratas de Drake",
             "en": "Supernovas/Navy/Drake Pirates"
         },
         "description": {
@@ -3385,11 +3385,11 @@
             "en": null
         },
         "alliance": {
-            "es": "Los Siete Señores Reales de la Guerra del Mar/Piratas Donquixote",
+            "es": "Siete Guerreros del Mar/Piratas Donquixote",
             "en": "The Seven Warlords of the Sea/Donquixote Pirates"
         },
         "description": {
-            "es": "[DON!! x2] [Al atacar] ➀ (Puedes descansar el número especificado de cartas DON!! en tu área de coste.): Revela 1 carta de la parte superior de tu mazo. Si esa carta es una carta de Personaje del tipo {Los Siete Señores Reales de la Guerra del Mar} con un coste de 4 o menos, puedes jugar esa carta descansada.",
+            "es": "[DON!! x2] [Al atacar] ➀ (Puedes descansar el número especificado de cartas DON!! en tu área de coste.): Revela 1 carta de la parte superior de tu mazo. Si esa carta es una carta de Personaje del tipo {Siete Guerreros del Mar} con un coste de 4 o menos, puedes jugar esa carta descansada.",
             "en": "[DON!! x2] [When Attacking] ➀ (You may rest the specified number of DON!! cards in your cost area.): Reveal 1 card from the top of your deck. If that card is a {The Seven Warlords of the Sea} type Character card with a cost of 4 or less, you may play that card rested."
         },
         "trigger": {
@@ -3401,6 +3401,604 @@
             "en": "ROMANCE DAWN- [OP01]"
         },
         "image": "public/imagenes/cartas/OP01/OP01-060.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-060_p1",
+        "name":"Donquixote Doflamingo",
+        "power": 5000,
+        "cost":null,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Siete Guerreros del Mar/Piratas Donquixote",
+            "en": "The Seven Warlords of the Sea/Donquixote Pirates"
+        },
+        "description": {
+            "es": "[DON!! x2] [Al atacar] ➀ (Puedes descansar el número especificado de cartas DON!! en tu área de coste.): Revela 1 carta de la parte superior de tu mazo. Si esa carta es una carta de Personaje del tipo {Siete Guerreros del Mar} con un coste de 4 o menos, puedes jugar esa carta descansada.",
+            "en": "[DON!! x2] [When Attacking] ➀ (You may rest the specified number of DON!! cards in your cost area.): Reveal 1 card from the top of your deck. If that card is a {The Seven Warlords of the Sea} type Character card with a cost of 4 or less, you may play that card rested."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-060_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-061",
+        "name":"Kaido",
+        "power": 5000,
+        "cost":null,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "color": {
+            "es": "Azul/Morado",
+            "en": "Blue/Purple"
+        },
+        "type": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Cuatro Emperadores/Piratas del Reino Animal",
+            "en": "The Four Emperors/Animal Kingdom Pirates"
+        },
+        "description": {
+            "es": "[DON!! x1] [Tu turno] [Una vez por turno] Cuando el Personaje de tu oponente quede fuera de combate, añade hasta 1 carta DON!! de tu mazo DON!! y colócala como activa.",
+            "en": "[DON!! x1] [Your Turn] [Once Per Turn] When your opponent's Character is K.O.'d, add up to 1 DON!! card from your DON!! deck and set it as active."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-061.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-061_p1",
+        "name":"Kaido",
+        "power": 5000,
+        "cost":null,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "color": {
+            "es": "Azul/Morado",
+            "en": "Blue/Purple"
+        },
+        "type": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Cuatro Emperadores/Piratas del Reino Animal",
+            "en": "The Four Emperors/Animal Kingdom Pirates"
+        },
+        "description": {
+            "es": "[DON!! x1] [Tu turno] [Una vez por turno] Cuando el Personaje de tu oponente quede fuera de combate, añade hasta 1 carta DON!! de tu mazo DON!! y colócala como activa.",
+            "en": "[DON!! x1] [Your Turn] [Once Per Turn] When your opponent's Character is K.O.'d, add up to 1 DON!! card from your DON!! deck and set it as active."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-061_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-062",
+        "name":"Crocodile",
+        "power": 5000,
+        "cost":null,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "color": {
+            "es": "Azul/Morado",
+            "en": "Blue/Purple"
+        },
+        "type": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Siete Guerreros del Mar/Baroque Works",
+            "en": "The Seven Warlords of the Sea/Baroque Works"
+        },
+        "description": {
+            "es": "[DON!! x1] Cuando activas un Evento, puedes robar 1 carta si tienes 4 o menos cartas en tu mano y no has robado ninguna carta usando el efecto de este líder durante este turno.",
+            "en": "[DON!! x1] When you activate an Event, you may draw 1 card if you have 4 or less cards in your hand and haven't drawn a card using this Leader's effect during this turn."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-062.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-062_p1",
+        "name":"Crocodile",
+        "power": 5000,
+        "cost":null,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "color": {
+            "es": "Azul/Morado",
+            "en": "Blue/Purple"
+        },
+        "type": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Siete Guerreros del Mar/Baroque Works",
+            "en": "The Seven Warlords of the Sea/Baroque Works"
+        },
+        "description": {
+            "es": "[DON!! x1] Cuando activas un Evento, puedes robar 1 carta si tienes 4 o menos cartas en tu mano y no has robado ninguna carta usando el efecto de este líder durante este turno.",
+            "en": "[DON!! x1] When you activate an Event, you may draw 1 card if you have 4 or less cards in your hand and haven't drawn a card using this Leader's effect during this turn."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-062_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-063",
+        "name":"Arlong",
+        "power": 5000,
+        "cost":4,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Hombre-Pez/Piratas Arlong",
+            "en": "Fish-Man/Arlong Pirates"
+        },
+        "description": {
+            "es": "[DON!! x1] [Activar: Principal] Puedes descansar a este Personaje: elige 1 carta de la mano de tu oponente; tu oponente revela esa carta. Si la carta revelada es un evento, coloca hasta 1 carta del área de vida de tu oponente en la parte inferior del mazo de su propietario.",
+            "en": "[DON!! x1] [Activate: Main] You may rest this Character: Choose 1 card from your opponent's hand; your opponent reveals that card. If the revealed card is an Event, place up to 1 card from your opponent's Life area at the bottom of the owner's deck."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-063.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-064",
+        "name":"Alvida",
+        "power": 3000,
+        "cost":2,
+        "counter": 2000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas de Buggy",
+            "en": "Buggy Pirates"
+        },
+        "description": {
+            "es": "[DON!! x1] [Al atacar] Puedes descartar 1 carta de tu mano: devuelve hasta 1 de los Personajes de tu oponente con un coste de 3 o menos a la mano de su propietario.",
+            "en": "[DON!! x1] [When Attacking] You may trash 1 card from your hand: Return up to 1 of your opponent's Characters with a cost of 3 or less to the owner's hand."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-064.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-064_p1",
+        "name":"Alvida",
+        "power": 3000,
+        "cost":2,
+        "counter": 2000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas de Buggy",
+            "en": "Buggy Pirates"
+        },
+        "description": {
+            "es": "[DON!! x1] [Al atacar] Puedes descartar 1 carta de tu mano: devuelve hasta 1 de los Personajes de tu oponente con un coste de 3 o menos a la mano de su propietario.",
+            "en": "[DON!! x1] [When Attacking] You may trash 1 card from your hand: Return up to 1 of your opponent's Characters with a cost of 3 or less to the owner's hand."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-064_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-065",
+        "name":"Vergo",
+        "power": 7000,
+        "cost":5,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "La Marina/Piratas Donquixote/Punk Hazard",
+            "en": "Navy/Donquixote Pirates/Punk Hazard"
+        },
+        "description": {
+            "es": null,
+            "en": null
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-065.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-066",
+        "name":"Krieg",
+        "power": 6000,
+        "cost":4,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas de Krieg",
+            "en": "Krieg Pirates"
+        },
+        "description": {
+            "es": null,
+            "en": null
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-066.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-067",
+        "name":"Crocodile",
+        "power": 7000,
+        "cost":7,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Súper raro",
+            "en": "Super Rare"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": "Desterrar",
+            "en": "Banish"
+        },
+        "alliance": {
+            "es": "Siete Guerreros del Mar/Baroque Works",
+            "en": "The Seven Warlords of the Sea/Baroque Works"
+        },
+        "description": {
+            "es": "[Desterrar] (Cuando esta carta inflige daño, la carta objetivo se descarta sin activar su habilidad desencadenada). [DON!! x1] Reduce en 1 el coste de los Eventos azules que tengas en la mano.",
+            "en": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.) [DON!! x1] Give blue Events in your hand −1 cost."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-067.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-067_p1",
+        "name":"Crocodile",
+        "power": 7000,
+        "cost":7,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Súper raro",
+            "en": "Super Rare"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": "Desterrar",
+            "en": "Banish"
+        },
+        "alliance": {
+            "es": "Siete Guerreros del Mar/Baroque Works",
+            "en": "The Seven Warlords of the Sea/Baroque Works"
+        },
+        "description": {
+            "es": "[Desterrar] (Cuando esta carta inflige daño, la carta objetivo se descarta sin activar su habilidad desencadenada). [DON!! x1] Reduce en 1 el coste de los Eventos azules que tengas en la mano.",
+            "en": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.) [DON!! x1] Give blue Events in your hand −1 cost."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-067_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-068",
+        "name":"Gecko Moria",
+        "power": 5000,
+        "cost":4,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": "Doble Ataque",
+            "en": "Double Attack"
+        },
+        "alliance": {
+            "es": "Siete Guerreros del Mar/Piratas de Thriller Bark",
+            "en": "The Seven Warlords of the Sea/Thriller Bark Pirates"
+        },
+        "description": {
+            "es": "[Tu turno] Este Personaje obtiene [Doble Ataque] si tienes 5 o más cartas en tu mano (Esta carta inflige 2 puntos de daño).",
+            "en": "[Your Turn] This Character gains [Double Attack] if you have 5 or more cards in your hand. (This card deals 2 damage.)"
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-068.png",
         "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
     }
 ]

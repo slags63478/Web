@@ -2,16 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&family=Roboto:wght@400;700&display=swap');
 
-body, p, .modal-right {
-    font-family: 'Open sans', sans-serif;
-}
-h1, h2, h3 {
-  color: #E0FBFC;
-}
-
-p {
-  color: #A9D6E5;
-}
 
 
 /* Encabezado*/
@@ -77,11 +67,10 @@ body {
     padding: 0;
     padding-top: 90px;
     overflow-x: hidden;
-    color: #E0FBFC;
 }
 
 
-/* formato de pagina inicio, cartas y mazos*/
+/* formato de pagina inicio y cartas*/
 main {
     flex: 1;
 }
@@ -91,6 +80,121 @@ main {
     padding: 20px;
 }
 
+/*inicio*/
+/* Secciones principales */
+.project-intro, .caja-seccion {
+  max-width: 1350px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fcfcfc;
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Titulos escalonados */
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+h2 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #1a1a1a;
+}
+h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 12px;
+  color: #0e0e0e;
+}
+h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #444;
+}
+/* Subtítulos con emojis */
+.caja-seccion-item h4::before {
+  content: "📌 "; /* emoji por defecto */
+}
+/* Listas */
+ul, ol {
+  margin: 8px 0 12px 18px;
+  color: #0f0f0f;
+}
+li {
+  margin: 6px 0;
+}
+/* Énfasis */
+em {
+  font-style: italic;
+  color: #0e0e0e;
+}
+strong {
+  color: #222;
+}
+/* Keyword items */
+.keyword-item, .caja-seccion-item {
+  margin-bottom: 16px;
+  padding: 12px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+
+.keyword-item h4, .caja-seccion-item h4 {
+  margin: 0 0 6px 0;
+  font-size: 1.15rem;
+  color: #222;
+}
+
+.keyword-item p, .caja-seccion-item p {
+  margin: 4px 0;
+  line-height: 1.5;
+  color: #444;
+}
+
+/* Tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* Links */
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/*guía de traducción*/
+/*Palabras clave juego*/
+
+
+
+/*Cartas*/
 /*Buscador*/
 .buscador-contenedor {
   display: flex;
