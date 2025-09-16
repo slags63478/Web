@@ -22,6 +22,7 @@ function renderizarCartas(lista) {
         const nombreDiv = document.createElement("div");
         nombreDiv.classList.add("carta-nombre");
         nombreDiv.textContent = carta.name;
+        nombreDiv.title = carta.name; 
 
         const cartaID = document.createElement("div");
         cartaID.classList.add("carta-id");
