@@ -445,7 +445,7 @@
             "en": "Supernovas/Caribou Pirates"
         },
         "description": {
-            "es": "[Al noquear] Noquea hasta 1 de los Personajes de tu oponente con 4000 de poder o menos.",
+            "es": "[Al Noquear] Noquea hasta 1 de los Personajes de tu oponente con 4000 de poder o menos.",
             "en": "[On K.O.] K.O. up to 1 of your opponent's Characters with 4000 power or less."
         },
         "trigger": {
@@ -1341,7 +1341,7 @@
         "counter": 1000,
         "block_icon": 1,
         "rarity": {
-            "es": "Súper raro",
+            "es": "Super raro",
             "en": "Super rare"
         },
         "color": {
@@ -1387,7 +1387,7 @@
         "counter": 1000,
         "block_icon": 1,
         "rarity": {
-            "es": "Súper raro",
+            "es": "Super raro",
             "en": "Super rare"
         },
         "color": {
@@ -1433,7 +1433,7 @@
         "counter": null,
         "block_icon": 1,
         "rarity": {
-            "es": "Súper raro",
+            "es": "Super raro",
             "en": "Super rare"
         },
         "color": {
@@ -1479,7 +1479,7 @@
         "counter": null,
         "block_icon": 1,
         "rarity": {
-            "es": "Súper raro",
+            "es": "Super raro",
             "en": "Super rare"
         },
         "color": {
@@ -2193,7 +2193,7 @@
             "en": "Land of Wano/The Akazaya Nine"
         },
         "description": {
-            "es": "[DON!! x1] [Al atacar] Noquea hasta 1 de los personajes descansados de tu oponente con un coste de 2 o menos. [Al noquear] Tu oponente elige 1 carta de tu mano; desecha esa carta.",
+            "es": "[DON!! x1] [Al atacar] Noquea hasta 1 de los personajes descansados de tu oponente con un coste de 2 o menos. [Al Noquear] Tu oponente elige 1 carta de tu mano; desecha esa carta.",
             "en": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less. [On K.O.] Your opponent chooses 1 card from your hand; trash that card."
         },
         "trigger": {
@@ -2261,7 +2261,7 @@
         "counter": null,
         "block_icon": 1,
         "rarity": {
-            "es": "Súper raro",
+            "es": "Super raro",
             "en": "Super rare"
         },
         "color": {
@@ -2307,7 +2307,7 @@
         "counter": null,
         "block_icon": 1,
         "rarity": {
-            "es": "Súper raro",
+            "es": "Super raro",
             "en": "Super rare"
         },
         "color": {
@@ -2629,8 +2629,8 @@
         "counter": null,
         "block_icon": 1,
         "rarity": {
-            "es": "Súper raro",
-            "en": "Super Rare"
+            "es": "Super raro",
+            "en": "Super rare"
         },
         "color": {
             "es": "Verde",
@@ -2675,8 +2675,8 @@
         "counter": null,
         "block_icon": 1,
         "rarity": {
-            "es": "Súper raro",
-            "en": "Super Rare"
+            "es": "Super raro",
+            "en": "Super rare"
         },
         "color": {
             "es": "Verde",
@@ -2905,8 +2905,8 @@
         "counter": null,
         "block_icon": 1,
         "rarity": {
-            "es": "Súper raro",
-            "en": "Super Rare"
+            "es": "Super raro",
+            "en": "Super rare"
         },
         "color": {
             "es": "Verde",
@@ -2951,8 +2951,8 @@
         "counter": null,
         "block_icon": 1,
         "rarity": {
-            "es": "Súper raro",
-            "en": "Super Rare"
+            "es": "Super raro",
+            "en": "Super rare"
         },
         "color": {
             "es": "Verde",
@@ -3385,7 +3385,7 @@
             "en": null
         },
         "alliance": {
-            "es": "Siete Guerreros del Mar/Piratas Donquixote",
+            "es": "Siete Guerreros del Mar/Piratas de Donquixote",
             "en": "The Seven Warlords of the Sea/Donquixote Pirates"
         },
         "description": {
@@ -3431,7 +3431,7 @@
             "en": null
         },
         "alliance": {
-            "es": "Siete Guerreros del Mar/Piratas Donquixote",
+            "es": "Siete Guerreros del Mar/Piratas de Donquixote",
             "en": "The Seven Warlords of the Sea/Donquixote Pirates"
         },
         "description": {
@@ -3661,7 +3661,7 @@
             "en": null
         },
         "alliance": {
-            "es": "Hombre-Pez/Piratas Arlong",
+            "es": "Hombre-Pez/Piratas de Arlong",
             "en": "Fish-Man/Arlong Pirates"
         },
         "description": {
@@ -3799,7 +3799,7 @@
             "en": null
         },
         "alliance": {
-            "es": "La Marina/Piratas Donquixote/Punk Hazard",
+            "es": "La Marina/Piratas de Donquixote/Punk Hazard",
             "en": "Navy/Donquixote Pirates/Punk Hazard"
         },
         "description": {
@@ -3871,8 +3871,8 @@
         "counter": 1000,
         "block_icon": 1,
         "rarity": {
-            "es": "Súper raro",
-            "en": "Super Rare"
+            "es": "Super raro",
+            "en": "Super rare"
         },
         "color": {
             "es": "Azul",
@@ -3917,8 +3917,8 @@
         "counter": 1000,
         "block_icon": 1,
         "rarity": {
-            "es": "Súper raro",
-            "en": "Super Rare"
+            "es": "Super raro",
+            "en": "Super rare"
         },
         "color": {
             "es": "Azul",
@@ -4000,5 +4000,879 @@
         },
         "image": "public/imagenes/cartas/OP01/OP01-068.png",
         "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-069",
+        "name":"Caesar Clown",
+        "power": 5000,
+        "cost":4,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Científico/Punk Hazard",
+            "en": "Scientist/Punk Hazard"
+        },
+        "description": {
+            "es": "[Al Noquear] Juega hasta 1 [Smiley] de tu mazo y luego baraja tu mazo.",
+            "en": "[On K.O.] Play up to 1 [Smiley] from your deck, then shuffle your deck."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-069.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-070",
+        "name":"Dracule Mihawk",
+        "power": 9000,
+        "cost":9,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Super raro",
+            "en": "Super rare"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Siete Guerreros del Mar",
+            "en": "The Seven Warlords of the Sea"
+        },
+        "description": {
+            "es": "[En juego] Coloca hasta 1 Personaje con un coste de 7 o menos en la parte inferior del mazo del propietario.",
+            "en": "[On Play] Place up to 1 Character with a cost of 7 or less at the bottom of the owner's deck."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-070.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-070_p1",
+        "name":"Dracule Mihawk",
+        "power": 9000,
+        "cost":9,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Super raro",
+            "en": "Super rare"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Siete Guerreros del Mar",
+            "en": "The Seven Warlords of the Sea"
+        },
+        "description": {
+            "es": "[En juego] Coloca hasta 1 Personaje con un coste de 7 o menos en la parte inferior del mazo del propietario.",
+            "en": "[On Play] Place up to 1 Character with a cost of 7 or less at the bottom of the owner's deck."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-070_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-071",
+        "name":"Jinbe",
+        "power": 2000,
+        "cost":4,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Hombre-Pez/Tripulación del Sombrero de Paja",
+            "en": "Fish-Man/Straw Hat Crew"
+        },
+        "description": {
+            "es": "[En juego] Coloca hasta 1 Personaje con un coste de 3 o menos en la parte inferior del mazo del propietario.",
+            "en": "[On Play] Place up to 1 Character with a cost of 3 or less at the bottom of the owner's deck."
+        },
+        "trigger": {
+            "es": "[Disparador] Juega esta carta.",
+            "en": "[Trigger] Play this card."
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-071.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-072",
+        "name":"Smiley",
+        "power": 1000,
+        "cost":3,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Arma biológica/Punk Hazard",
+            "en": "Biological Weapon/Punk Hazard"
+        },
+        "description": {
+            "es": "[DON!! x1] [Tu turno] Este Personaje gana +1000 de poder por cada carta que tengas en la mano.",
+            "en": "[DON!! x1] [Your Turn] This Character gains +1000 power for every card in your hand."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-072.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-073",
+        "name":"Donquixote Doflamingo",
+        "power": 4000,
+        "cost":3,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": "Bloqueador",
+            "en": "Blocker"
+        },
+        "alliance": {
+            "es": "Siete Guerreros del Mar/Piratas de Donquixote",
+            "en": "The Seven Warlords of the Sea/Donquixote Pirates"
+        },
+        "description": {
+            "es": "[Bloqueador] (Después de que tu oponente declare un ataque, puedes descansar esta carta para convertirla en el nuevo objetivo del ataque). [Al jugar] Mira las 5 primeras cartas de tu mazo y colócalas en la parte superior o inferior del mazo en cualquier orden.",
+            "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-073.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-073_p1",
+        "name":"Donquixote Doflamingo",
+        "power": 4000,
+        "cost":3,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": "Bloqueador",
+            "en": "Blocker"
+        },
+        "alliance": {
+            "es": "Siete Guerreros del Mar/Piratas de Donquixote",
+            "en": "The Seven Warlords of the Sea/Donquixote Pirates"
+        },
+        "description": {
+            "es": "[Bloqueador] (Después de que tu oponente declare un ataque, puedes descansar esta carta para convertirla en el nuevo objetivo del ataque). [Al jugar] Mira las 5 primeras cartas de tu mazo y colócalas en la parte superior o inferior del mazo en cualquier orden.",
+            "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-073_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-074",
+        "name":"Bartholomew Kuma",
+        "power": 5000,
+        "cost":4,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": "Bloqueador",
+            "en": "Blocker"
+        },
+        "alliance": {
+            "es": "Siete Guerreros del Mar/Ejército Revolucionario",
+            "en": "The Seven Warlords of the Sea/Revolutionary Army"
+        },
+        "description": {
+            "es": "[Bloqueador] (Después de que tu oponente declare un ataque, puedes descansar esta carta para convertirla en el nuevo objetivo del ataque). [Al Noquear] Juega hasta 1 [Pacifista] con un coste de 4 o menos de tu mano.",
+            "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] Play up to 1 [Pacifista] with a cost of 4 or less from your hand."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-074.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-075",
+        "name":"Pacifista",
+        "power": 5000,
+        "cost":4,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": "Bloqueador",
+            "en": "Blocker"
+        },
+        "alliance": {
+            "es": "Arma biológica/La Marina",
+            "en": "Biological Weapon/Navy"
+        },
+        "description": {
+            "es": "Según las reglas de este juego, puedes tener cualquier número de esta carta en tu mazo. [Bloqueador] (Después de que tu oponente declare un ataque, puedes descansar esta carta para convertirla en el nuevo objetivo del ataque).",
+            "en": "Under the rules of this game, you may have any number of this card in your deck. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)"
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-075.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-076",
+        "name":"Bellamy",
+        "power": 4000,
+        "cost":2,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Dressrosa",
+            "en": "Dressrosa"
+        },
+        "description": {
+            "es": null,
+            "en": null
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-076.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-077",
+        "name":"Perona",
+        "power": 2000,
+        "cost":1,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas de Thriller Bark",
+            "en": "Thriller Bark Pirates"
+        },
+        "description": {
+            "es": "[En juego] Mira las 5 primeras cartas de tu mazo y colócalas en la parte superior o inferior del mazo en cualquier orden.",
+            "en": "[On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-077.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-077_p1",
+        "name":"Perona",
+        "power": 2000,
+        "cost":1,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas de Thriller Bark",
+            "en": "Thriller Bark Pirates"
+        },
+        "description": {
+            "es": "[En juego] Mira las 5 primeras cartas de tu mazo y colócalas en la parte superior o inferior del mazo en cualquier orden.",
+            "en": "[On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-077_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-078",
+        "name":"Boa Hancock",
+        "power": 5000,
+        "cost":4,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Super raro",
+            "en": "Super rare"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": "Bloqueador",
+            "en": "Blocker"
+        },
+        "alliance": {
+            "es": "Siete Guerreros del Mar/Piratas de Kuja",
+            "en": "The Seven Warlords of the Sea/Kuja Pirates"
+        },
+        "description": {
+            "es": "[Bloqueador] (Después de que tu oponente declare un ataque, puedes descansar esta carta para convertirla en el nuevo objetivo del ataque). [DON!! x1] [Al atacar]/[Al bloquear] Roba 1 carta si tienes 5 o menos cartas en tu mano.",
+            "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [When Attacking]/[On Block] Draw 1 card if you have 5 or less cards in your hand."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-078.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-078_p1",
+        "name":"Boa Hancock",
+        "power": 5000,
+        "cost":4,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Super raro",
+            "en": "Super rare"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": "Bloqueador",
+            "en": "Blocker"
+        },
+        "alliance": {
+            "es": "Siete Guerreros del Mar/Piratas de Kuja",
+            "en": "The Seven Warlords of the Sea/Kuja Pirates"
+        },
+        "description": {
+            "es": "[Bloqueador] (Después de que tu oponente declare un ataque, puedes descansar esta carta para convertirla en el nuevo objetivo del ataque). [DON!! x1] [Al atacar]/[Al bloquear] Roba 1 carta si tienes 5 o menos cartas en tu mano.",
+            "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [When Attacking]/[On Block] Draw 1 card if you have 5 or less cards in your hand."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-078_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-079",
+        "name":"Ms. All Sunday",
+        "power": 1000,
+        "cost":3,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": "Bloqueador",
+            "en": "Blocker"
+        },
+        "alliance": {
+            "es": "Baroque Works",
+            "en": "Baroque Works"
+        },
+        "description": {
+            "es": "[Bloqueador] (Después de que tu oponente declare un ataque, puedes descansar esta carta para convertirla en el nuevo objetivo del ataque). [Al Noquear] Si tu Líder tiene el tipo {Baroque Works}, añade hasta 1 Evento de tu basura a tu mano.",
+            "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] If your Leader has the {Baroque Works} type, add up to 1 Event from your trash to your hand."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-079.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-080",
+        "name":"Miss Doublefinger(Zala)",
+        "power": 4000,
+        "cost":3,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Baroque Works",
+            "en": "Baroque Works"
+        },
+        "description": {
+            "es": "[Al Noquear] Roba 1 carta.",
+            "en": "[On K.O.] Draw 1 card."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-080.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-081",
+        "name":"Mocha",
+        "power": 5000,
+        "cost":3,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Punk Hazard",
+            "en": "Punk Hazard"
+        },
+        "description": {
+            "es": null,
+            "en": null
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-081.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-082",
+        "name":"Monet",
+        "power": 3000,
+        "cost":2,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas de Donquixote/Punk Hazard",
+            "en": "Donquixote Pirates/Punk Hazard"
+        },
+        "description": {
+            "es": null,
+            "en": null
+        },
+        "trigger": {
+            "es": "[Disparador] Juega esta carta.",
+            "en": "[Trigger] Play this card."
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-082.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-083",
+        "name":"Mr.1(Daz.Bonez)",
+        "power": 3000,
+        "cost":2,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Baroque Works",
+            "en": "Baroque Works"
+        },
+        "description": {
+            "es": "[DON!! x1] [Tu turno] Si tu Líder es del tipo {Baroque Works}, este Personaje gana +1000 de poder por cada 2 Eventos que haya en tu basura.",
+            "en": "[DON!! x1] [Your Turn] If your Leader has the {Baroque Works} type, this Character gains +1000 power for every 2 Events in your trash."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-083.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
     }
 ]
