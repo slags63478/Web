@@ -476,7 +476,22 @@ function mixWith(color1, color2, t) { // t 0..1
   const b = Math.round((c1 & 0xFF)*(1-t) + (c2 & 0xFF)*t);
   return "#" + (1<<24 | r<<16 | g<<8 | b).toString(16).slice(1).toUpperCase();
 }
+//funcion cookies
+function activarGoogleAnalytics() {
+    const scriptTag = document.createElement("script");
+    scriptTag.async = true;
+    scriptTag.src = "https://www.googletagmanager.com/gtag/js?id=G-57HVXK1DF3";
+    document.head.appendChild(scriptTag);
 
+    scriptTag.onload = () => {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        window.gtag = gtag;
+
+        gtag("js", new Date());
+        gtag("config", "G-57HVXK1DF3");
+    };
+}
 
 //VARIABLES//
 // 1. Seleccionamos el contenedor donde van las cartas
@@ -585,6 +600,28 @@ document.getElementById("limpiar-filtros").addEventListener("click", () => {
     aplicarFiltros();
     actualizarFiltrosActivos();
 }); 
+
+//cookies
+document.addEventListener("DOMContentLoaded", () => {
+    const banner = document.getElementById("cookie-banner");
+    const acceptBtn = document.getElementById("accept-cookies");
+    const rejectBtn = document.getElementById("reject-cookies");
+
+   // if (localStorage.getItem("cookies-accepted") !== null) {
+  //      banner.style.display = "none";
+   // }
+
+    acceptBtn.addEventListener("click", () => {
+        localStorage.setItem("cookies-accepted", "true");
+        banner.style.display = "none";
+        activarGoogleAnalytics();
+    });
+
+    rejectBtn.addEventListener("click", () => {
+        localStorage.setItem("cookies-accepted", "false");
+        banner.style.display = "none";
+    });
+});
 
 
 

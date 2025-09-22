@@ -621,6 +621,122 @@ footer a:hover {
     margin-top: 10px;
 }
 
+/*cookies*/
+.cookie-banner {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  max-width: 300px;
+  background: #1e3a8a; /* azul fuerte */
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+  font-size: 14px;
+  z-index: 1000;
+}
+
+.cookie-banner p {
+  margin: 0 0 10px;
+  line-height: 1.4;
+}
+
+.cookie-banner a {
+  color: #93c5fd; /* azul clarito */
+  text-decoration: underline;
+  font-size: 13px;
+}
+
+.cookie-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.cookie-buttons button {
+  background: white;
+  color: #1e3a8a;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+  font-size: 13px;
+}
+
+.cookie-buttons button:hover {
+  background: #e5e7eb;
+}
+
+
+/* ===== Estilos para página de Políticas ===== */
+
+/* Contenedor principal */
+.politicas-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fcfcfc;
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Encabezados */
+.politicas-container h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #012A4A; /* Azul oscuro del header */
+}
+
+.politicas-container h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 25px 0 12px;
+  color: #014F86; /* Azul intermedio */
+}
+
+/* Párrafos */
+.politicas-container p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  color: #0f0f0f;
+}
+
+/* Listas */
+.politicas-container ul {
+  margin: 10px 0 20px 20px;
+  color: #0e0e0e;
+}
+.politicas-container li {
+  margin: 6px 0;
+}
+
+/* Links */
+.politicas-container a {
+  color: #2C7DA0; /* Azul celeste */
+  text-decoration: none;
+  font-weight: 500;
+}
+.politicas-container a:hover {
+  color: #A9D6E5;
+  text-decoration: underline;
+}
+
+/* Caja resaltada */
+.politicas-highlight {
+  background-color: #E0FBFC; /* Celeste muy claro */
+  border-left: 5px solid #012A4A;
+  padding: 12px 16px;
+  margin: 20px 0;
+  border-radius: 8px;
+  color: #012A4A;
+  font-weight: 500;
+}
+
 
 
 
