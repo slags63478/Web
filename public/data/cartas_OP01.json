@@ -307,7 +307,7 @@
             "en": "Straw Hat Crew"
         },
         "description": {
-            "es": "[DON!! x1] [Tu turno] [Una vez por turno] Roba 1 carta cuando tu oponente active un evento.",
+            "es": "[DON!! x1] [Tu turno] [Una vez por turno] Roba 1 carta cuando tu oponente active un Evento.",
             "en": "[DON!! x1] [Your Turn] [Once Per Turn] Draw 1 card when your opponent activates an Event."
         },
         "trigger": {
@@ -3665,7 +3665,7 @@
             "en": "Fish-Man/Arlong Pirates"
         },
         "description": {
-            "es": "[DON!! x1] [Activar: Principal] Puedes descansar a este Personaje: elige 1 carta de la mano de tu oponente; tu oponente revela esa carta. Si la carta revelada es un evento, coloca hasta 1 carta del área de vida de tu oponente en la parte inferior del mazo de su propietario.",
+            "es": "[DON!! x1] [Activar: Principal] Puedes descansar a este Personaje: elige 1 carta de la mano de tu oponente; tu oponente revela esa carta. Si la carta revelada es un Evento, coloca hasta 1 carta del área de vida de tu oponente en la parte inferior del mazo de su propietario.",
             "en": "[DON!! x1] [Activate: Main] You may rest this Character: Choose 1 card from your opponent's hand; your opponent reveals that card. If the revealed card is an Event, place up to 1 card from your opponent's Life area at the bottom of the owner's deck."
         },
         "trigger": {
@@ -4827,7 +4827,7 @@
             "en": "ROMANCE DAWN- [OP01]"
         },
         "image": "public/imagenes/cartas/OP01/OP01-082.png",
-        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
     },
     {
         "id": "OP01-083",
@@ -4874,5 +4874,787 @@
         },
         "image": "public/imagenes/cartas/OP01/OP01-083.png",
         "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-084",
+        "name":"Mr.2.Bon.Kurei(Bentham)",
+        "power": 4000,
+        "cost":3,
+        "counter": 2000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Baroque Works",
+            "en": "Baroque Works"
+        },
+        "description": {
+            "es": "[DON!! x1] [Al atacar] Mira las 5 primeras cartas de tu mazo; revela hasta 1 carta de Evento de tipo {Baroque Works} y añádela a tu mano. A continuación, coloca el resto en la parte inferior de tu mazo en cualquier orden.",
+            "en": "[DON!! x1] [When Attacking] Look at 5 cards from the top of your deck; reveal up to 1 {Baroque Works} type Event card and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-084.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-085",
+        "name":"Mr.3(Galdino)",
+        "power": 3000,
+        "cost":2,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Baroque Works",
+            "en": "Baroque Works"
+        },
+        "description": {
+            "es": "[En juego] Si tu Líder tiene el tipo {Baroque Works}, selecciona hasta 1 de los Personajes de tu oponente con un coste de 4 o menos. El Personaje seleccionado no puede atacar hasta el final del siguiente turno de tu oponente.",
+            "en": "[On Play] If your Leader has the {Baroque Works} type, select up to 1 of your opponent's Characters with a cost of 4 or less. The selected Character cannot attack until the end of your opponent's next turn."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-085.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-086",
+        "name":"Overheat",
+        "power": null,
+        "cost":2,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Evento",
+            "en": "Event"
+        },
+        "attribute": {
+            "es": null,
+            "en": null
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Siete Guerreros del Mar/Piratas de Donquixote",
+            "en": "The Seven Warlords of the Sea/Donquixote Pirates"
+        },
+        "description": {
+            "es": "[Contrataque] Hasta 1 de tus cartas de Líder o Personaje gana +4000 de poder durante esta batalla. A continuación, devuelve hasta 1 Personaje activo con un coste de 3 o menos a la mano de su propietario.",
+            "en": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, return up to 1 active Character with a cost of 3 or less to the owner's hand."
+        },
+        "trigger": {
+            "es": "[Disparador] Devuelve hasta 1 Personaje con un coste de 4 o menos a la mano de su propietario.",
+            "en": "[Trigger] Return up to 1 Character with a cost of 4 or less to the owner's hand."
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-086.png",
+        "image_attribute": null
+    },
+    {
+        "id": "OP01-087",
+        "name":"Officer Agents",
+        "power": null,
+        "cost":2,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Evento",
+            "en": "Event"
+        },
+        "attribute": {
+            "es": null,
+            "en": null
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Baroque Works",
+            "en": "Baroque Works"
+        },
+        "description": {
+            "es": "[Contrataque] Juega hasta 1 carta de Personaje de tipo {Baroque Works} con un coste de 3 o menos de tu mano.",
+            "en": "[Counter] Play up to 1 {Baroque Works} type Character card with a cost of 3 or less from your hand."
+        },
+        "trigger": {
+            "es": "[Disparador] Activa el efecto [Contador] de esta carta.",
+            "en": "[Trigger] Activate this card's [Counter] effect."
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-087.png",
+        "image_attribute": null
+    },
+    {
+        "id": "OP01-088",
+        "name":"Desert Spada",
+        "power": null,
+        "cost":1,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Evento",
+            "en": "Event"
+        },
+        "attribute": {
+            "es": null,
+            "en": null
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Siete Guerreros del Mar/Baroque Works",
+            "en": "The Seven Warlords of the Sea/Baroque Works"
+        },
+        "description": {
+            "es": "[Contrataque] Hasta 1 de tus cartas de Líder o Personaje gana +2000 de poder durante esta batalla. A continuación, mira las 3 primeras cartas de tu mazo y colócalas en la parte superior o inferior del mazo en el orden que desees.",
+            "en": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order."
+        },
+        "trigger": {
+            "es": "[Disparador] Roba 2 cartas y descarta 1 carta de tu mano.",
+            "en": "[Trigger] Draw 2 cards and trash 1 card from your hand."
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-088.png",
+        "image_attribute": null
+    },
+    {
+        "id": "OP01-089",
+        "name":"Crescent Cutlass",
+        "power": null,
+        "cost":3,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Evento",
+            "en": "Event"
+        },
+        "attribute": {
+            "es": null,
+            "en": null
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Siete Guerreros del Mar/Baroque Works",
+            "en": "The Seven Warlords of the Sea/Baroque Works"
+        },
+        "description": {
+            "es": "[Contrataque] Si tu Líder es del tipo {Siete Guerreros del Mar}, devuelve hasta 1 Personaje con un coste de 5 o menos a la mano de su propietario.",
+            "en": "[Counter] If your Leader has the {The Seven Warlords of the Sea} type, return up to 1 Character with a cost of 5 or less to the owner's hand."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-089.png",
+        "image_attribute": null
+    },
+    {
+        "id": "OP01-090",
+        "name":"Baroque Works",
+        "power": null,
+        "cost":1,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Azul",
+            "en": "Blue"
+        },
+        "type": {
+            "es": "Evento",
+            "en": "Event"
+        },
+        "attribute": {
+            "es": null,
+            "en": null
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Baroque Works",
+            "en": "Baroque Works"
+        },
+        "description": {
+            "es": "[Principal] Mira las 5 primeras cartas de tu mazo; revela hasta 1 carta de tipo {Baroque Works} que no sea [Baroque Works] y añádela a tu mano. A continuación, coloca el resto en la parte inferior de tu mazo en cualquier orden.",
+            "en": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Baroque Works} type card other than [Baroque Works] and add it to your hand. Then, place the rest at the bottom of your deck in any order."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-090.png",
+        "image_attribute": null
+    },
+    {
+        "id": "OP01-091",
+        "name":"King",
+        "power": 5000,
+        "life":5,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas del Reino Animal",
+            "en": "Animal Kingdom Pirates"
+        },
+        "description": {
+            "es": "[Tu turno] Si tienes 10 cartas DON!! en tu campo, resta 1000 puntos de poder a todos los Personajes de tu oponente.",
+            "en": "[Your Turn] If you have 10 DON!! cards on your field, give all of your opponent's Characters −1000 power."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-091.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-091_p1",
+        "name":"King",
+        "power": 5000,
+        "life":5,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Líder",
+            "en": "Leader"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas del Reino Animal",
+            "en": "Animal Kingdom Pirates"
+        },
+        "description": {
+            "es": "[Tu turno] Si tienes 10 cartas DON!! en tu campo, resta 1000 puntos de poder a todos los Personajes de tu oponente.",
+            "en": "[Your Turn] If you have 10 DON!! cards on your field, give all of your opponent's Characters −1000 power."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-091_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-092",
+        "name":"Urashima",
+        "power": 9000,
+        "life":7,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tierra de Wano",
+            "en": "Land of Wano"
+        },
+        "description": {
+            "es": null,
+            "en": null
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-092.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-093",
+        "name":"Ulti",
+        "power": 3000,
+        "life":2,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas del Reino Animal",
+            "en": "Animal Kingdom Pirates"
+        },
+        "description": {
+            "es": "[En juego] ① (Puedes descansar el número especificado de cartas DON!! en tu área de coste.): Añade hasta 1 carta DON!! de tu mazo DON!! y descansa.",
+            "en": "[On Play] ① (You may rest the specified number of DON!! cards in your cost area.): Add up to 1 DON!! card from your DON!! deck and rest it."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-093.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-093_p1",
+        "name":"Ulti",
+        "power": 3000,
+        "life":2,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas del Reino Animal",
+            "en": "Animal Kingdom Pirates"
+        },
+        "description": {
+            "es": "[En juego] ① (Puedes descansar el número especificado de cartas DON!! en tu área de coste.): Añade hasta 1 carta DON!! de tu mazo DON!! y descansa.",
+            "en": "[On Play] ① (You may rest the specified number of DON!! cards in your cost area.): Add up to 1 DON!! card from your DON!! deck and rest it."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-093_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-094",
+        "name":"Kaido",
+        "power": 12000,
+        "life":10,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Super raro",
+            "en": "Super rare"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Cuatro Emperadores/Piratas del Reino Animal",
+            "en": "The Four Emperors/Animal Kingdom Pirates"
+        },
+        "description": {
+            "es": "[En juego] DON!! −6 (Puedes devolver el número especificado de cartas DON!! de tu campo a tu mazo DON!!): Si tu Líder es del tipo {Piratas del Reino Animal}, deja fuera de combate a todos los Personajes excepto a este Personaje.",
+            "en": "[On Play] DON!! −6 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Animal Kingdom Pirates} type, K.O. all Characters other than this Character."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-094.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-094_p1",
+        "name":"Kaido",
+        "power": 12000,
+        "life":10,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Super raro",
+            "en": "Super rare"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Cuatro Emperadores/Piratas del Reino Animal",
+            "en": "The Four Emperors/Animal Kingdom Pirates"
+        },
+        "description": {
+            "es": "[En juego] DON!! −6 (Puedes devolver el número especificado de cartas DON!! de tu campo a tu mazo DON!!): Si tu Líder es del tipo {Piratas del Reino Animal}, deja fuera de combate a todos los Personajes excepto a este Personaje.",
+            "en": "[On Play] DON!! −6 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Animal Kingdom Pirates} type, K.O. all Characters other than this Character."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-094_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-095",
+        "name":"Kyoshirou",
+        "power": 6000,
+        "life":5,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tierra de Wano",
+            "en": "Land of Wano"
+        },
+        "description": {
+            "es": "[En juego] Roba 1 carta si tienes 8 o más cartas DON!! en tu campo.",
+            "en": "[On Play] Draw 1 card if you have 8 or more DON!! cards on your field."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-095.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-096",
+        "name":"King",
+        "power": 7000,
+        "life":7,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Super raro",
+            "en": "Super rare"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas del Reino Animal",
+            "en": "Animal Kingdom Pirates"
+        },
+        "description": {
+            "es": "[En juego] DON!! −2 (Puedes devolver el número especificado de cartas DON!! de tu campo a tu mazo DON!!.): Noquea hasta 1 de los Personajes de tu oponente con un coste de 3 o menos y hasta 1 de los Personajes de tu oponente con un coste de 2 o menos.",
+            "en": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less and up to 1 of your opponent's Characters with a cost of 2 or less."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-096.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-096_p1",
+        "name":"King",
+        "power": 7000,
+        "life":7,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Super raro",
+            "en": "Super rare"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas del Reino Animal",
+            "en": "Animal Kingdom Pirates"
+        },
+        "description": {
+            "es": "[En juego] DON!! −2 (Puedes devolver el número especificado de cartas DON!! de tu campo a tu mazo DON!!.): Noquea hasta 1 de los Personajes de tu oponente con un coste de 3 o menos y hasta 1 de los Personajes de tu oponente con un coste de 2 o menos.",
+            "en": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less and up to 1 of your opponent's Characters with a cost of 2 or less."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-096_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
     }
 ]
