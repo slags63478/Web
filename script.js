@@ -607,9 +607,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const acceptBtn = document.getElementById("accept-cookies");
     const rejectBtn = document.getElementById("reject-cookies");
 
-   // if (localStorage.getItem("cookies-accepted") !== null) {
-  //      banner.style.display = "none";
-   // }
+    //if (localStorage.getItem("cookies-accepted") !== null) {
+     //   banner.style.display = "none";
+    //}
 
     acceptBtn.addEventListener("click", () => {
         localStorage.setItem("cookies-accepted", "true");
@@ -622,9 +622,15 @@ document.addEventListener("DOMContentLoaded", () => {
         banner.style.display = "none";
     });
 });
+//reset de cookies
+document.addEventListener("DOMContentLoaded", () => {
+  const resetBtn = document.getElementById("reset-cookies");
 
-
-
-
-
+  if (resetBtn) {
+    resetBtn.addEventListener("click", () => {
+      localStorage.removeItem("cookies-accepted");
+      location.reload(); // Recarga la página para que vuelva a salir el banner
+    });
+  }
+});
 

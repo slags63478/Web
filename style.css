@@ -690,14 +690,12 @@ footer a:hover {
   margin-bottom: 20px;
   color: #012A4A; /* Azul oscuro del header */
 }
-
 .politicas-container h2 {
   font-size: 1.5rem;
   font-weight: 600;
   margin: 25px 0 12px;
   color: #014F86; /* Azul intermedio */
 }
-
 /* Párrafos */
 .politicas-container p {
   font-size: 1rem;
@@ -705,7 +703,6 @@ footer a:hover {
   margin-bottom: 16px;
   color: #0f0f0f;
 }
-
 /* Listas */
 .politicas-container ul {
   margin: 10px 0 20px 20px;
@@ -714,7 +711,6 @@ footer a:hover {
 .politicas-container li {
   margin: 6px 0;
 }
-
 /* Links */
 .politicas-container a {
   color: #2C7DA0; /* Azul celeste */
@@ -725,7 +721,6 @@ footer a:hover {
   color: #A9D6E5;
   text-decoration: underline;
 }
-
 /* Caja resaltada */
 .politicas-highlight {
   background-color: #E0FBFC; /* Celeste muy claro */
@@ -736,7 +731,26 @@ footer a:hover {
   color: #012A4A;
   font-weight: 500;
 }
-
+#reset-cookies {
+  background: #012A4A;       /* Verde agradable */
+  color: white;              /* Texto blanco */
+  font-size: 14px;           
+  font-weight: 500;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;        /* Bordes redondeados */
+  cursor: pointer;
+  transition: all 0.3s ease; /* Animación suave */
+  margin-top: 10px;
+  display: inline-block;
+}
+#reset-cookies:hover {
+  background: #012A4A;       /* Un poco más oscuro al pasar el mouse */
+  transform: scale(1.05);    /* Ligero zoom */
+}
+#reset-cookies:active {
+  transform: scale(0.95);    /* Efecto de clic */
+}
 
 
 
