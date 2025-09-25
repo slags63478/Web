@@ -607,9 +607,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const acceptBtn = document.getElementById("accept-cookies");
     const rejectBtn = document.getElementById("reject-cookies");
 
-    //if (localStorage.getItem("cookies-accepted") !== null) {
-     //   banner.style.display = "none";
-    //}
+    if (localStorage.getItem("cookies-accepted") !== null) {
+        banner.style.display = "none";
+    }
 
     acceptBtn.addEventListener("click", () => {
         localStorage.setItem("cookies-accepted", "true");

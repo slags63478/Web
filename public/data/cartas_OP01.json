@@ -5293,7 +5293,7 @@
         "id": "OP01-092",
         "name":"Urashima",
         "power": 9000,
-        "life":7,
+        "cost":7,
         "counter": 1000,
         "block_icon": 1,
         "rarity": {
@@ -5339,7 +5339,7 @@
         "id": "OP01-093",
         "name":"Ulti",
         "power": 3000,
-        "life":2,
+        "cost":2,
         "counter": null,
         "block_icon": 1,
         "rarity": {
@@ -5385,7 +5385,7 @@
         "id": "OP01-093_p1",
         "name":"Ulti",
         "power": 3000,
-        "life":2,
+        "cost":2,
         "counter": null,
         "block_icon": 1,
         "rarity": {
@@ -5431,7 +5431,7 @@
         "id": "OP01-094",
         "name":"Kaido",
         "power": 12000,
-        "life":10,
+        "cost":10,
         "counter": null,
         "block_icon": 1,
         "rarity": {
@@ -5477,7 +5477,7 @@
         "id": "OP01-094_p1",
         "name":"Kaido",
         "power": 12000,
-        "life":10,
+        "cost":10,
         "counter": null,
         "block_icon": 1,
         "rarity": {
@@ -5523,7 +5523,7 @@
         "id": "OP01-095",
         "name":"Kyoshirou",
         "power": 6000,
-        "life":5,
+        "cost":5,
         "counter": 1000,
         "block_icon": 1,
         "rarity": {
@@ -5569,7 +5569,7 @@
         "id": "OP01-096",
         "name":"King",
         "power": 7000,
-        "life":7,
+        "cost":7,
         "counter": null,
         "block_icon": 1,
         "rarity": {
@@ -5615,7 +5615,7 @@
         "id": "OP01-096_p1",
         "name":"King",
         "power": 7000,
-        "life":7,
+        "cost":7,
         "counter": null,
         "block_icon": 1,
         "rarity": {
@@ -5655,6 +5655,788 @@
             "en": "ROMANCE DAWN- [OP01]"
         },
         "image": "public/imagenes/cartas/OP01/OP01-096_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-097",
+        "name":"Queen",
+        "power": 5000,
+        "cost":6,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": "Asalto",
+            "en": "Rush"
+        },
+        "alliance": {
+            "es": "Piratas del Reino Animal",
+            "en": "Animal Kingdom Pirates"
+        },
+        "description": {
+            "es": "[En juego] DON!! −1 (Puedes devolver el número especificado de cartas DON!! de tu campo a tu mazo DON!!.): Este Personaje gana [Asalto] durante este turno. A continuación, resta hasta 2000 de poder a 1 de los Personajes de tu oponente durante este turno. (Esta carta puede atacar en el turno en el que se juega).",
+            "en": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Rush] during this turn. Then, give up to 1 of your opponent's Characters −2000 power during this turn. (This card can attack on the turn in which it is played.)"
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-097.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-097_p1",
+        "name":"Queen",
+        "power": 5000,
+        "cost":6,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": "Asalto",
+            "en": "Rush"
+        },
+        "alliance": {
+            "es": "Piratas del Reino Animal",
+            "en": "Animal Kingdom Pirates"
+        },
+        "description": {
+            "es": "[En juego] DON!! −1 (Puedes devolver el número especificado de cartas DON!! de tu campo a tu mazo DON!!.): Este Personaje gana [Asalto] durante este turno. A continuación, resta hasta 2000 de poder a 1 de los Personajes de tu oponente durante este turno. (Esta carta puede atacar en el turno en el que se juega).",
+            "en": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Rush] during this turn. Then, give up to 1 of your opponent's Characters −2000 power during this turn. (This card can attack on the turn in which it is played.)"
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-097_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-098",
+        "name":"Kurozumi Orochi",
+        "power": 2000,
+        "cost":1,
+        "counter": 2000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Sabiduría",
+            "en": "Wisdom"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tierra de Wano/Clan Kouzuki",
+            "en": "Land of Wano/Kurozumi Clan"
+        },
+        "description": {
+            "es": "[En juego] Revela hasta 1 [Fruta del Diablo Artificial SMILE] de tu mazo y añádela a tu mano. A continuación, baraja tu mazo.",
+            "en": "[On Play] Reveal up to 1 [Artificial Devil Fruit SMILE] from your deck and add it to your hand. Then, shuffle your deck."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-098.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Wisdom.png"
+    },
+    {
+        "id": "OP01-099",
+        "name":"Kurozumi Semimaru",
+        "power": 3000,
+        "cost":2,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tierra de Wano/Clan Kouzuki",
+            "en": "Land of Wano/Kurozumi Clan"
+        },
+        "description": {
+            "es": "Los Personajes del tipo {Clan Kurozumi} distintos de tu [Kurozumi Semimaru] no pueden ser derrotados en combate.",
+            "en": "{Kurozumi Clan} type Characters other than your [Kurozumi Semimaru] cannot be K.O.'d in battle."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-099.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-100",
+        "name":"Kurozumi Higurashi",
+        "power": 3000,
+        "cost":2,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": "Bloqueador",
+            "en": "Blocker"
+        },
+        "alliance": {
+            "es": "Tierra de Wano/Clan Kouzuki",
+            "en": "Land of Wano/Kurozumi Clan"
+        },
+        "description": {
+            "es": "[Bloqueador] (Después de que tu oponente declare un ataque, puedes descansar esta carta para convertirla en el nuevo objetivo del ataque).",
+            "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)"
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-100.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-101",
+        "name":"Sasaki",
+        "power": 4000,
+        "cost":3,
+        "counter": 2000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas del Reino Animal",
+            "en": "Animal Kingdom Pirates"
+        },
+        "description": {
+            "es": "[DON!! x1] [Al atacar] Puedes descartar 1 carta de tu mano: añade hasta 1 carta DON!! de tu mazo DON!! y descártala.",
+            "en": "[DON!! x1] [When Attacking] You may trash 1 card from your hand: Add up to 1 DON!! card from your DON!! deck and rest it."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-101.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-102",
+        "name":"Jack",
+        "power": 4000,
+        "cost":3,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas del Reino Animal",
+            "en": "Animal Kingdom Pirates"
+        },
+        "description": {
+            "es": "[Al atacar] DON!! −1 (Puedes devolver el número especificado de cartas DON!! de tu campo a tu mazo DON!!.): Tu oponente descarta 1 carta de su mano.",
+            "en": "[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent trashes 1 card from their hand."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-102.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-102_p1",
+        "name":"Jack",
+        "power": 4000,
+        "cost":3,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas del Reino Animal",
+            "en": "Animal Kingdom Pirates"
+        },
+        "description": {
+            "es": "[Al atacar] DON!! −1 (Puedes devolver el número especificado de cartas DON!! de tu campo a tu mazo DON!!.): Tu oponente descarta 1 carta de su mano.",
+            "en": "[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent trashes 1 card from their hand."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-102_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-103",
+        "name":"Scratchmen Apoo",
+        "power": 6000,
+        "cost":4,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Distancia",
+            "en": "Ranged"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas del Reino Animal/Piratas On-Air",
+            "en": "Animal Kingdom Pirates/On-Air Pirates"
+        },
+        "description": {
+            "es": null,
+            "en": null
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-103.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Ranged.png"
+    },
+    {
+        "id": "OP01-104",
+        "name":"Speed",
+        "power": 3000,
+        "cost":2,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas del Reino Animal/SMILE",
+            "en": "Animal Kingdom Pirates/SMILE"
+        },
+        "description": {
+            "es": null,
+            "en": null
+        },
+        "trigger": {
+            "es": "[Disparador] Juega esta carta.",
+            "en": "[Trigger] Play this card."
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-104.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-105",
+        "name":"Bao Huang",
+        "power": 3000,
+        "cost":2,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Sabiduría",
+            "en": "Wisdom"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas del Reino Animal/SMILE",
+            "en": "Animal Kingdom Pirates/SMILE"
+        },
+        "description": {
+            "es": "[En juego] Elige 2 cartas de la mano de tu oponente; tu oponente revela esas cartas.",
+            "en": "[On Play] Choose 2 cards from your opponent's hand; your opponent reveals those cards."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-105.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Wisdom.png"
+    },
+    {
+        "id": "OP01-106",
+        "name":"Basil Hawkins",
+        "power": 2000,
+        "cost":4,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas del Reino Animal/Piratas de Hawkins",
+            "en": "Animal Kingdom Pirates/Hawkins Pirates"
+        },
+        "description": {
+            "es": "[En juego] Añade hasta 1 carta DON!! de tu mazo DON!! y déjala descansar.",
+            "en": "[On Play] Add up to 1 DON!! card from your DON!! deck and rest it."
+        },
+        "trigger": {
+            "es": "[Disparador] Juega esta carta.",
+            "en": "[Trigger] Play this card."
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-106.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-107",
+        "name":"Babanuki",
+        "power": 7000,
+        "cost":5,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Distancia",
+            "en": "Ranged"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas del Reino Animal/SMILE",
+            "en": "Animal Kingdom Pirates/SMILE"
+        },
+        "description": {
+            "es": null,
+            "en": null
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-107.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Ranged.png"
+    },
+    {
+        "id": "OP01-108",
+        "name":"Hitokiri Kamazo",
+        "power": 5000,
+        "cost":4,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Supernovas/Piratas Kid/SMILE",
+            "en": "Supernovas/Kid Pirates/SMILE"
+        },
+        "description": {
+            "es": "[Al Noquear] DON!! −1 (Puedes devolver el número especificado de cartas DON!! de tu campo a tu mazo DON!!): Noquea hasta 1 de los Personajes de tu oponente con un coste de 5 o menos.",
+            "en": "[On K.O.] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 5 or less."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-108.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-109",
+        "name":"Who's.Who",
+        "power": 3000,
+        "cost":2,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas del Reino Animal",
+            "en": "Animal Kingdom Pirates"
+        },
+        "description": {
+            "es": "[DON!! x1] [Tu turno] Si tienes 8 o más cartas DON!! en tu campo, este Personaje gana +1000 de poder.",
+            "en": "[DON!! x1] [Your Turn] If you have 8 or more DON!! cards on your field, this Character gains +1000 power."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-109.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-109_p1",
+        "name":"Who's.Who",
+        "power": 3000,
+        "cost":2,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas del Reino Animal",
+            "en": "Animal Kingdom Pirates"
+        },
+        "description": {
+            "es": "[DON!! x1] [Tu turno] Si tienes 8 o más cartas DON!! en tu campo, este Personaje gana +1000 de poder.",
+            "en": "[DON!! x1] [Your Turn] If you have 8 or more DON!! cards on your field, this Character gains +1000 power."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-109_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-110",
+        "name":"Fukurokuju",
+        "power": 8000,
+        "cost":6,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Tierra de Wano/Piratas del Reino Animal",
+            "en": "Land of Wano/Animal Kingdom Pirates"
+        },
+        "description": {
+            "es": null,
+            "en": null
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-110.png",
         "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
     }
 ]
