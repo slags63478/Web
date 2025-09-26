@@ -6438,5 +6438,235 @@
         },
         "image": "public/imagenes/cartas/OP01/OP01-110.png",
         "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-111",
+        "name":"Black Maria",
+        "power": 5000,
+        "cost":4,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": "Bloqueador",
+            "en": "Blocker"
+        },
+        "alliance": {
+            "es": "Piratas del Reino Animal",
+            "en": "Animal Kingdom Pirates"
+        },
+        "description": {
+            "es": "[Bloqueador] (Después de que tu oponente declare un ataque, puedes descansar esta carta para convertirla en el nuevo objetivo del ataque). [Al bloquear] DON!! −1 (Puedes devolver el número especificado de cartas DON!! de tu campo a tu mazo DON!!): Este Personaje gana +1000 de poder durante este turno.",
+            "en": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Block] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains +1000 power during this turn."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-111.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-112",
+        "name":"Page One",
+        "power": 5000,
+        "cost":4,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas del Reino Animal",
+            "en": "Animal Kingdom Pirates"
+        },
+        "description": {
+            "es": "[Activar: Principal] [Una vez por turno] DON!! −1 (Puedes devolver el número especificado de cartas DON!! de tu campo a tu mazo DON!!.): Este Personaje también puede atacar a los Personajes activos de tu oponente durante este turno.",
+            "en": "[Activate: Main] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character can also attack your opponent's active Characters during this turn."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-112.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-113",
+        "name":"Holedem",
+        "power": 4000,
+        "cost":3,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Especial",
+            "en": "Special"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas del Reino Animal/SMILE",
+            "en": "Animal Kingdom Pirates/SMILE"
+        },
+        "description": {
+            "es": "[Al Noquear] Añade hasta 1 carta DON!! de tu mazo DON!! y déjala descansar.",
+            "en": "[On K.O.] Add up to 1 DON!! card from your DON!! deck and rest it."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-113.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Special.png"
+    },
+    {
+        "id": "OP01-114",
+        "name":"X.Drake",
+        "power": 5000,
+        "cost":5,
+        "counter": 2000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "La Marina/Piratas de Drake/Piratas del Reino Animal",
+            "en": "Navy/Drake Pirates/Animal Kingdom Pirates"
+        },
+        "description": {
+            "es": "[En juego] DON!! −1 (Puedes devolver el número especificado de cartas DON!! de tu campo a tu mazo DON!!): Tu oponente descarta 1 carta de su mano.",
+            "en": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent trashes 1 card from their hand."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-114.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-115",
+        "name":"Elephant's Marchoo",
+        "power": null,
+        "cost":4,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Evento",
+            "en": "Event"
+        },
+        "attribute": {
+            "es": null,
+            "en": null
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas del Reino Animal/SMILE",
+            "en": "Animal Kingdom Pirates/SMILE"
+        },
+        "description": {
+            "es": "[Principal] Noquea hasta 1 de los Personajes de tu oponente con un coste de 2 o menos, luego añade hasta 1 carta DON!! de tu mazo DON!! y colócala como activa.",
+            "en": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 2 or less, then add up to 1 DON!! card from your DON!! deck and set it as active."
+        },
+        "trigger": {
+            "es": "[Disparador] Activa el efecto [Principal] de esta carta.",
+            "en": "[Trigger] Activate this card's [Main] effect."
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-115.png",
+        "image_attribute": null
     }
 ]
