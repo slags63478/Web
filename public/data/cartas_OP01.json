@@ -6668,5 +6668,419 @@
         },
         "image": "public/imagenes/cartas/OP01/OP01-115.png",
         "image_attribute": null
+    },
+    {
+        "id": "OP01-116",
+        "name":"Artificial Devil Fruit SMILE",
+        "power": null,
+        "cost":2,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Evento",
+            "en": "Event"
+        },
+        "attribute": {
+            "es": null,
+            "en": null
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas del Reino Animal/SMILE",
+            "en": "Animal Kingdom Pirates/SMILE"
+        },
+        "description": {
+            "es": "[Principal] Mira las 5 primeras cartas de tu mazo; juega hasta 1 carta de Personaje de tipo {SMILE} con un coste de 3 o menos. A continuación, coloca el resto en la parte inferior de tu mazo en cualquier orden.",
+            "en": "[Main] Look at 5 cards from the top of your deck; play up to 1 {SMILE} type Character card with a cost of 3 or less. Then, place the rest at the bottom of your deck in any order."
+        },
+        "trigger": {
+            "es": "[Disparador] Activa el efecto [Principal] de esta carta.",
+            "en": "[Trigger] Activate this card's [Main] effect."
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-116.png",
+        "image_attribute": null
+    },
+    {
+        "id": "OP01-117",
+        "name":"Sheep's Horn",
+        "power": null,
+        "cost":2,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Común",
+            "en": "Common"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Evento",
+            "en": "Event"
+        },
+        "attribute": {
+            "es": null,
+            "en": null
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas del Reino Animal/SMILE",
+            "en": "Animal Kingdom Pirates/SMILE"
+        },
+        "description": {
+            "es": "[Principal] DON!! −1 (Puedes devolver el número especificado de cartas DON!! de tu campo a tu mazo DON!!): Descansa hasta 1 de los Personajes de tu oponente con un coste de 6 o menos.",
+            "en": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 6 or less."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-117.png",
+        "image_attribute": null
+    },
+    {
+        "id": "OP01-118",
+        "name":"Ulti-Mortar",
+        "power": null,
+        "cost":1,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Poco Común",
+            "en": "Uncommon"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Evento",
+            "en": "Event"
+        },
+        "attribute": {
+            "es": null,
+            "en": null
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Piratas del Reino Animal",
+            "en": "Animal Kingdom Pirates"
+        },
+        "description": {
+            "es": "[Contrataque] DON!! −2 (Puedes devolver el número especificado de cartas DON!! de tu campo a tu mazo DON!!): Hasta 1 de tus cartas de Líder o Personaje gana +2000 de poder durante esta batalla. A continuación, roba 1 carta.",
+            "en": "[Counter] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, draw 1 card."
+        },
+        "trigger": {
+            "es": "[Disparador] Añade hasta 1 carta DON!! de tu mazo DON!! y ponla como activa.",
+            "en": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active."
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-118.png",
+        "image_attribute": null
+    },
+    {
+        "id": "OP01-119",
+        "name":"Thunder Bagua",
+        "power": null,
+        "cost":2,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Raro",
+            "en": "Rare"
+        },
+        "color": {
+            "es": "Morado",
+            "en": "Purple"
+        },
+        "type": {
+            "es": "Evento",
+            "en": "Event"
+        },
+        "attribute": {
+            "es": null,
+            "en": null
+        },
+        "effect": {
+            "es": null,
+            "en": null
+        },
+        "alliance": {
+            "es": "Cuatro Emperadores/Piratas del Reino Animal",
+            "en": "The Four Emperors/Animal Kingdom Pirates"
+        },
+        "description": {
+            "es": "[Contrataque] Hasta 1 de tus cartas de Líder o Personaje gana +4000 de poder durante esta batalla. A continuación, si tienes 2 o menos cartas de Vida, añade hasta 1 carta DON!! de tu mazo DON!! y descártala.",
+            "en": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 2 or less Life cards, add up to 1 DON!! card from your DON!! deck and rest it."
+        },
+        "trigger": {
+            "es": "[Disparador] Añade hasta 1 carta DON!! de tu mazo DON!! y ponla como activa.",
+            "en": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active."
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-119.png",
+        "image_attribute": null
+    },
+    {
+        "id": "OP01-120",
+        "name":"Shanks",
+        "power": 10000,
+        "cost":9,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Secreta Rara",
+            "en": "Rara Secreta"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": "Asalto",
+            "en": "Rush"
+        },
+        "alliance": {
+            "es": "Cuatro Emperadores/Piratas del Reino Animal",
+            "en": "The Four Emperors/Animal Kingdom Pirates"
+        },
+        "description": {
+            "es": "[Asalto] (Esta carta puede atacar en el turno en el que se juega). [Al atacar] Tu oponente no puede activar un Personaje [Bloqueador] que tenga 2000 o menos de poder durante esta batalla.",
+            "en": "[Rush] (This card can attack on the turn in which it is played.) [When Attacking] Your opponent cannot activate a [Blocker] Character that has 2000 or less power during this battle."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-120.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-120_p1",
+        "name":"Shanks",
+        "power": 10000,
+        "cost":9,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Secreta Rara",
+            "en": "Rara Secreta"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": "Asalto",
+            "en": "Rush"
+        },
+        "alliance": {
+            "es": "Cuatro Emperadores/Piratas del Reino Animal",
+            "en": "The Four Emperors/Animal Kingdom Pirates"
+        },
+        "description": {
+            "es": "[Asalto] (Esta carta puede atacar en el turno en el que se juega). [Al atacar] Tu oponente no puede activar un Personaje [Bloqueador] que tenga 2000 o menos de poder durante esta batalla.",
+            "en": "[Rush] (This card can attack on the turn in which it is played.) [When Attacking] Your opponent cannot activate a [Blocker] Character that has 2000 or less power during this battle."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-120_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-120_p2",
+        "name":"Shanks",
+        "power": 10000,
+        "cost":9,
+        "counter": null,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Secreta Rara",
+            "en": "Rara Secreta"
+        },
+        "color": {
+            "es": "Rojo",
+            "en": "Red"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Corte",
+            "en": "Slash"
+        },
+        "effect": {
+            "es": "Asalto",
+            "en": "Rush"
+        },
+        "alliance": {
+            "es": "Cuatro Emperadores/Piratas del Reino Animal",
+            "en": "The Four Emperors/Animal Kingdom Pirates"
+        },
+        "description": {
+            "es": "[Asalto] (Esta carta puede atacar en el turno en el que se juega). [Al atacar] Tu oponente no puede activar un Personaje [Bloqueador] que tenga 2000 o menos de poder durante esta batalla.",
+            "en": "[Rush] (This card can attack on the turn in which it is played.) [When Attacking] Your opponent cannot activate a [Blocker] Character that has 2000 or less power during this battle."
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-120_p2.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Slash.png"
+    },
+    {
+        "id": "OP01-121",
+        "name":"Yamato",
+        "power": 5000,
+        "cost":5,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Secreta Rara",
+            "en": "Rara Secreta"
+        },
+        "color": {
+            "es": "Verde",
+            "en": "Green"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": "Doble Ataque/Desterrar",
+            "en": "Double Attack/Banish"
+        },
+        "alliance": {
+            "es": "Tierra de Wano",
+            "en": "Land of Wano"
+        },
+        "description": {
+            "es": "Además, trata el nombre de esta carta como [Kouzuki Oden] según las reglas. [Doble ataque] (Esta carta inflige 2 puntos de daño). [Destierro] (Cuando esta carta inflige daño, la carta objetivo se descarta sin activar su disparador).",
+            "en": "Also treat this card's name as [Kouzuki Oden] according to the rules. [Double Attack] (This card deals 2 damage.) [Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)"
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-121.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
+    },
+    {
+        "id": "OP01-121_p1",
+        "name":"Yamato",
+        "power": 5000,
+        "cost":5,
+        "counter": 1000,
+        "block_icon": 1,
+        "rarity": {
+            "es": "Secreta Rara",
+            "en": "Rara Secreta"
+        },
+        "color": {
+            "es": "Verde",
+            "en": "Green"
+        },
+        "type": {
+            "es": "Personaje",
+            "en": "Character"
+        },
+        "attribute": {
+            "es": "Golpe",
+            "en": "Strike"
+        },
+        "effect": {
+            "es": "Doble Ataque/Desterrar",
+            "en": "Double Attack/Banish"
+        },
+        "alliance": {
+            "es": "Tierra de Wano",
+            "en": "Land of Wano"
+        },
+        "description": {
+            "es": "Además, trata el nombre de esta carta como [Kouzuki Oden] según las reglas. [Doble ataque] (Esta carta inflige 2 puntos de daño). [Destierro] (Cuando esta carta inflige daño, la carta objetivo se descarta sin activar su disparador).",
+            "en": "Also treat this card's name as [Kouzuki Oden] according to the rules. [Double Attack] (This card deals 2 damage.) [Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)"
+        },
+        "trigger": {
+            "es": null,
+            "en": null
+        },
+        "card_set":{
+            "es": "Amanecer Romántico- [OP01]",
+            "en": "ROMANCE DAWN- [OP01]"
+        },
+        "image": "public/imagenes/cartas/OP01/OP01-121_p1.png",
+        "image_attribute": "public/imagenes/Logos_Atributo/Strike.png"
     }
 ]
